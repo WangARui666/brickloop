@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "partId": "ld:30144",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud",
+      "frame": {
+        "origin": [-30, 72, -10],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 2,
+        "cols": 4,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90,
+      "cells": {
+        "tube": [
+          [0, 1],
+          [0, 2],
+          [0, 3]
+        ]
+      }
+    },
+    {
+      "id": "antistud.tube",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-20, 72, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-2",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 72, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-3",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [20, 72, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "top",
+      "type": "stud",
+      "frame": {
+        "origin": [-30, 0, -10],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 2,
+        "cols": 4,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@brickloop/core",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./math": "./src/math/index.ts",
+    "./document": "./src/document/index.ts",
+    "./ops": "./src/ops/index.ts",
+    "./history": "./src/history/index.ts",
+    "./commands": "./src/commands/index.ts",
+    "./clipboard": "./src/clipboard/index.ts",
+    "./serialize": "./src/serialize/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/core"
+  }
+}

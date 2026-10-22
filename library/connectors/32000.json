@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "partId": "ld:32000",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "pin.hole",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [-10, 10, -10],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-2",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [10, 10, -10],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-3",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [-10, 10, 10],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-4",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [10, 10, 10],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "top",
+      "type": "stud.hollow",
+      "diameter": 8,
+      "frame": {
+        "origin": [-10, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 1,
+        "cols": 2,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    }
+  ]
+}

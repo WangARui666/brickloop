@@ -1,0 +1,43 @@
+import type { CompactPart } from './types.js';
+
+// Public LDraw dimensions. w is local X, d is local Z (not the order in the part name).
+const rows: [string, number, number, CompactPart['kind']][] = [
+  ['3005', 1, 1, 'brick'],
+  ['3004', 2, 1, 'brick'],
+  ['3622', 3, 1, 'brick'],
+  ['3010', 4, 1, 'brick'],
+  ['3009', 6, 1, 'brick'],
+  ['3008', 8, 1, 'brick'],
+  ['3003', 2, 2, 'brick'],
+  ['3002', 3, 2, 'brick'],
+  ['3001', 4, 2, 'brick'],
+  ['2456', 6, 2, 'brick'],
+  ['3007', 8, 2, 'brick'],
+  ['3024', 1, 1, 'plate'],
+  ['3023', 2, 1, 'plate'],
+  ['3623', 3, 1, 'plate'],
+  ['3710', 4, 1, 'plate'],
+  ['3666', 6, 1, 'plate'],
+  ['3460', 8, 1, 'plate'],
+  ['3022', 2, 2, 'plate'],
+  ['3021', 3, 2, 'plate'],
+  ['3020', 4, 2, 'plate'],
+  ['3795', 6, 2, 'plate'],
+  ['3034', 8, 2, 'plate'],
+  ['3070b', 1, 1, 'tile'],
+  ['3069b', 2, 1, 'tile'],
+  ['63864', 3, 1, 'tile'],
+  ['2431', 4, 1, 'tile'],
+  ['6636', 6, 1, 'tile'],
+  ['4162', 8, 1, 'tile'],
+  ['3068b', 2, 2, 'tile'],
+  ['87079', 4, 2, 'tile'],
+];
+export const standardPackingParts: CompactPart[] = rows.map(([id, w, d, kind]) => ({
+  id,
+  name: `${kind[0]!.toUpperCase()}${kind.slice(1)} ${d} x ${w}`,
+  category: kind,
+  kind,
+  size: { w, d, h: kind === 'brick' ? 3 : 1 },
+  factory: false,
+}));

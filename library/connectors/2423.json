@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "partId": "ld:2423",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "antistud.tube",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "top",
+      "type": "stud.hollow",
+      "diameter": 8,
+      "frame": {
+        "origin": [-20, 0, -60],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 4,
+        "cols": 3,
+        "pitch": 20,
+        "mask": [
+          [false, true, false],
+          [true, false, true],
+          [true, false, true],
+          [false, true, false]
+        ]
+      },
+      "rotation": 90
+    }
+  ]
+}

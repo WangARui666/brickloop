@@ -1,0 +1,13 @@
+node_modules/
+.devdata/
+dist/
+out/
+*.log
+library/ldraw/
+apps/desktop/test-results/
+apps/desktop/playwright-report/
+apps/desktop/evidence/
+packages/ai/test/ai-eval/results/
+library/fonts/*.otf
+library/fonts/*.download
+packages/instructions/test-output/

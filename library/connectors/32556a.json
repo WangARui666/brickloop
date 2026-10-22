@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "partId": "ld:32556a",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：connect2.dat 位于 x=±10；r=6 中段连续，限位环 x=-12..-8，端点 x=±30；从限位环两侧分别定义 18/38 LDU 有效销段。",
+  "connectors": [
+    {
+      "id": "short",
+      "type": "pin",
+      "frame": {
+        "origin": [-12, 0, 0],
+        "axis": [-1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "length": 18,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "closed",
+        "end": "open"
+      },
+      "stops": [0]
+    },
+    {
+      "id": "long",
+      "type": "pin",
+      "frame": {
+        "origin": [-8, 0, 0],
+        "axis": [1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "length": 38,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "closed",
+        "end": "open"
+      },
+      "stops": [0]
+    }
+  ]
+}

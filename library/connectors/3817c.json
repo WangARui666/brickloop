@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "partId": "ld:3817c",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：3817c.dat / s/3817cs02.dat：髋轴中心 (10,0,0)，内侧 r=3 孔；!HELP 指定相对髋下移12，脚底网格 z=-1.25、y=28；背面 r=6 孔中心 (10,18,8.75)，深4。",
+  "connectors": [
+    {
+      "id": "hip",
+      "type": "fixed",
+      "frame": {
+        "origin": [10, 0, 0],
+        "axis": [-1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "tag": "minifig-leg",
+      "role": "b",
+      "rotation": "free"
+    },
+    {
+      "id": "sole",
+      "type": "antistud",
+      "frame": {
+        "origin": [10, 28, -1.25],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "back",
+      "type": "antistud",
+      "frame": {
+        "origin": [10, 18, 8.75],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    }
+  ]
+}

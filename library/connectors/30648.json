@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "partId": "ld:30648",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/30391s04.dat 展开轮胎内侧：r=21 的两侧胎圈 z=-17..-4、4..17，中心定位唇 r=19，z=-3..3；与 55982 的对应槽配对。",
+  "connectors": [
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-17mm",
+      "role": "b",
+      "rotation": "free"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "partId": "ld:60602",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：60602.dat 的上下凸耳中心 (0,4,-5)/(0,63,-5)，对应 60593 的 y=3/64 孔边；以安装后的上凸耳位置作专用配对，限制为相应高度窗框。",
+  "connectors": [
+    {
+      "id": "frame",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 4, -5],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "tag": "window-pane-60602",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

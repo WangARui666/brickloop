@@ -1,0 +1,17 @@
+{
+  "name": "@brickloop/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/i18n"
+  },
+  "dependencies": {
+    "i18next": "26.4.5"
+  }
+}

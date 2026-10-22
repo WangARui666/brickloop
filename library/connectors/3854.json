@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "partId": "ld:3854",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：3854.dat 顶底 r=2 半球限位在 (0,0,0)/(0,60,0)，转轴沿 Y；使用整片配对原点 (0,30,0)，对应 3853 的侧边上下孔。",
+  "connectors": [
+    {
+      "id": "hinge",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 30, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "tag": "window-pane-3854",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-15T19:13:38.123Z",
+  "node": "v26.5.1",
+  "platform": "win32 10.0.26300 x64",
+  "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+  "scenario": "Automatic 3001 proxies; adjacent 10x10 columns, 24 LDU vertical stacking; all checks enabled; connectivity supplied as one component; full check has no time limit; drag alternates legal and half-stud-offset positions; update plus query included; world construction measured separately.",
+  "records": [
+    {
+      "count": 1000,
+      "shapesPerPart": 217,
+      "worldBuildMs": 242.79730000000018,
+      "fullChecksMs": 639.0059999999994,
+      "issues": 0,
+      "incremental": {
+        "samples": 100,
+        "warmup": 20,
+        "medianMs": 1.1833999999998923,
+        "p95Ms": 1.8577000000004773,
+        "maxMs": 2.0570999999999913,
+        "statuses": ["none", "hit"]
+      },
+      "heapUsedMiB": 356.10699462890625
+    },
+    {
+      "count": 10000,
+      "shapesPerPart": 217,
+      "worldBuildMs": 2386.1173,
+      "fullChecksMs": 7374.8056000000015,
+      "issues": 0,
+      "heapUsedMiB": 1449.9659881591797
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+appId: com.synloop.brickloop
+productName: Brickloop
+copyright: Copyright © 2026 孤独翼梦（Vesperis）
+artifactName: Brickloop-${version}-win-${arch}-setup.${ext}
+directories:
+  output: ../../dist
+  buildResources: build
+files:
+  - from: ../../dist/desktop/out
+    to: out
+    filter:
+      - '**/*'
+      - '!**/*.map'
+  - package.json
+extraResources:
+  - from: ../../dist/packaging/resources
+    to: .
+asar: true
+asarUnpack:
+  - '**/koffi/**'
+extraFiles:
+  - from: build/brickloop-mcp.cmd
+    to: brickloop-mcp.cmd
+npmRebuild: false
+electronLanguages:
+  - zh-CN
+  - en-US
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: build/icon.ico
+  signAndEditExecutable: true
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: false
+  allowToChangeInstallationDirectory: true
+  installerLanguages:
+    - zh_CN
+  language: '2052'
+  displayLanguageSelector: false
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Brickloop
+  runAfterFinish: true
+  installerSidebar: build/installerSidebar.bmp
+  uninstallerSidebar: build/installerSidebar.bmp
+  deleteAppDataOnUninstall: false
+  include: build/installer.nsh
+fileAssociations:
+  - ext: brkl
+    name: Brickloop.Project
+    description: Brickloop 工程文件
+    role: Editor
+    icon: build/icon.ico
+  - ext: brklpack
+    name: Brickloop.Pack
+    description: Brickloop 零件库数据包
+    role: Editor
+    icon: build/icon.ico

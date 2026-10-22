@@ -1,0 +1,18 @@
+{
+  "family": "Noto Sans SC",
+  "version": "2.004",
+  "license": "OFL-1.1",
+  "source": "https://github.com/notofonts/noto-cjk/releases/tag/Sans2.004",
+  "fonts": [
+    {
+      "file": "NotoSansSC-Regular.otf",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/SubsetOTF/SC/NotoSansSC-Regular.otf",
+      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9"
+    },
+    {
+      "file": "NotoSansSC-Bold.otf",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/SubsetOTF/SC/NotoSansSC-Bold.otf",
+      "sha256": "c6cb5a93abaa9edc8ee7463b7ebb7f42d618d40e6ed2f7a5371c97b0b64767c0"
+    }
+  ]
+}

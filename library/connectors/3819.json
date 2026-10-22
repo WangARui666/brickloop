@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "partId": "ld:3819",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：3819.dat 展开 knob1：肩部安装平面 x=0、轴沿 -X；s/3818s01.dat 的手孔 r=2.5，末端 (5,18.9,-9.9)，沿 (0,-1,1) 向内深15；3819 为 X 镜像。",
+  "connectors": [
+    {
+      "id": "shoulder",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [-1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "tag": "minifig-shoulder",
+      "role": "a",
+      "rotation": "free"
+    },
+    {
+      "id": "wrist",
+      "type": "fixed",
+      "frame": {
+        "origin": [5, 18.9, -9.9],
+        "axis": [0, 0.7071067811865476, -0.7071067811865476],
+        "ref": [1, 0, 0]
+      },
+      "tag": "minifig-wrist",
+      "role": "b",
+      "rotation": "free"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+.devdata/
+dist/
+out/
+pnpm-lock.yaml
+docs/spec/
+docs/tasks/
+tools/
+docs/decisions.md
+docs/design/

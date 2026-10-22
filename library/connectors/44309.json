@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "partId": "ld:44309",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：44309.dat 胎圈 r=38、z=±21..±26，定位唇 r=34、z=±15..±21；对称匹配 56145 的 30 mm 轮毂槽，配对中心 (0,0,0)。",
+  "connectors": [
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-30mm-wide",
+      "role": "b",
+      "rotation": "free"
+    }
+  ]
+}

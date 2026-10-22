@@ -1,0 +1,23 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`EditorHost over fake IPC and real core documents > preserves all comparison metrics exactly (empty: false) 1`] = `
+{
+  "boundsRatioDifference": 0,
+  "colorDifference": 3.761300238279989,
+  "emptyModel": false,
+  "iou": 0.695364238410596,
+  "referencePixels": 256,
+  "renderedPixels": 256,
+}
+`;
+
+exports[`EditorHost over fake IPC and real core documents > preserves all comparison metrics exactly (empty: true) 1`] = `
+{
+  "boundsRatioDifference": null,
+  "colorDifference": null,
+  "emptyModel": true,
+  "iou": 0,
+  "referencePixels": 256,
+  "renderedPixels": 0,
+}
+`;

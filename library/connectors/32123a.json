@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "partId": "ld:32123a",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：axl2hole.dat 从 (0,0,-5) 沿 +Z 缩放 10；reduced 指十字截面收窄，孔两端仍贯通。",
+  "connectors": [
+    {
+      "id": "axle",
+      "type": "axle.hole",
+      "frame": {
+        "origin": [0, 0, -5],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 10,
+      "rotation": 90,
+      "ends": {
+        "start": "open",
+        "end": "open"
+      }
+    }
+  ]
+}

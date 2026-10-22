@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "partId": "ld:86210",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：86210.dat 上沿两铰轴 x=±33.5..±36,y=0,z=0，r=4；整片以 (0,0,0) 沿X配对到60594上沿 (0,8,3.5)。",
+  "connectors": [
+    {
+      "id": "frame",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "tag": "window-pane-86210",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

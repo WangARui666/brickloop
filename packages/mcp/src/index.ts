@@ -1,0 +1,13 @@
+export { createMcpHostServer, getMcpCallContext } from './host.js';
+export type { McpCallContext, McpHostOptions, McpHostServer } from './host.js';
+export { createMcpServer } from './server.js';
+export type { McpServerOptions } from './server.js';
+export { startMcpHttpServer, generateAccessToken } from './http.js';
+export type { McpHttpOptions, McpHttpServer } from './http.js';
+export { BridgeClient } from './bridge-client.js';
+export type { BridgeClientOptions } from './bridge-client.js';
+export { createMcpTools, documentSchemas, MCP_INSTRUCTIONS } from './tools.js';
+export type { DocumentsHost, DocumentToolName, McpEditorHost, HostTool } from './tools.js';
+export { BRIDGE_VERSION, DEFAULT_TIMEOUT_MS, MAX_FRAME_BYTES, resolvePipeName } from './config.js';
+export { BridgeError, bridgeMessageSchema } from './protocol.js';
+export type { ActivityEvent, BridgeMessage, BridgeRequest, BridgeResponse, ClientIdentity } from './protocol.js';

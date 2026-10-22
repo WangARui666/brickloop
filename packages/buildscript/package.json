@@ -1,0 +1,17 @@
+{
+  "name": "@brickloop/buildscript",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/buildscript"
+  },
+  "dependencies": {
+    "quickjs-emscripten": "0.32.0"
+  }
+}

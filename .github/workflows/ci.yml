@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: github.event.repository.private == false
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+          dest: ${{ github.workspace }}/.devdata/pnpm
+          run_install: false
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Set up development resources
+        run: pnpm run setup
+      - name: Cache pinned LDraw library
+        uses: actions/cache@v4
+        with:
+          path: library/ldraw
+          key: ${{ runner.os }}-ldraw-${{ hashFiles('tools/ldraw-fetch/pin.json') }}
+      - name: Fetch or validate LDraw library
+        run: pnpm ldraw:fetch
+      - name: Verify
+        run: pnpm verify

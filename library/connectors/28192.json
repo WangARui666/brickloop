@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "partId": "ld:28192",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/28192s01.dat：box5-1 腔口 y=8、x=±6、z=-10..6 对应 (0,8,0)；下级腔 x=±6、z=-26..-14 对应 (0,24,-20)。",
+  "connectors": [
+    {
+      "id": "upper",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "lower",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 24, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "partId": "ld:973",
+  "status": "draft",
+  "source": "LDraw geometry + Brickloop manual: neck base y=0, hips seat y=32, shoulder mouths from torso cylinder transforms",
+  "connectors": [
+    {
+      "id": "neck",
+      "type": "fixed",
+      "tag": "minifig-neck",
+      "role": "a",
+      "rotation": "free",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "hips",
+      "type": "fixed",
+      "tag": "minifig-hips",
+      "role": "b",
+      "rotation": "free",
+      "frame": {
+        "origin": [0, 32, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "shoulder-right",
+      "type": "fixed",
+      "tag": "minifig-shoulder",
+      "role": "b",
+      "rotation": "free",
+      "frame": {
+        "origin": [15.528, 8.881, 0],
+        "axis": [0.9854312205091027, -0.17007442384421062, 0],
+        "ref": [0, 0, 1]
+      }
+    },
+    {
+      "id": "shoulder-left",
+      "type": "fixed",
+      "tag": "minifig-shoulder",
+      "role": "b",
+      "rotation": "free",
+      "frame": {
+        "origin": [-15.528, 8.881, 0],
+        "axis": [-0.9854312205091027, -0.17007442384421062, 0],
+        "ref": [0, 0, 1]
+      }
+    }
+  ]
+}

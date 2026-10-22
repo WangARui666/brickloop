@@ -1,0 +1,15 @@
+0 FILE main.ldr
+0 Brickloop MOD-01: shared pair, second occurrence rotated and translated
+0 !BRICKLOOP_TEST unknown main metadata
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 pair.ldr
+0 STEP
+1 16 120 -24 40 0 0 1 0 1 0 -1 0 0 pair.ldr
+0 NOFILE
+0 FILE pair.ldr
+0 Shared red/yellow pair
+0 BFC CERTIFY CCW
+1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 !BRICKLOOP_TEST unknown step metadata
+1 14 80 0 0 1 0 0 0 1 0 0 0 1 3001.dat
+0 NOFILE

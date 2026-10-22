@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": { "types": ["node"], "lib": ["ES2022", "DOM", "DOM.Iterable"] },
+  "include": ["src/main", "src/shared", "src/renderer/src/env.d.ts", "test", "e2e", "scripts", "*.ts"]
+}

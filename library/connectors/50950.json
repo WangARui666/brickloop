@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "partId": "ld:50950",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/50950s01.dat 腔口 x=±6，低端 z=-20/0 的底面 y=24；高端 z=20 的底面 y=16；各处内腔可容纳4 LDU高凸点。",
+  "connectors": [
+    {
+      "id": "low-front",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 24, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "low-middle",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 24, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "high",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 16, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    }
+  ]
+}

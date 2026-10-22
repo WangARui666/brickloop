@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "partId": "ld:56898",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：56898.dat 胎圈 r=38,z=-18..-4 和4..18，中央唇 r=34,z=-2..2；与60208的 z=-9..-5 槽同心后，胎中心对应轮毂z=-7。",
+  "connectors": [
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-30mm-narrow",
+      "role": "b",
+      "rotation": "free"
+    }
+  ]
+}

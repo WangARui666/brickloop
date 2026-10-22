@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "partId": "ld:32072",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：axlehol5.dat 在 (0,0,-10) 沿 +Z 缩放 20；十字孔贯穿 z=-10..10。外部四个齿为传动齿，规格未定义齿轮啮合连接。",
+  "connectors": [
+    {
+      "id": "axle",
+      "type": "axle.hole",
+      "frame": {
+        "origin": [0, 0, -10],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 20,
+      "rotation": 90,
+      "ends": {
+        "start": "open",
+        "end": "open"
+      }
+    }
+  ]
+}

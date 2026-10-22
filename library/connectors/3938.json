@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "partId": "ld:3938",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/3938s01.dat 两侧铰轴中心(0,10,0)，配对3937；保留两个顶部空心凸点。",
+  "connectors": [
+    {
+      "id": "top",
+      "type": "stud.hollow",
+      "diameter": 8,
+      "frame": {
+        "origin": [-10, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 1,
+        "cols": 2,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    },
+    {
+      "id": "hinge",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 10, 0],
+        "axis": [-1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "tag": "hinge-3937-3938",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

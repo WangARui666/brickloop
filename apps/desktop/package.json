@@ -1,0 +1,59 @@
+{
+  "name": "@brickloop/desktop",
+  "version": "0.12.6",
+  "private": true,
+  "license": "MIT",
+  "description": "Brickloop 积木设计工作室",
+  "author": {
+    "name": "孤独翼梦（Vesperis）"
+  },
+  "type": "module",
+  "main": "out/main/index.js",
+  "scripts": {
+    "ai:eval": "node ../../scripts/devenv.mjs tsx --no-cache scripts/ai-eval.ts",
+    "dev": "node ../../scripts/devenv.mjs --profile dev electron-vite dev",
+    "build": "node ../../scripts/devenv.mjs electron-vite build",
+    "package": "node ../../scripts/devenv.mjs node ../../scripts/package-windows.mjs",
+    "package:smoke": "node ../../scripts/devenv.mjs node ../../scripts/packaged-smoke.mjs",
+    "docs:screenshots": "node ../../scripts/devenv.mjs --profile e2e electron-vite build --mode test && node ../../scripts/devenv.mjs playwright test --config playwright.docs.config.ts",
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.node.json && node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.preload.json && node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.renderer.json",
+    "lint": "node ../../scripts/devenv.mjs eslint . --max-warnings 0",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. apps/desktop/test",
+    "e2e": "node ../../scripts/devenv.mjs --profile e2e electron-vite build --mode test && node ../../scripts/devenv.mjs --profile e2e playwright test && node ../../scripts/devenv.mjs pnpm --filter @brickloop/viewport e2e"
+  },
+  "dependencies": {
+    "@brickloop/animation": "workspace:*",
+    "mp4-muxer": "5.2.2",
+    "webm-muxer": "5.1.4",
+    "@brickloop/instructions": "workspace:*",
+    "@brickloop/ai": "workspace:*",
+    "@brickloop/mcp": "workspace:*",
+    "@brickloop/mosaic": "workspace:*",
+    "zod": "4.6.7",
+    "koffi": "3.3.3",
+    "@brickloop/connect": "workspace:*",
+    "@brickloop/collide": "workspace:*",
+    "@brickloop/catalog": "workspace:*",
+    "@brickloop/core": "workspace:*",
+    "@brickloop/i18n": "workspace:*",
+    "@brickloop/io": "workspace:*",
+    "@brickloop/ldraw": "workspace:*",
+    "@brickloop/viewport": "workspace:*",
+    "antd": "6.6.6",
+    "lucide-react": "1.57.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@playwright/test": "1.64.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "44.7.2",
+    "electron-builder": "26.15.3",
+    "electron-vite": "6.0.0",
+    "fflate": "0.8.2"
+  }
+}

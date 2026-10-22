@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "partId": "ld:55982",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：55982.dat 的胎圈r=21、中央槽r=12在z=-2..2，匹配30648；保留原十字孔。",
+  "connectors": [
+    {
+      "id": "axle.hole",
+      "type": "axle.hole",
+      "length": 20,
+      "rotation": 90,
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-17mm",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

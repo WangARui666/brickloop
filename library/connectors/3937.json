@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "partId": "ld:3937",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：3937.dat 底腔 y=20..24，凹位 (±10,24,0)；两侧无齿铰孔同轴于 (0,10,0)，沿 X。P1 用专用 fixed 配对+自由旋转表达装配，不伪造 click 齿距。",
+  "connectors": [
+    {
+      "id": "bottom-left",
+      "type": "antistud",
+      "frame": {
+        "origin": [-10, 24, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "bottom-right",
+      "type": "antistud",
+      "frame": {
+        "origin": [10, 24, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "hinge",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 10, 0],
+        "axis": [1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "tag": "hinge-3937-3938",
+      "role": "b",
+      "rotation": "free"
+    }
+  ]
+}

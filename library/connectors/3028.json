@@ -1,0 +1,649 @@
+{
+  "schema": 1,
+  "partId": "ld:3028",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud",
+      "frame": {
+        "origin": [-110, 8, -50],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 6,
+        "cols": 12,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90,
+      "cells": {
+        "tube": [
+          [0, 1],
+          [0, 2],
+          [0, 3],
+          [0, 4],
+          [0, 5],
+          [0, 6],
+          [0, 7],
+          [0, 8],
+          [0, 9],
+          [0, 10],
+          [0, 11],
+          [1, 1],
+          [1, 2],
+          [1, 3],
+          [1, 4],
+          [1, 5],
+          [1, 6],
+          [1, 7],
+          [1, 8],
+          [1, 9],
+          [1, 10],
+          [1, 11],
+          [2, 1],
+          [2, 2],
+          [2, 3],
+          [2, 4],
+          [2, 5],
+          [2, 6],
+          [2, 7],
+          [2, 8],
+          [2, 9],
+          [2, 10],
+          [2, 11],
+          [3, 1],
+          [3, 2],
+          [3, 3],
+          [3, 4],
+          [3, 5],
+          [3, 6],
+          [3, 7],
+          [3, 8],
+          [3, 9],
+          [3, 10],
+          [3, 11],
+          [4, 1],
+          [4, 2],
+          [4, 3],
+          [4, 4],
+          [4, 5],
+          [4, 6],
+          [4, 7],
+          [4, 8],
+          [4, 9],
+          [4, 10],
+          [4, 11]
+        ]
+      }
+    },
+    {
+      "id": "antistud.tube",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-100, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-2",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-80, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-3",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-60, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-4",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-40, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-5",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-20, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-6",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-7",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [20, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-8",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [40, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-9",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [60, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-10",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [80, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-11",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [100, 8, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-12",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-100, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-13",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-80, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-14",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-60, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-15",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-40, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-16",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-20, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-17",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-18",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [20, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-19",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [40, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-20",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [60, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-21",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [80, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-22",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [100, 8, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-23",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-100, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-24",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-80, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-25",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-60, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-26",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-40, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-27",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-20, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-28",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-29",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [20, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-30",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [40, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-31",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [60, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-32",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [80, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-33",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [100, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-34",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-100, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-35",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-80, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-36",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-60, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-37",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-40, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-38",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-20, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-39",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-40",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [20, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-41",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [40, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-42",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [60, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-43",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [80, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-44",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [100, 8, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-45",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-100, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-46",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-80, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-47",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-60, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-48",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-40, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-49",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [-20, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-50",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [0, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-51",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [20, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-52",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [40, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-53",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [60, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-54",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [80, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "antistud.tube-55",
+      "type": "antistud.tube",
+      "diameter": 12,
+      "frame": {
+        "origin": [100, 8, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "top",
+      "type": "stud",
+      "frame": {
+        "origin": [-110, 0, -50],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 6,
+        "cols": 12,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    }
+  ]
+}

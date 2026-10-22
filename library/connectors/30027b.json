@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "partId": "ld:30027b",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：wpinhol2 变换给出 r=4 的轮轴孔 z=2..10，内侧入口 (0,0,10)，有锁槽；轮胎槽中心 z=0、根径 16、缘径 20（适配 8 mm 轮胎族）。",
+  "connectors": [
+    {
+      "id": "wheel",
+      "type": "wheel.hole",
+      "frame": {
+        "origin": [0, 0, 10],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "length": 10,
+      "diameter": 8,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "size": "wheel-pin-8",
+      "stops": [8]
+    },
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-8mm",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

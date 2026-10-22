@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "partId": "ld:3650c",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/3650s01.dat 的 axlehol5 从 z=-8 延伸到 z=12；24 个 tooth24b 是冠齿，不是 hinge.click。",
+  "connectors": [
+    {
+      "id": "axle",
+      "type": "axle.hole",
+      "frame": {
+        "origin": [0, 0, -8],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 20,
+      "rotation": 90,
+      "ends": {
+        "start": "open",
+        "end": "open"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "partId": "ld:6111",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud",
+      "frame": {
+        "origin": [-90, 24, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 1,
+        "cols": 10,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    },
+    {
+      "id": "bar.post",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [-80, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-2",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [-60, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-3",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [-40, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-4",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [-20, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-5",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [0, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-6",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [20, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-7",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [40, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-8",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [60, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-9",
+      "type": "bar.post",
+      "length": 20,
+      "diameter": 8,
+      "frame": {
+        "origin": [80, 4, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "top",
+      "type": "stud",
+      "frame": {
+        "origin": [-90, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 1,
+        "cols": 10,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    }
+  ]
+}

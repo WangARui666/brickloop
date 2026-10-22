@@ -1,0 +1,21 @@
+{
+  "name": "@brickloop/connect",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/connect"
+  },
+  "dependencies": {
+    "@brickloop/core": "workspace:*",
+    "@brickloop/ldraw": "workspace:*"
+  },
+  "devDependencies": {
+    "@brickloop/catalog": "workspace:*"
+  }
+}

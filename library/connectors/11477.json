@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "partId": "ld:11477",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/11477s01.dat 的两组 r=6 内弧及腔壁：低端 (0,0,-10)，高端 (0,-8,10)，各容纳一个 stud；台阶相差 8 LDU。",
+  "connectors": [
+    {
+      "id": "low",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 0, -10],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    },
+    {
+      "id": "high",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, -8, 10],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    }
+  ]
+}

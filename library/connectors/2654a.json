@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "partId": "ld:2654a",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：四个 s/2654as01.dat 展开 stud6a：顶部 (±10,0,±10) 的开口凸点，内径 8；中心碟底为封闭曲面，不添加底部凹位。",
+  "connectors": [
+    {
+      "id": "top",
+      "type": "stud.hollow",
+      "frame": {
+        "origin": [-10, 0, -10],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "diameter": 8,
+      "grid": {
+        "rows": 2,
+        "cols": 2,
+        "pitch": 20,
+        "mask": null
+      }
+    }
+  ]
+}

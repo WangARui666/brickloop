@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "partId": "ld:40490",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "pin.hole",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, -80],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-2",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, -60],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-3",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, -40],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-4",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, -20],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-5",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-6",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, 20],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-7",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, 40],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-8",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, 60],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-9",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -10, 80],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-10",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, -80],
+        "axis": [0, 1, 0],
+        "ref": [-1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-11",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, -60],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-12",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, -40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-13",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, -20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-14",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-15",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, 20],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-16",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, 40],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-17",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, 60],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-18",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 10, 80],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    }
+  ]
+}

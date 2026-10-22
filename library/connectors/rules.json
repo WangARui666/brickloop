@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "pairs": [
+    { "a": "stud", "b": "antistud" },
+    { "a": "stud", "b": "antistud.tube" },
+    { "a": "stud", "b": "pin.hole", "studDepth": true },
+    { "a": "stud.hollow", "b": "antistud" },
+    { "a": "stud.hollow", "b": "antistud.tube" },
+    { "a": "bar", "b": "stud.hollow", "diameter": true },
+    { "a": "bar.post", "b": "stud.hollow", "diameter": true },
+    { "a": "bar", "b": "antistud.tube", "diameter": true },
+    { "a": "bar", "b": "bar.hole", "diameter": true },
+    { "a": "bar", "b": "clip", "diameter": true },
+    { "a": "bar.thin", "b": "bar.thin.hole", "diameter": true },
+    { "a": "axle", "b": "axle.hole" },
+    { "a": "axle", "b": "pin.hole" },
+    { "a": "pin", "b": "pin.hole" },
+    { "a": "ball", "b": "ball.socket", "size": true },
+    { "a": "hinge.click", "b": "hinge.click", "size": true, "role": true },
+    { "a": "wheel.pin", "b": "wheel.hole", "size": true },
+    { "a": "fixed", "b": "fixed", "tag": true, "role": true }
+  ],
+  "defaults": { "studLength": 4, "hollowDepth": 4, "tubeDepth": 4 }
+}

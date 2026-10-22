@@ -1,0 +1,2221 @@
+{
+  "macroUi": {
+    "title": "Macros",
+    "libraryTabs": "Library type",
+    "search": "Search macros or patterns",
+    "insertAs": "Insert as",
+    "group": "Group",
+    "submodel": "Submodel",
+    "all": "All macros",
+    "patterns": "Patterns",
+    "results": "{{count}} macros",
+    "parts": "{{count}} parts",
+    "name": "Name",
+    "category": "Category",
+    "newCategory": "Choose or enter a new category",
+    "thumbnailStyle": "Thumbnail style",
+    "original": "Original colors",
+    "neutral": "Neutral grey",
+    "preview": "Macro preview",
+    "defaultName": "My macro",
+    "save": "Save",
+    "rename": "Rename",
+    "delete": "Delete macro",
+    "reveal": "Show in File Explorer",
+    "confirmDelete": "Delete “{{name}}”? Parts already inserted in a model will remain.",
+    "insertHistory": "Insert macro “{{name}}”",
+    "availability": "Contains {{parts}} part types and {{colors}} colors outside the current pack, plus {{combinations}} unavailable color combinations. Review them in Checks after insertion.",
+    "invalid": "The macro file is damaged or incomplete.",
+    "protected": "Built-in macros cannot be modified.",
+    "missing": "This macro could not be found.",
+    "loadFailed": "Could not load the macro. Please retry.",
+    "saveFailed": "Could not save the macro. Check that all parts have loaded.",
+    "deleteFailed": "Could not delete the macro. Please retry.",
+    "previewFailed": "Could not generate the preview. Check that all parts are available."
+  },
+  "stepsUi": {
+    "title": "Building steps",
+    "view": "Structure view",
+    "drag": "Drag to reorder",
+    "empty": "No parts in this step",
+    "assign": "Move selection to this step",
+    "actions": "Step {{number}} actions",
+    "removed": "Step deleted; {{count}} parts moved to step {{number}}.",
+    "navigation": "Step viewing navigation",
+    "previous": "Previous step",
+    "next": "Next step",
+    "progress": "Current step",
+    "position": "Step {{number}} of {{total}}",
+    "exit": "Exit step viewing"
+  },
+  "macro": {
+    "insert": "Insert macro",
+    "categories": {
+      "furniture": "Furniture",
+      "doors-windows": "Doors and windows",
+      "plants": "Plants",
+      "transport": "Transport",
+      "other": "Other"
+    },
+    "errors": {
+      "INVALID_METADATA": "The macro details are invalid or do not match its contents.",
+      "INVALID_MODEL": "The macro model is invalid.",
+      "EMPTY_SELECTION": "Select at least one part to save a macro.",
+      "BOUNDS_MISSING": "Part dimensions are unavailable. Load the geometry before saving a macro.",
+      "INVALID_MANIFEST": "The macro file manifest is invalid.",
+      "UNSUPPORTED_VERSION": "This macro file version is not supported.",
+      "MEMBER_MISSING": "A required file is missing from the macro.",
+      "HASH_MISMATCH": "A file in the macro failed its integrity check.",
+      "UNLISTED_MEMBER": "The macro contains a file missing from its manifest.",
+      "INVALID_JSON": "The macro contains unreadable data.",
+      "INVALID_PLACEMENT": "The macro placement is invalid."
+    }
+  },
+  "catalog": {
+    "patterns": {
+      "invalidRules": "The pattern grouping rules are invalid or unsupported.",
+      "groups": {
+        "faces": "Minifigure faces",
+        "torsos": "Clothing (torsos)",
+        "legs": "Clothing (legs)",
+        "screens": "Screens and displays",
+        "texts": "Newspapers and text",
+        "controls": "Keyboards and buttons",
+        "symbols": "Symbols and other"
+      }
+    }
+  },
+  "imageModel": {
+    "transaction": "Build from reference",
+    "stop": {
+      "completed": "Completed",
+      "user_stopped": "Stopped",
+      "tool_budget": "Operation limit reached",
+      "time_budget": "Time limit reached",
+      "input_budget": "Model context limit reached",
+      "error": "Could not finish",
+      "daily_cost_limit": "Daily cost limit reached",
+      "round_budget": "Iteration round limit reached",
+      "engine_unavailable": "The build engine could not start"
+    },
+    "views": {
+      "front": "Front",
+      "back": "Back",
+      "left": "Left",
+      "right": "Right",
+      "top": "Top",
+      "isometric": "45° oblique",
+      "unknown": "AI estimate",
+      "auto": "AI estimate",
+      "exclude": "Exclude from comparison",
+      "none": "Nonstandard view"
+    },
+    "report": {
+      "unknown": "Not counted",
+      "result": "Build result: {{reason}}.",
+      "counts": "Parts: {{parts}}; colors: {{colors}}.",
+      "validation": "Model check: {{result}}.",
+      "unchecked": "Overall check not completed",
+      "issues": "{{count}} issues remain",
+      "valid": "Passed, with no collision, floating or factory constraint issues",
+      "budget": "Operations used: {{calls}}; elapsed: {{seconds}} seconds.",
+      "view": "{{view}}, round {{round}} silhouette overlap: {{iou}}%.",
+      "unfinished": "Unfinished work: {{items}}.",
+      "noComparableViews": "No comparable views; silhouette IoU was not calculated.",
+      "notCalculated": "IoU not calculated",
+      "reference": "{{name}} · {{view}} · {{source}} · Final IoU: {{iou}}",
+      "rounds": "{{count}} rounds",
+      "round": "Round {{round}}: {{parts}} parts, {{issues}} validation issues",
+      "failure": "Failure details"
+    },
+    "unfinished": {
+      "host_result": "Editor returned an invalid result",
+      "model_failed": "Model did not finish the round",
+      "invalid_plan": "Structure plan remains incomplete",
+      "missing_submodel": "Component submodel was not created",
+      "commit_failed": "Saving changes failed; recover through the editor",
+      "component": "Component build or check",
+      "validation": "Overall check",
+      "issues": "Resolve validation issues",
+      "assembly": "Whole-model iteration and review remain unfinished",
+      "counts": "Part and color counts",
+      "buildability": "Buildability issues remain",
+      "engine_unavailable": "The build engine could not start. Reload the interface and try again.",
+      "provider_error": "Provider request failed",
+      "output_truncated": "Model output was too long",
+      "model_refused": "The model refused this request"
+    },
+    "viewSource": {
+      "designer": "Designer specified",
+      "ai": "AI inferred view · {{confidence}}",
+      "excluded": "Not compared"
+    }
+  },
+  "aiFailure": {
+    "category": {
+      "auth": "Authentication failed",
+      "rate_limit": "Rate limited",
+      "quota_exceeded": "Insufficient balance or quota",
+      "refusal": "Model refusal",
+      "network": "Network connection interrupted",
+      "invalid_request": "Provider rejected the request",
+      "server": "Provider error"
+    },
+    "advice": {
+      "auth": "Check your key or sign in to the provider again.",
+      "rate_limit": "Retry later or reduce concurrent tasks.",
+      "quota_exceeded": "Check your provider balance and available quota.",
+      "refusal": "Revise the design description or reference images and retry.",
+      "network": "Check the network, proxy, and service address, then retry.",
+      "invalid_request": "Check model capabilities and the provider message, or choose another model.",
+      "server": "Retry later or choose another model.",
+      "stalled": "Try again later or choose another model"
+    },
+    "resource": "Provider resources unavailable",
+    "aborted": "Provider aborted the output",
+    "truncated": "Model output reached the length limit",
+    "maxTokens": "Model output reached the length limit ({{count}} tokens)",
+    "code": "Error code: {{value}}",
+    "finishReason": "Finish reason: {{value}}",
+    "requestId": "Request ID: {{value}}",
+    "providerMessage": "Provider message: {{value}}",
+    "stage": {
+      "planning": "Structure planning",
+      "preparing": "Preparation",
+      "round": "Round {{round}}"
+    },
+    "attempts": "Attempts: {{count}}",
+    "retryCount": "Transient error; retried {{count}} time(s)",
+    "retryWaiting": "Retry {{attempt}} of 10 in {{seconds}}s",
+    "warnings": {
+      "output_truncated_retried": "Output truncated; retried",
+      "transient_retry": "Transient error; retried"
+    },
+    "send": {
+      "PROVIDER_REQUIRED": "Configure and select an AI provider first.",
+      "DAILY_LIMIT": "The daily cost limit has been reached. Adjust the limit or retry tomorrow.",
+      "AI_BUSY": "AI tasks are running. Wait for them to finish and retry.",
+      "DOCUMENT_BUSY": "The document is under review or in use. Finish that operation and retry.",
+      "FEATURE_DISABLED": "This AI connection is disabled. Enable it in settings.",
+      "SECRET_UNREADABLE": "Credentials cannot be read. Re-enter the key or sign in again.",
+      "SECURE_STORAGE_UNAVAILABLE": "Secure credential storage is unavailable. Check your system credential service.",
+      "SECURE_STORAGE_FAILED": "Credentials cannot be read. Re-enter the key or sign in again."
+    },
+    "stoppedByError": "The turn stopped with an error.",
+    "stalled": "The provider has not responded for a long time"
+  },
+  "io": {
+    "OUTPUT_COLOR_UNMAPPED": "Unmapped color; gray used",
+    "OUTPUT_GEOMETRY_MISSING": "Part geometry missing; geometry output skipped",
+    "OUTPUT_GEOMETRY_INCOMPLETE": "Part geometry has missing references or parsing warnings",
+    "OUTPUT_CONDITIONAL_EDGES_OMITTED": "View-dependent conditional edges omitted",
+    "BOM_PART_UNMAPPED": "Unmapped part",
+    "BOM_COLOR_UNMAPPED": "Unmapped color",
+    "BOM_THUMBNAIL_MISSING": "Thumbnail not provided",
+    "BOM_THUMBNAIL_FAILED": "Thumbnail generation failed",
+    "bom": {
+      "sheet": "Bill of materials",
+      "index": "No.",
+      "image": "Image",
+      "legoNo": "LEGO number",
+      "factoryNo": "Factory number",
+      "partName": "Part name",
+      "legoColor": "LEGO color",
+      "factoryColor": "Factory color code",
+      "colorName": "Chinese color name",
+      "quantity": "Quantity",
+      "factoryPart": "Factory part",
+      "producible": "Producible",
+      "category": "Category",
+      "yes": "Yes",
+      "no": "No",
+      "summary": "Summary",
+      "partTypes": "Part types",
+      "colorCount": "Colors",
+      "unmappedParts": "Unmapped part types",
+      "unmappedColors": "Unmapped colors",
+      "unmappedRows": "Unmapped combinations",
+      "unmappedQuantity": "Unmapped pieces"
+    },
+    "ZIP_INVALID": "The archive is damaged or unsupported",
+    "ZIP_MEMBER_INVALID": "An archive member is damaged",
+    "IO_ENCRYPTED_UNSUPPORTED": "Unsupported encrypted format",
+    "PROJECT_MANIFEST_INVALID": "Invalid project manifest",
+    "PROJECT_MEMBER_MISSING": "A project member is missing",
+    "PROJECT_HASH_MISMATCH": "A project member failed integrity checks",
+    "PROJECT_UNLISTED_MEMBER": "Unlisted project content has been preserved",
+    "PROJECT_JSON_INVALID": "Invalid project data",
+    "PROJECT_DOCUMENT_INVALID": "Invalid project document",
+    "PROJECT_WORKSPACE_RESET": "The workspace was reset",
+    "PROJECT_MIGRATED": "The project format was migrated",
+    "PROJECT_VERSION_UNSUPPORTED": "Unsupported project version",
+    "PROJECT_NEWER_VERSION": "Created by a newer version; opened read-only",
+    "IO_MODEL_MISSING": "No readable model",
+    "IO_MODEL_INVALID": "Invalid model",
+    "IO_MODEL_FALLBACK": "Opened a compatible fallback model",
+    "IO_PARSE_WARNING": "Some model lines could not be read",
+    "IO_PART_UNMAPPED": "Part missing from the catalog; a dynamic definition was created",
+    "IO_COLOR_UNMAPPED": "LDraw color code preserved without a LEGO mapping",
+    "IO_COLOR_FALLBACK": "Color replaced with the nearest LDraw color",
+    "IO_PART_GEOMETRY_MISSING": "Custom part geometry missing",
+    "IO_GROUPS_AS_COMMENTS": "Groups exported as comments; Studio group operations are not preserved",
+    "IO_PRIVATE_DATA_OMITTED": "Application-specific information omitted; save a project to preserve it",
+    "IO_STUDIO_DATA_OMITTED": "Studio-specific content was not imported",
+    "IO_REFERENCE_IMAGE": "Reference image imported; placement preserved as extension data",
+    "IO_HIDDEN_DOWNGRADE": "Per-occurrence visibility cannot be represented by the target format",
+    "IO_UID_REASSIGNED": "Duplicate or invalid Studio UID reassigned",
+    "RECOVERY_INVALID_SESSION": "Recovery session metadata is damaged",
+    "RECOVERY_NO_SNAPSHOT": "No valid recovery snapshot",
+    "RECOVERY_INVALID_SNAPSHOT": "Damaged snapshot; tried an earlier snapshot",
+    "RECOVERY_JOURNAL_INVALID": "Recovery log is damaged; replay stopped",
+    "RECOVERY_REVISION_GAP": "Recovery log is discontinuous; replay stopped",
+    "RECOVERY_ASSET_MISSING": "Recovery resource missing or damaged",
+    "SAVE_PERMISSION": "No write permission",
+    "SAVE_NO_SPACE": "Not enough disk space",
+    "SAVE_BUSY": "The file is in use",
+    "SAVE_VALIDATION": "The written project failed validation",
+    "SAVE_IO": "Could not write the file",
+    "SAVE_DURABILITY": "File replaced, but the final disk flush failed"
+  },
+  "app": {
+    "name": "Brickloop"
+  },
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "view": "View",
+    "model": "Model",
+    "tools": "Tools",
+    "help": "Help"
+  },
+  "language": {
+    "zh-CN": "简体中文",
+    "en": "English"
+  },
+  "status": {
+    "partCount": "Parts",
+    "dimensions": "Dimensions",
+    "grid": "Grid",
+    "lastRecoveryPoint": "Last recovery point"
+  },
+  "partCountValue": "Parts: {{count}}",
+  "desktop": {
+    "language": "Language",
+    "menuBar": "Main menu",
+    "toolbarLabel": "Editing toolbar",
+    "toolHint": "{{tool}} · Not available yet",
+    "retry": "Retry",
+    "toolbar": {
+      "select": "Select",
+      "move": "Move",
+      "rotate": "Rotate",
+      "clone": "Clone",
+      "hide": "Hide",
+      "connect": "Connect",
+      "collision": "Collision",
+      "snap": "Snap",
+      "grid": "Grid",
+      "check": "Check",
+      "ai": "AI"
+    },
+    "library": {
+      "title": "Parts library",
+      "search": "Search parts by name or number",
+      "categories": "Categories",
+      "all": "All parts",
+      "bricks": "Bricks",
+      "plates": "Plates",
+      "other": "Other parts",
+      "grid": "Parts grid",
+      "empty": "No parts available"
+    },
+    "panels": {
+      "expandLibrary": "Expand parts library",
+      "collapseLibrary": "Collapse parts library",
+      "expandInspector": "Expand right panel",
+      "collapseInspector": "Collapse right panel",
+      "resizeLibrary": "Resize parts library",
+      "resizeInspector": "Resize right panel"
+    },
+    "inspector": {
+      "title": "Workspace panels",
+      "palette": {
+        "title": "Palette",
+        "description": "Factory colors / Project colors / Favorites",
+        "empty": "Palette is not available yet"
+      },
+      "structure": {
+        "title": "Structure",
+        "description": "Model tree, groups, submodels and building steps",
+        "empty": "No model structure or steps yet"
+      },
+      "ai": {
+        "title": "AI assistant",
+        "description": "Build and inspect with natural language",
+        "empty": "AI assistant is not available yet"
+      },
+      "checks": {
+        "title": "Checks"
+      }
+    },
+    "viewport": {
+      "title": "Viewport",
+      "description": "No model yet",
+      "error": "Unable to start the 3D view. Please retry.",
+      "projection": "Projection",
+      "perspective": "Perspective",
+      "ortho": "Orthographic",
+      "presets": {
+        "front": "Front",
+        "back": "Back",
+        "left": "Left",
+        "right": "Right",
+        "top": "Top",
+        "bottom": "Bottom",
+        "iso": "Isometric"
+      },
+      "gridSteps": {
+        "5": "¼ stud",
+        "10": "½ stud",
+        "20": "1 stud"
+      }
+    },
+    "status": {
+      "parts": "Parts {{count}}",
+      "dimensions": "Size {{width}} × {{depth}} × {{height}} studs",
+      "grid": "Grid {{value}} stud",
+      "recovery": "Last recovery point —",
+      "separator": "·"
+    },
+    "errors": {
+      "load": "Unable to read settings. Please retry.",
+      "save": "Unable to save the language. Please select it again."
+    },
+    "commands": {
+      "file": {
+        "new": {
+          "label": "New"
+        },
+        "open": {
+          "label": "Open"
+        },
+        "save": {
+          "label": "Save"
+        },
+        "saveAs": {
+          "label": "Save as"
+        },
+        "close": {
+          "label": "Close"
+        },
+        "import": {
+          "label": "Import"
+        },
+        "export": {
+          "label": "Export"
+        }
+      },
+      "edit": {
+        "undo": {
+          "label": "Undo"
+        },
+        "redo": {
+          "label": "Redo"
+        },
+        "copy": {
+          "label": "Copy"
+        },
+        "cut": {
+          "label": "Cut"
+        },
+        "paste": {
+          "label": "Paste"
+        },
+        "delete": {
+          "label": "Delete"
+        },
+        "clone": {
+          "label": "Clone and place"
+        }
+      },
+      "select": {
+        "all": {
+          "label": "Select all"
+        },
+        "clear": {
+          "label": "Clear selection"
+        },
+        "sameColor": {
+          "label": "Select same color"
+        },
+        "sameType": {
+          "label": "Select same type"
+        },
+        "sameColorAndType": {
+          "label": "Select same color and type"
+        },
+        "connected": {
+          "label": "Select connected"
+        },
+        "invert": {
+          "label": "Invert selection"
+        }
+      },
+      "view": {
+        "steps": {
+          "label": "View building steps"
+        },
+        "hide": {
+          "label": "Hide selected"
+        },
+        "showOnly": {
+          "label": "Show only selected"
+        },
+        "showAll": {
+          "label": "Show all"
+        },
+        "fitAll": {
+          "label": "Fit all"
+        },
+        "fitSelection": {
+          "label": "Fit selection"
+        },
+        "preset": {
+          "label": "Preset view"
+        }
+      },
+      "part": {
+        "add": {
+          "label": "Add part"
+        }
+      },
+      "transform": {
+        "translate": {
+          "label": "Move"
+        },
+        "rotate": {
+          "label": "Rotate"
+        },
+        "set": {
+          "label": "Set transform"
+        },
+        "snapToGrid": {
+          "label": "Snap to grid"
+        }
+      },
+      "color": {
+        "set": {
+          "label": "Set color"
+        },
+        "replace": {
+          "label": "Replace color"
+        }
+      },
+      "group": {
+        "create": {
+          "label": "Create group"
+        },
+        "dissolve": {
+          "label": "Dissolve group"
+        },
+        "rename": {
+          "label": "Rename group"
+        },
+        "enter": {
+          "label": "Enter group"
+        },
+        "exit": {
+          "label": "Exit group"
+        }
+      },
+      "submodel": {
+        "create": {
+          "label": "Create submodel"
+        },
+        "instantiate": {
+          "label": "Place another instance"
+        },
+        "makeUnique": {
+          "label": "Make unique"
+        },
+        "explode": {
+          "label": "Explode submodel"
+        },
+        "rename": {
+          "label": "Rename submodel"
+        },
+        "enter": {
+          "label": "Enter submodel"
+        },
+        "exit": {
+          "label": "Exit submodel"
+        },
+        "independent": {
+          "label": "Copy as independent"
+        }
+      },
+      "step": {
+        "add": {
+          "label": "Add step"
+        },
+        "remove": {
+          "label": "Remove step"
+        },
+        "move": {
+          "label": "Move step"
+        },
+        "assign": {
+          "label": "Assign step"
+        }
+      },
+      "macro": {
+        "insert": {
+          "label": "Insert macro"
+        },
+        "saveSelection": {
+          "label": "Save selection as macro"
+        }
+      },
+      "tool": {
+        "collision": {
+          "toggle": {
+            "label": "Collision detection"
+          }
+        },
+        "snap": {
+          "toggle": {
+            "label": "Snapping"
+          }
+        },
+        "grid": {
+          "set": {
+            "label": "Set grid"
+          }
+        }
+      },
+      "check": {
+        "run": {
+          "label": "Run checks"
+        }
+      },
+      "ai": {
+        "open": {
+          "label": "Ask about selection / open AI assistant"
+        }
+      }
+    },
+    "gridValue": "1 stud",
+    "rendererError": "The interface encountered an error",
+    "rendererRecovery": "Reload the interface, then restore your documents to continue editing.",
+    "reloadRenderer": "Reload interface"
+  },
+  "libraryUi": {
+    "pack": "Data pack",
+    "manage": "Data pack manager",
+    "unavailable": "Library unavailable",
+    "expired": "Select the data pack again",
+    "invalidPack": "Validate the data pack first",
+    "protectedPack": "The demo and active packs cannot be removed",
+    "partMissing": "Part not found",
+    "colorMissing": "Color not found",
+    "loading": "Loading library…",
+    "geometryMissing": "Geometry unavailable",
+    "missingLibrary": "Library not found. Run this command in the project directory, then reopen the app.",
+    "loadFailed": "Could not load the library. Try again.",
+    "saveFailed": "Could not save favorites. Try again.",
+    "operationFailed": "Operation failed. Check the files and try again.",
+    "showAll": "Show all LDraw parts",
+    "searching": "Searching…",
+    "results": "{{count}} parts",
+    "noResults": "No matching parts",
+    "none": "None",
+    "nonFactory": "Outside factory range",
+    "partHint": "{{name}} / LEGO {{lego}} / Factory {{factory}}",
+    "factoryColors": "Factory colors",
+    "projectColors": "Project colors",
+    "projectEmpty": "No colors used in this project",
+    "favorites": "Favorites",
+    "favoritesEmpty": "Select a color and click the star to save it",
+    "sortColors": "Color order",
+    "byCode": "Factory code",
+    "byHue": "Color family",
+    "colorHint": "{{lego}} · {{name}} · {{factory}}",
+    "customColor": "Custom color",
+    "favorite": "Favorite current color",
+    "unfavorite": "Unfavorite current color",
+    "factoryCode": "Factory code",
+    "material": "Material",
+    "finishes": {
+      "solid": "Solid",
+      "transparent": "Transparent",
+      "chrome": "Chrome",
+      "metallic": "Metallic",
+      "pearl": "Pearl",
+      "glitter": "Glitter",
+      "speckle": "Speckle",
+      "rubber": "Rubber",
+      "glow": "Glow"
+    },
+    "preview": "Part preview",
+    "previewHint": "Select a part in the library to preview it",
+    "previewLoading": "Preparing part…",
+    "previewFailed": "Could not display this part. Select it again or retry.",
+    "previewIncomplete": "Some geometry is missing",
+    "importPack": "Import pack",
+    "importDirectory": "Select folder",
+    "packFiles": "Part data packs",
+    "exportBlank": "Export blank template",
+    "exportTemplate": "Export template",
+    "validation": "Validation report",
+    "accepted": "{{parts}} valid parts · {{colors}} valid colors · {{skipped}} skipped rows",
+    "row": "Row {{row}}",
+    "fileIssue": "File error",
+    "diffTitle": "Changes from current pack: {{name}}",
+    "items": "Item",
+    "added": "Added",
+    "removed": "Removed",
+    "changed": "Changed",
+    "parts": "Parts",
+    "colors": "Colors",
+    "activateAfter": "Activate after import",
+    "cancel": "Cancel",
+    "confirmImport": "Confirm import",
+    "skipErrors": "Import valid rows",
+    "imported": "Data pack imported",
+    "processing": "Processing…",
+    "packHelp": "Switching packs updates the library and factory colors. Previous packs remain available.",
+    "active": "Active",
+    "packCounts": "{{parts}} parts · {{colors}} colors",
+    "source": "Source: {{source}}",
+    "activate": "Activate",
+    "remove": "Delete",
+    "deleteConfirm": "Delete “{{name}}”?",
+    "exported": "Template saved to {{path}}",
+    "xlsxHelp": "Select a pack folder or .brklpack file. Selecting XLSX reads the complete template in the same folder.",
+    "settings": "Settings",
+    "categories": {
+      "animal": "Animal",
+      "antenna": "Antenna",
+      "belville": "Belville",
+      "boat": "Boat",
+      "car": "Car",
+      "clikits": "Clikits",
+      "cockpit": "Cockpit",
+      "constraction": "Constraction",
+      "constraction-accessory": "Constraction Accessory",
+      "container": "Container",
+      "conveyor": "Conveyor",
+      "crane": "Crane",
+      "duplo": "Duplo",
+      "electric": "Electric",
+      "exhaust": "Exhaust",
+      "fence": "Fence",
+      "figure": "Figure",
+      "figure-accessory": "Figure Accessory",
+      "flag": "Flag",
+      "garage": "Garage",
+      "glass": "Glass",
+      "homemaker": "Homemaker",
+      "hose": "Hose",
+      "ladder": "Ladder",
+      "magnet": "Magnet",
+      "minifig-accessory": "Minifig Accessory",
+      "minifig-footwear": "Minifig Footwear",
+      "minifig-headwear": "Minifig Headwear",
+      "minifig-hipwear": "Minifig Hipwear",
+      "minifig-leg": "Minifig Leg",
+      "minifig-lower": "Minifig Lower",
+      "minifig-neckwear": "Minifig Neckwear",
+      "minifig-upper": "Minifig Upper",
+      "modulex": "Modulex",
+      "monorail": "Monorail",
+      "plane": "Plane",
+      "platform": "Platform",
+      "propeller": "Propeller",
+      "rack": "Rack",
+      "roadsign": "Roadsign",
+      "rock": "Rock",
+      "scala": "Scala",
+      "sheet-cardboard": "Sheet Cardboard",
+      "sheet-fabric": "Sheet Fabric",
+      "sheet-plastic": "Sheet Plastic",
+      "sphere": "Sphere",
+      "staircase": "Staircase",
+      "sticker-shortcut": "Sticker Shortcut",
+      "string": "String",
+      "support": "Support",
+      "tail": "Tail",
+      "tap": "Tap",
+      "tipper": "Tipper",
+      "tractor": "Tractor",
+      "trailer": "Trailer",
+      "train": "Train",
+      "turntable": "Turntable",
+      "vehicle": "Vehicle",
+      "winch": "Winch",
+      "windscreen": "Windscreen",
+      "wing": "Wing",
+      "znap": "Znap",
+      "sheet": "Sheet"
+    },
+    "previewOnly": "Preview is not part of the project",
+    "reservedDemo": "The demo identifier is reserved. Use a new pack identifier."
+  },
+  "editor": {
+    "untitled": "Untitled",
+    "selectionMode": "Selection mode",
+    "modes": {
+      "default": "Default",
+      "color": "Same color",
+      "type": "Same type",
+      "both": "Color & type",
+      "connected": "Connected"
+    },
+    "unavailable": "Not available yet",
+    "vertical": "Vertical step",
+    "verticalSteps": {
+      "1": "Fine",
+      "8": "Plate",
+      "24": "Brick"
+    },
+    "angle": "Rotation step",
+    "free": "Free",
+    "space": "Reference frame",
+    "spaces": {
+      "world": "World",
+      "primaryLocal": "Primary local"
+    },
+    "pivot": "Rotation pivot",
+    "pivots": {
+      "center": "Selection center",
+      "primary": "Primary origin",
+      "connector": "Connector"
+    },
+    "eyedropper": "Eyedropper",
+    "operationFailed": "Could not complete the operation. Select the parts again and retry.",
+    "history": {
+      "move": "Move {{count}} parts",
+      "rotate": "Rotate {{count}} parts",
+      "transform": "Transform {{count}} parts",
+      "color": "Recolor {{count}} parts",
+      "delete": "Delete {{count}} parts",
+      "add": "Place part"
+    },
+    "properties": "Properties",
+    "selected": "{{count}} selected",
+    "submodel": "Submodel",
+    "position": "Position",
+    "rotation": "Rotation",
+    "unit": "Position unit",
+    "units": {
+      "ldu": "LDU",
+      "stud": "Studs",
+      "plate": "Plates",
+      "mm": "mm",
+      "cm": "cm"
+    },
+    "step": "Step {{number}}",
+    "showPart": "Show part",
+    "hidePart": "Hide part",
+    "preview": "Preview: {{name}}",
+    "empty": "Double-click a part or drag it here to start building",
+    "pickColor": "Click a part to pick its color",
+    "mainModel": "Main model",
+    "shared": "This submodel appears {{count}} times; edits update every occurrence",
+    "makeUnique": "Make unique",
+    "count": "Parts {{current}} / Expanded {{expanded}}",
+    "dimensions": "Size {{x}} × {{z}} studs × {{y}} bricks",
+    "factoryParts": "Factory",
+    "allParts": "All",
+    "resizeCategories": "Resize category area"
+  },
+  "files": {
+    "flexibleCount": "{{count}} flexible parameters",
+    "open": "Open",
+    "saveAs": "Save as",
+    "save": "Save",
+    "export": "Export",
+    "supported": "Brick model files",
+    "unsupported": "Unsupported file format",
+    "saveReport": "Save report",
+    "report": "File report",
+    "failed": "Operation failed",
+    "notFound": "File not found. Check the path",
+    "screenshotFailed": "Unable to capture the viewport",
+    "recoveryFailed": "Recovery could not be written. Save the project to keep your changes",
+    "missingGeometry": "Geometry is unavailable for some parts",
+    "unusedTitle": "Keep unused submodels?",
+    "unusedMessage": "This project has {{count}} unused submodels. Keep them for later or remove them before saving.",
+    "cancel": "Cancel",
+    "confirm": "OK",
+    "keep": "Keep and save",
+    "clean": "Remove and save",
+    "discard": "Don’t save",
+    "closeTitle": "Save changes?",
+    "closeMessage": "“{{name}}” has unsaved changes.",
+    "tabs": "Documents",
+    "closeTab": "Close {{name}}",
+    "recent": "Recent files",
+    "lastRecovery": "Last recovery point {{time}}",
+    "working": "Working…",
+    "recoveryTitle": "Recover unsaved documents",
+    "recoveryDescription": "Some documents were not saved before the last shutdown. Choose a document to continue editing.",
+    "unsavedPath": "Not yet saved to a file",
+    "unknownTime": "Unknown time",
+    "recoveryTime": "Last recovery {{time}} · {{count}} recoverable operations",
+    "discardRecovery": "Discard",
+    "recover": "Recover",
+    "importReport": "Import report",
+    "exportReport": "Export report",
+    "importSummary": "{{parts}} expanded parts · {{submodels}} submodels · {{steps}} steps",
+    "mappingSummary": "Unmapped: {{parts}} part types · {{colors}} colors",
+    "omitted": "Omitted content",
+    "noIssues": "Completed without issues."
+  },
+  "structure": {
+    "rename": "Rename",
+    "name": "Name",
+    "newGroup": "New group",
+    "newSubmodel": "New submodel",
+    "cycle": "A submodel cannot contain itself or its descendants",
+    "selection": "Selection",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "stepUp": "Move step up",
+    "stepDown": "Move step down",
+    "stepActions": "Step actions",
+    "modelTree": "Model tree",
+    "definitions": "Submodels",
+    "unused": "Unused",
+    "noDefinitions": "Select parts to create a shared submodel",
+    "steps": "Steps",
+    "resizeProperties": "Resize properties",
+    "selectToInspect": "Select a part to inspect its properties",
+    "horizontalGrid": "Horizontal grid step",
+    "placeHint": "Click to place · Esc to cancel"
+  },
+  "output": {
+    "bom": "Export BOM",
+    "modelInfo": "Model information",
+    "screenshot": "Export screenshot",
+    "format": "Format",
+    "unit": "Unit",
+    "grouping": "Grouping",
+    "scope": "Scope",
+    "includeHidden": "Include hidden parts",
+    "includeEdges": "Include edges",
+    "resolution": "Resolution scale",
+    "transparent": "Transparent background",
+    "hideGrid": "Hide grid",
+    "exchangeHint": "Parts, shared submodels and steps are preserved. Unsupported content is listed in the export report.",
+    "thumbnailProgress": "Generating part images {{current}} / {{total}}",
+    "writing": "Writing file…",
+    "fileSize": "File size {{size}} KB",
+    "triangles": "{{count}} triangles",
+    "bomSummary": "{{totalParts}} parts · {{partTypes}} part types · {{colorCount}} colors · {{images}} images",
+    "widthDepthHeight": "Width × depth × height",
+    "bricks": "bricks",
+    "plates": "Height (plates)",
+    "centimeters": "Dimensions (cm)",
+    "inches": "Dimensions (inches)",
+    "directReferences": "References in current model",
+    "totalParts": "Expanded parts",
+    "partTypes": "Part types",
+    "colorCount": "Colors",
+    "modelDefinitions": "Submodel definitions",
+    "modelInstances": "Submodel instances",
+    "lastCheck": "Last check",
+    "notChecked": "Not checked",
+    "includesStuds": "Dimensions include studs and are ordered width X, depth Z, height Y.",
+    "copyInfo": "Copy as text",
+    "formats": {
+      "io": "Studio .io",
+      "ldr": "LDraw .ldr",
+      "mpd": "LDraw .mpd",
+      "obj": "OBJ + MTL",
+      "dae": "DAE (COLLADA)",
+      "glb": "GLB (glTF)",
+      "csv": "BOM (CSV)",
+      "xlsx": "BOM (Excel)"
+    },
+    "units": {
+      "mm": "Millimeters",
+      "cm": "Centimeters",
+      "ldu": "LDU"
+    },
+    "groups": {
+      "instance": "By part instance",
+      "color": "Merge by color"
+    },
+    "scopes": {
+      "project": "Entire project",
+      "model": "Current model",
+      "selection": "Selection"
+    }
+  },
+  "connectUi": {
+    "untitledNumber": "Untitled {{number}}",
+    "unnamedPart": "Part",
+    "snap": "Snap",
+    "snapLegend": "White rings: preview · Orange rings: target",
+    "snapHint": "Connector snapping · Alt to bypass · Shift to slide continuously",
+    "collision": "Collision detection",
+    "policy": "Collision policy",
+    "policies": {
+      "warn": "Warn only",
+      "block": "Block placement"
+    },
+    "connectors": "Connectors",
+    "connectorScope": "Connector display scope",
+    "connectorScopes": {
+      "selection": "Selected parts",
+      "visible": "All visible parts"
+    },
+    "checks": "Checks",
+    "refresh": "Refresh checks",
+    "scope": "Check scope",
+    "scopes": {
+      "project": "Entire project",
+      "currentModel": "Current submodel",
+      "selection": "Selected parts"
+    },
+    "visibleOnly": "Visible parts only",
+    "groundFixed": "Treat ground contact as fixed",
+    "levels": {
+      "error": "Errors",
+      "warning": "Warnings",
+      "info": "Information",
+      "unknown": "Unknown"
+    },
+    "relatedParts": "{{count}} parts · Locate",
+    "noIssues": "No issues in this scope",
+    "alignGrid": "Align to grid",
+    "hitCount": "Colliding {{count}}",
+    "connectedTo": "Connected to {{part}}",
+    "unconnected": "Unconnected",
+    "previewPart": "Preview part",
+    "failed": "Could not load connection and check data. Try again.",
+    "blocked": "Placement blocked due to collision",
+    "collisionStates": {
+      "none": "No collision",
+      "hit": "Collision",
+      "unknown": "Unknown"
+    }
+  },
+  "connectorTypes": {
+    "stud": "Stud",
+    "stud_hollow": "Hollow stud",
+    "antistud": "Antistud",
+    "antistud_tube": "Tube",
+    "bar": "Bar",
+    "bar_post": "Post",
+    "bar_hole": "Bar hole",
+    "clip": "Clip",
+    "axle": "Axle",
+    "axle_hole": "Axle hole",
+    "pin": "Pin",
+    "pin_hole": "Pin hole",
+    "ball": "Ball",
+    "ball_socket": "Ball socket",
+    "hinge_click": "Click hinge",
+    "bar_thin": "Thin bar",
+    "bar_thin_hole": "Thin bar hole",
+    "wheel_pin": "Wheel pin",
+    "wheel_hole": "Wheel hole",
+    "fixed": "Fixed pair",
+    "hinge_plain": "Plain hinge",
+    "slider": "Slider",
+    "rail": "Rail"
+  },
+  "annotation": {
+    "title": "Connector annotation",
+    "edit": "Edit connectors",
+    "maintenance": "Library maintenance mode",
+    "status": "Review status",
+    "save": "Save",
+    "close": "Close annotation editor",
+    "infer": "Infer from primitives",
+    "reference": "Reference part",
+    "tryFit": "Test connection",
+    "showProxy": "Show collision proxies",
+    "layer": "Editing layer",
+    "connectors": "Connectors",
+    "colliders": "Collision proxies",
+    "properties": "Properties",
+    "add": "Add",
+    "copy": "Duplicate",
+    "delete": "Delete",
+    "box": "Box",
+    "cylinder": "Cylinder",
+    "sideA": "Side A",
+    "sideB": "Side B",
+    "start": "Start",
+    "end": "End",
+    "open": "Open",
+    "closed": "Closed",
+    "approximate": "Approximate proxy",
+    "diff": "Inference differences",
+    "diffSummary": "Current {{before}} · Inferred {{after}} · Added or changed {{changed}}",
+    "applyInference": "Apply inference",
+    "dismiss": "Keep current",
+    "hint": "Select a connector and adjust its handle or properties. Check axes and limits before saving.",
+    "saved": "Saved as {{status}}",
+    "loadFailed": "Could not load annotations",
+    "inferFailed": "Inference failed. Check part geometry.",
+    "invalid": "Invalid annotation fields: {{fields}}",
+    "invalidValue": "Invalid parameter format. Check numbers and brackets.",
+    "saveFailed": "Save failed. Check connector and collider parameters.",
+    "noMatch": "No compatible connection found",
+    "fitFailed": "Test connection failed. Check connector parameters.",
+    "fitResult": "{{count}} candidates · Residual {{residual}} LDU · {{collision}}",
+    "fields": {
+      "id": "Name",
+      "type": "Type",
+      "origin": "Position (LDU)",
+      "axis": "Connection axis",
+      "ref": "Reference direction",
+      "length": "Effective length",
+      "diameter": "Diameter",
+      "studDepth": "Stud insertion depth",
+      "rotation": "Rotation step",
+      "rotationValue": "Custom angle step",
+      "size": "Size label",
+      "tag": "Pairing tag",
+      "role": "Pairing side",
+      "ends": "End conditions",
+      "grid": "Grid (rows, columns, pitch, mask)",
+      "cells": "Cell subtypes",
+      "stops": "Stop positions",
+      "limits": "Angle limits (degrees)",
+      "halfSize": "Half size",
+      "orientation": "Orientation matrix",
+      "radius": "Radius",
+      "halfLength": "Half length"
+    },
+    "statuses": {
+      "inferred": "Inferred",
+      "draft": "Draft",
+      "reviewed": "Reviewed"
+    },
+    "references": {
+      "brick": "Brick 2×4 · 3001",
+      "plate": "Plate 2×4 · 3020",
+      "bar": "Bar 1L with studs · 92690"
+    }
+  },
+  "check": {
+    "collision": "Parts collide.",
+    "collisionUnknown": "Collision cannot be determined: missing or approximate proxy, or computation unfinished.",
+    "floating": "Parts are floating or disconnected from the main assembly.",
+    "nonFactoryPart": "The current factory pack does not contain this part, or it is discontinued.",
+    "nonFactoryColor": "The current factory pack does not contain this color.",
+    "unavailableColor": "The factory cannot produce this part and color combination.",
+    "duplicate": "Duplicate instances share the same part, color and position.",
+    "missingGeometry": "Part geometry files are missing.",
+    "unreviewedConnectors": "Parts use connector data that has not been reviewed.",
+    "offGrid": "Part positions are off the current grid."
+  },
+  "checkTitles": {
+    "collision": "Collision",
+    "collisionUnknown": "Unknown collision",
+    "floating": "Floating or disconnected",
+    "nonFactoryPart": "Non-factory part",
+    "nonFactoryColor": "Non-factory color",
+    "unavailableColor": "Unavailable part color",
+    "duplicate": "Duplicate parts",
+    "missingGeometry": "Missing geometry",
+    "unreviewedConnectors": "Unreviewed connectors",
+    "offGrid": "Off-grid parts"
+  },
+  "aiUi": {
+    "title": "AI Assistant",
+    "settings": "AI settings",
+    "settingsTitle": "Settings",
+    "provider": "Provider",
+    "chooseProvider": "Choose provider",
+    "model": "Model",
+    "depth": "Depth",
+    "fast": "Fast",
+    "balanced": "Balanced",
+    "deep": "Deep",
+    "welcome": "Describe the changes you want to make.",
+    "addProvider": "Add provider",
+    "providers": "Providers",
+    "add": "Add",
+    "default": "Default",
+    "noKey": "No saved key",
+    "noModel": "No model selected",
+    "test": "Test {{name}} connection",
+    "testConnection": "Test connection",
+    "setDefault": "Set {{name}} as default",
+    "edit": "Edit {{name}}",
+    "delete": "Delete {{name}}",
+    "connected": "Connected: {{models}}",
+    "noProviders": "Add a provider to start chatting.",
+    "purpose": {
+      "chat": "Chat and building",
+      "vision": "Vision",
+      "quick": "Quick tasks"
+    },
+    "chatgpt": "ChatGPT sign-in",
+    "enabled": "Enabled",
+    "chatgptHint": "Sign in with your ChatGPT account",
+    "chatgptContinue": "Continue with ChatGPT",
+    "signout": "Sign out",
+    "quotaPolicy": "Pause when plan allowance is exhausted. Billing never switches automatically.",
+    "budgets": "Usage and limits",
+    "advanced": "Advanced",
+    "spent": "Today approx. US${{amount}}",
+    "dailyLimit": "Daily limit (USD)",
+    "unlimited": "Unlimited",
+    "toolLimit": "Tool calls per turn",
+    "duration": "Minutes per turn",
+    "history": "Save conversations in the project",
+    "localOnly": "Local models only",
+    "debug": "Local debug logs (redacted, retained 7 days)",
+    "external": "External agents",
+    "mcpEnabled": "Allow external agents",
+    "mcpHint": "Confirm each connection here. Approved clients can read and edit the current project.",
+    "httpEnabled": "Enable local HTTP connection",
+    "port": "Local port",
+    "generateToken": "Generate or rotate access token",
+    "token": "Access token",
+    "copyToken": "Copy access token",
+    "configuration": "Client configuration",
+    "configHint": "Add this configuration to your client and keep Brickloop running. Confirm the first tool request here.",
+    "providerDialog": "Provider settings",
+    "save": "Save",
+    "cancel": "Cancel",
+    "type": "Type",
+    "types": {
+      "chatgpt": "ChatGPT sign-in",
+      "openai": "OpenAI",
+      "anthropic": "Anthropic",
+      "gemini": "Gemini",
+      "compatible": "OpenAI compatible"
+    },
+    "preset": "Preset",
+    "custom": "Custom",
+    "name": "Display name",
+    "endpoint": "Service URL",
+    "key": "API key",
+    "keyHint": "Encrypted locally; only last four characters shown",
+    "account": "Account",
+    "proxy": "Proxy",
+    "proxyOptions": {
+      "system": "System proxy",
+      "custom": "Custom HTTP / SOCKS"
+    },
+    "proxyAddress": "Proxy URL",
+    "customPrices": "Custom model prices (USD per million tokens)",
+    "prices": {
+      "input": "Input",
+      "output": "Output",
+      "cacheRead": "Cached input"
+    },
+    "close": "Close",
+    "allowClient": "Allow “{{name}}” to connect?",
+    "allowClientHint": "This client can read the project and use editing tools. Edits are undoable. Disconnect at any time.",
+    "imageConsentTitle": "Confirm image destination",
+    "imageConsentHint": "Images will be sent to {{name}}, including reference images and model renders. Destination:",
+    "allow": "Allow",
+    "deny": "Deny",
+    "modifying": "AI is editing…",
+    "connectedAgents": "External agents · {{count}}",
+    "disconnect": "Disconnect",
+    "working": "Working…",
+    "toolCheck": "New issues: {{collisions}} collisions · {{floating}} floating",
+    "toolFailed": "Operation failed",
+    "rendered": "Model render, click to enlarge",
+    "reference": "Reference image",
+    "usage": "Input {{input}} · Output {{output}}",
+    "plan": "Using plan allowance",
+    "unpriced": "Model prices not configured",
+    "cost": "Approx. US${{amount}}",
+    "quota": "Your plan allowance is exhausted. Try later or choose another provider yourself.",
+    "review": "Review this turn",
+    "keep": "Keep",
+    "undo": "Undo turn",
+    "continue": "Continue editing",
+    "unavailable": "Not yet available",
+    "selected": "{{count}} selected",
+    "context": "Current: {{name}}",
+    "removeImage": "Remove image",
+    "message": "Message to AI assistant",
+    "placeholder": "Describe the changes…",
+    "attach": "Attach image",
+    "enterHint": "Enter sends · Shift+Enter adds a line",
+    "stop": "Stop",
+    "send": "Send",
+    "imageSize": "Use images under 10 MB, up to 8 images.",
+    "failed": "Operation failed. Check provider, credentials and document state.",
+    "loginTimeout": "Sign-in timed out. Please sign in again.",
+    "codexApprovalHint": "For unattended codex exec runs, uncomment the next line so model-changing tools can run",
+    "saveFailed": "The turn ended, but conversation history could not be saved.",
+    "invalidProvider": "Check service URL, proxy and required fields.",
+    "connectionFailed": "Connection failed. Check URL, credentials and proxy.",
+    "noModels": "No available models returned.",
+    "checkObjects": "{{count}} parts · {{issues}} issues",
+    "shortcuts": {
+      "repair": "Check and repair",
+      "factory": "Use factory parts",
+      "palette": "Unify colors",
+      "explain": "Explain model",
+      "reference": "Build from image"
+    },
+    "deepseekEffort": {
+      "fast": "Thinking off, fastest replies",
+      "balanced": "Provider default",
+      "deep": "Maximum thinking effort"
+    },
+    "localCheck": {
+      "palette": "Scope: {{scope}}.\nColor count: {{count}}.\nNo consolidation needed; no model was called.",
+      "selection": "{{count}} selected instances (including descendants)",
+      "document": "the entire document",
+      "repair": "Scope: {{scope}}.\nCollisions: 0; uncertain collisions: 0; floating / disconnected parts: 0; non-factory parts: 0; non-factory colors: 0; unavailable part/color combinations: 0; duplicate instances: 0; missing geometry: 0; cycles and document structure issues: 0.\nLocal check; no model was called.",
+      "factory": "Scope: {{scope}}.\nNon-factory parts: 0; non-factory colors: 0; unavailable part/color combinations: 0.\nLocal check; no model was called.",
+      "recheck": "Ask AI to check again"
+    },
+    "localStatistics": {
+      "explainHint": "These counts cover the stated scope. For whole-document dimensions, use bounds in the system prompt's Host-provided model summary when present; those bounds do not describe only the selection.",
+      "paletteHint": "distribution counts direct parts by their owning model path ([] is the root); replace_color(fromColorId, toColorId, modelPath) replaces matching colors throughout that path and its descendants in one call, also affecting other occurrences of shared definitions.",
+      "selectionHint": "In selection scope, replace_color is allowed only when every matching occurrence, including shared occurrences, is selected; otherwise the scope lock rejects it, so use batch with set_color targeting selected instances only, using make_unique first when needed.",
+      "intro": "The following local statistics match the current document; unless more detail is needed, there is no need to call tools for the same data.",
+      "attached": "Local statistics attached",
+      "omitted": "Truncated to the row limits or 4,000-token estimate; omitted lists the number of entries left out."
+    },
+    "prompts": {
+      "repair": "Inspect and repair the model, validate again and report unresolved issues.",
+      "factory": "Check for non-factory parts and colors, look up available factory substitutes and factory colors, and replace them at the original positions and orientations. Only address non-factory parts and colors; list any other issues in your reply without modifying them. Validate at the end.",
+      "palette": "Check the current color scheme and merge similar or scattered colors into a small, coherent set of factory colors, minimizing the number of colors. Change colors only; do not add, delete, move or replace parts. List any other issues in your reply without modifying them. Finally, explain how you consolidated the colors.",
+      "explain": "Explain the model structure, dimensions and part counts. Only read the model; do not modify it.",
+      "reference": "Build from image"
+    },
+    "stopReasons": {
+      "completed": "Completed",
+      "cancelled": "Stopped. Completed edits can be undone together.",
+      "tool_budget": "Tool-call budget reached.",
+      "time_budget": "Time limit reached.",
+      "input_budget": "Model context limit reached.",
+      "daily_cost_limit": "Daily cost limit reached.",
+      "max_tokens": "Response length limit reached.",
+      "error": "Turn incomplete. Check connection, credentials and pricing."
+    },
+    "manageUsage": "Manage plan usage",
+    "planWelcome": "Using your ChatGPT plan",
+    "planWelcomeHint": "Eligible AI requests use your ChatGPT plan allowance. View and manage usage in ChatGPT settings.",
+    "gotIt": "Got it",
+    "affected": "{{count}} parts",
+    "completed": "Completed",
+    "validationCheck": "Check: {{collisions}} collisions · {{floating}} floating",
+    "noNewIssues": "No new issues",
+    "checkPassed": "Check passed",
+    "reviewCount": "{{count}} parts changed this turn",
+    "choosePurpose": "Choose models by purpose",
+    "followDefault": "Follow default ({{provider}} · {{model}})",
+    "clientVersion": "Client version {{version}}",
+    "checkInstance": "Part {{n}} · Position ({{x}}, {{z}}, {{level}})",
+    "dailyLimitReached": "The daily spending limit is reached or this model has no configured price.",
+    "signedOut": "Signed out",
+    "signInAgain": "Sign in again",
+    "switchAccount": "Switch account",
+    "addAccount": "Add account",
+    "modelsFailed": "Could not load the model list.",
+    "retryModels": "Retry",
+    "modelsEmpty": "Test the connection to choose a model",
+    "customModel": "Custom model name…",
+    "customModelName": "Custom model name",
+    "liveness": {
+      "thinking": "The model is thinking",
+      "waiting": "Waiting for the provider · {{seconds}} seconds",
+      "keepAlive": "Provider is queuing or processing; connection is live",
+      "script": "The model is writing a script",
+      "warningAnnouncement": "No data received for a while. Still waiting for the provider; you can click Stop",
+      "silent": "No data for {{seconds}} seconds. Still waiting for the provider; you can click Stop",
+      "active": "{{phase}} · About {{chars}} characters generated · Data received {{seconds}} seconds ago",
+      "replying": "The model is writing a reply"
+    }
+  },
+  "aiTools": {
+    "get_model_summary": "get model summary",
+    "list_instances": "list instances",
+    "get_instance": "get instance",
+    "get_selection": "get selection",
+    "search_parts": "search parts",
+    "get_part_info": "get part info",
+    "list_colors": "list colors",
+    "find_connection_candidates": "find connection candidates",
+    "place_part": "place part",
+    "move": "move",
+    "rotate": "rotate",
+    "set_transform": "set transform",
+    "set_color": "set color",
+    "replace_color": "replace color",
+    "delete": "delete",
+    "create_group": "create group",
+    "ungroup": "ungroup",
+    "create_submodel": "create submodel",
+    "instantiate_submodel": "instantiate submodel",
+    "make_unique": "make unique",
+    "batch": "batch",
+    "validate": "validate",
+    "render_views": "render views",
+    "compare_to_reference": "compare to reference",
+    "get_bom": "get bom",
+    "suggest_factory_substitutes": "suggest factory substitutes",
+    "add_reference_image": "add reference image",
+    "make_mosaic": "make mosaic",
+    "export_io": "export io",
+    "job_status": "job status",
+    "job_cancel": "job cancel",
+    "run_build_script": "Run build script",
+    "get_build_script": "Read build script",
+    "list_build_scripts": "List project scripts",
+    "list_build_examples": "List script examples",
+    "get_build_example": "Read script example",
+    "get_design_guide": "Read design guide",
+    "view_layers": "View text layers"
+  },
+  "aiIssues": {
+    "collision": "collision",
+    "floating": "floating",
+    "non_factory_part": "non factory part",
+    "non_factory_color": "non factory color",
+    "unavailable_color": "unavailable color",
+    "collisionUnknown": "collisionUnknown",
+    "duplicate": "duplicate",
+    "missingGeometry": "missingGeometry",
+    "unreviewedConnectors": "unreviewedConnectors",
+    "cycle": "cycle"
+  },
+  "imageUi": {
+    "inputTitle": "Build from references",
+    "menu": "Build from references…",
+    "makePlan": "Create plan",
+    "description": "Description",
+    "descriptionHint": "For example: a 6×6 house with a red roof. Text alone is also supported.",
+    "style": "Style notes",
+    "addImages": "Choose references",
+    "imageHint": "Drop, paste or choose 1–8 images and label each view.",
+    "viewNumber": "Image {{n}} view",
+    "targetSize": "Target size",
+    "sizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "custom": "Custom size (studs)"
+    },
+    "width": "Width (studs)",
+    "depth": "Depth (studs)",
+    "height": "Height (studs)",
+    "palette": "Palette",
+    "palettes": {
+      "factory": "Factory colors",
+      "project": "Project colors",
+      "custom": "Custom colors"
+    },
+    "parts": "Part scope",
+    "partSources": {
+      "factory": "Factory parts",
+      "categories": "Selected categories",
+      "all": "All parts (concept design)"
+    },
+    "categories": "Choose categories",
+    "direct": "Skip plan confirmation and start directly",
+    "planTitle": "Confirm building plan",
+    "planName": "Model name",
+    "planHint": "Edit components, categories, strategies, bounding boxes and colors; drag or use the arrows to reorder.",
+    "start": "Start building",
+    "order": "Order",
+    "component": "Component",
+    "dimensions": "W×D×H (studs)",
+    "colors": "Colors",
+    "partTypes": "Main parts",
+    "connections": "Connect to",
+    "connectHint": "Join through connectors",
+    "newComponent": "New component",
+    "bricks": "Bricks",
+    "addRow": "Add component",
+    "deleteRow": "Delete component",
+    "dragOrder": "Drag to reorder",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "invalidPlan": "Complete component names, positive dimensions, consistent bounding boxes, valid colors and part types.",
+    "colorRepairs": "Adjusted {{n}} color entries to the palette (including removals and additions). Expand for details",
+    "colorRepairDetails": {
+      "replaced": "{{component}}: {{from}} → {{to}}",
+      "removed": "{{component}}: removed unrecognized color {{from}}",
+      "duplicate": "{{component}}: removed {{from}} because it duplicates an existing color",
+      "description": "{{component}}: no usable colors remained; added {{to}} from “{{from}}” in the description",
+      "palette-first": "{{component}}: no usable color in the palette entries or description; used the first palette color, {{to}}"
+    },
+    "planComponentError": "Component {{n}}: {{reason}} (click to locate)",
+    "planError": "{{reason}} (click to locate)",
+    "planErrors": {
+      "name": "Plan name is required and must not exceed 120 characters",
+      "components": "Keep at least one component and use unique component IDs",
+      "component": "Component name and ID are required and must not exceed 120 characters",
+      "width": "Width must be greater than 0",
+      "depth": "Depth must be greater than 0",
+      "height": "Height must be greater than 0",
+      "boundingBox": "Bounding box must have positive dimensions matching width, depth and height",
+      "colors": "Choose at least one color from the current palette",
+      "partTypes": "Enter at least one part type, with at most 120 characters per entry",
+      "connections": "Connections must reference other existing components and include a description",
+      "order": "Build order must include every component exactly once",
+      "views": "Reference view settings are invalid"
+    },
+    "task": "Image building task",
+    "phase": {
+      "understanding": "Understanding references",
+      "preparing": "Preparing references",
+      "building": "Building component {{n}} of {{m}}",
+      "checking": "Self-check round {{round}}",
+      "assembling": "Assembling",
+      "finishing": "Preparing report",
+      "finished": "Finished",
+      "drafting": "Drafting",
+      "iterating": "Iterating",
+      "detailing": "Detailing",
+      "buildability": "Buildability"
+    },
+    "calls": "{{used}} / {{total}} calls",
+    "time": "{{used}} sec / {{total}} min",
+    "pause": "Pause",
+    "resume": "Resume",
+    "paused": "Paused",
+    "interject": "Interject",
+    "interjectHint": "Add instructions below",
+    "interjectPlaceholder": "Add instructions, e.g. make the body two studs longer…",
+    "interjected": "Received. The next operation will use your updated instructions.",
+    "iou": "Silhouette IoU {{value}}%",
+    "report": "Building report",
+    "partCount": "{{count}} parts",
+    "partCountUnknown": "Part count not available",
+    "colorCount": "{{count}} colors",
+    "colorCountUnknown": "Color count not available",
+    "passed": "Passed",
+    "otherIssues": "{{count}} additional validation issues",
+    "unfinished": "Unfinished items",
+    "none": "None",
+    "export": "Export .io…",
+    "renderLabel": "Rendered",
+    "componentRound": "Component “{{name}}” · round {{round}}",
+    "wholeRound": "Whole model · round {{round}}",
+    "wholePreview": "Current whole model",
+    "comparisonHistory": "Comparison history ({{count}})",
+    "inferredView": "AI inferred view",
+    "viewMode": "View mode",
+    "viewModes": {
+      "auto": "Automatic views",
+      "fixed": "Fixed views"
+    },
+    "viewModeHint": {
+      "auto": "AI estimates each view. Confidence of at least 0.6 enables comparison; you can override each image.",
+      "fixed": "Specify a standard view for every image. All images participate in comparison."
+    },
+    "chooseView": "Choose a view",
+    "fixedViewsRequired": "Choose a standard view for every image before generating a plan.",
+    "referenceViews": "Reference views",
+    "referenceViewsHint": "Review estimates and override individual views or exclude images. Hover for the reasoning.",
+    "planViewNumber": "Reference {{n}} comparison view",
+    "viewEstimate": "Estimate: {{view}} · {{confidence}}",
+    "viewEstimateWarning": "Some view estimates are missing or invalid and were excluded. You can still specify their views.",
+    "fixedReferenceViewsHint": "Review the specified view for each image. All images participate in comparison.",
+    "roundLimit": "Iteration rounds",
+    "autoFinish": "Finishes automatically when comparison metrics stop improving for two rounds and all components are complete.",
+    "priority": "Build priority",
+    "priorities": {
+      "buildable": "Buildability first",
+      "appearance": "Appearance first"
+    },
+    "toolLimit": "Total tool-call safety limit",
+    "duration": "Task duration (minutes)",
+    "boundingBox": "Bounding box (studs)",
+    "origin": "Origin X / Y / Z",
+    "originAxis": {
+      "x": "Bounding box origin X",
+      "y": "Bounding box origin Y",
+      "z": "Bounding box origin Z"
+    },
+    "designCategory": "Design category",
+    "strategy": "Build strategy",
+    "strategies": {
+      "shapes": "Shape functions",
+      "parts": "Explicit parts"
+    },
+    "designCategories": {
+      "buildings": "Buildings",
+      "vehicles": "Vehicles",
+      "plants": "Plants",
+      "terrain": "Terrain",
+      "figures-and-props": "Figures and props"
+    },
+    "roundProgress": "Round {{round}} / {{total}}",
+    "roundCount": "{{count}} rounds completed",
+    "roundIssues": "{{count}} validation issues",
+    "timeline": "Round timeline",
+    "viewScript": "View main script",
+    "buildabilitySkipped": "Appearance first: buildability repair was skipped; validation issues are listed below.",
+    "roundWarnings": {
+      "round_tool_limit": "This round reached the 12-call limit; continue next round."
+    },
+    "planRepairs": {
+      "boxDetail": "Component {{n}} “{{component}}”: bounding-box end changed from ({{from}}) to ({{to}}), recalculated from width, depth and height.",
+      "colors": "Adjusted {{n}} colors",
+      "boxes": "Adjusted {{n}} bounding boxes",
+      "both": "Adjusted {{n}} items ({{colors}} colors, {{boxes}} bounding boxes)"
+    }
+  },
+  "mosaicUi": {
+    "title": "Mosaic",
+    "menu": "Mosaic…",
+    "generate": "Generate",
+    "modelName": "Mosaic",
+    "transaction": "Generate mosaic",
+    "choose": "Choose image",
+    "imageHint": "Drop or paste an image",
+    "lockRatio": "Lock image ratio",
+    "style": "Part style",
+    "square": "Tiles",
+    "round": "Round plates",
+    "dither": "Dithering",
+    "merge": "Merge adjacent matching cells",
+    "paletteHint": "Uses only available factory part and color combinations from the active pack.",
+    "preview": "Pixel grid preview",
+    "empty": "Choose an image to preview",
+    "counts": "{{parts}} parts · {{colors}} colors",
+    "noTiles": "The active pack has no 1×1 parts or colors for this style.",
+    "failed": "Preview could not be generated. Check the image and data pack."
+  },
+  "settingsUi": {
+    "title": "Settings"
+  },
+  "instructions": {
+    "title": "Building instructions",
+    "untitled": "Untitled model",
+    "step": "Step {{number}}",
+    "submodel": "Submodel: {{name}}",
+    "submodelItem": "Submodel",
+    "quantity": "×{{count}}",
+    "bom": "Parts list",
+    "page": "Page {{current}} / {{total}}",
+    "author": "Author: {{name}}",
+    "partNumber": "Part: {{number}}",
+    "factoryNumber": "Factory: {{number}}",
+    "pliContinuation": "Step {{number}} · Parts (continued)",
+    "noNewParts": "No new parts in this step",
+    "empty": "No parts"
+  },
+  "preferences": {
+    "general": "General",
+    "editing": "Editing",
+    "shortcuts": "Shortcuts",
+    "library": "Parts library",
+    "advanced": "Advanced",
+    "unit": "Length unit",
+    "snapshot": "Snapshot interval",
+    "minutes": "min",
+    "reopenLast": "Reopen last project at startup",
+    "instant": "Changes apply immediately and are saved automatically.",
+    "grid": "Default grid step",
+    "angle": "Default rotation step",
+    "snap": "Enable snapping by default",
+    "mergeKeyboard": "Merge consecutive keyboard moves and rotations",
+    "libraryPath": "Library path",
+    "chooseLibrary": "Choose library folder…",
+    "enabledPacks": "Active data pack",
+    "cache": "Cache location",
+    "cacheSize": "{{size}} MB used",
+    "clearCache": "Clear cache",
+    "migrationFallback": "Migration is incomplete. The previous location is in use; migration will retry next launch.",
+    "logging": "Record activity logs",
+    "developerMode": "Developer mode",
+    "maintenanceHint": "When enabled, right-click a library part and choose “Edit connectors”.",
+    "searchKeys": "Search commands or shortcuts",
+    "noCommands": "No matching commands",
+    "resetKeys": "Restore defaults",
+    "importKeys": "Import JSON…",
+    "exportKeys": "Export JSON…",
+    "invalidKeys": "Cannot read shortcuts. Check the file format and key names.",
+    "recordKey": "Change shortcut for {{command}}",
+    "unassigned": "Unassigned",
+    "recordTitle": "Record shortcut",
+    "pressKeys": "Press the new key combination",
+    "conflictTitle": "Shortcut conflict",
+    "keyConflict": "{{key}} is assigned to {{commands}}. Overwriting assigns it to {{target}}.",
+    "overwrite": "Overwrite",
+    "overwriteHint": "Overwriting removes conflicting bindings from previous commands. Duplicate imported bindings keep the last command.",
+    "dimensions": "Size {{values}} {{unit}}",
+    "lastCheck": "{{time}} · {{scope}} · {{count}} issues",
+    "groups": {
+      "file": "File",
+      "edit": "Edit",
+      "structure": "Structure",
+      "select": "Selection",
+      "editor": "Editing context",
+      "view": "View",
+      "tool": "Tools",
+      "check": "Checks",
+      "ai": "AI assistant",
+      "move": "Movement",
+      "rotate": "Rotation",
+      "transform": "Transform",
+      "group": "Groups",
+      "submodel": "Submodels",
+      "step": "Steps",
+      "macro": "Macros",
+      "model": "Model",
+      "settings": "Settings"
+    },
+    "commands": {
+      "file": {
+        "next": "Next project",
+        "pdf": "Export instruction PDF"
+      },
+      "structure": {
+        "rename": "Rename"
+      },
+      "editor": {
+        "escape": "Cancel or leave current context"
+      },
+      "tool": {
+        "select": "Select tool",
+        "move": "Move tool",
+        "rotate": "Rotate tool",
+        "eyedropper": "Pick color",
+        "grid1": "Grid: 1 stud",
+        "grid2": "Grid: ½ stud",
+        "grid3": "Grid: ¼ stud"
+      },
+      "model": {
+        "info": "Model information"
+      },
+      "view": {
+        "screenshot": "Export screenshot",
+        "front": "Front view",
+        "back": "Back view",
+        "left": "Left view",
+        "right": "Right view",
+        "top": "Top view",
+        "bottom": "Bottom view",
+        "iso": "Isometric view"
+      },
+      "settings": {
+        "open": "Open settings"
+      },
+      "move": {
+        "forward": "Move forward",
+        "back": "Move backward",
+        "left": "Move left",
+        "right": "Move right",
+        "up": "Move up",
+        "down": "Move down"
+      },
+      "rotate": {
+        "left": "Rotate left",
+        "leftFine": "Rotate left 45°",
+        "right": "Rotate right",
+        "rightFine": "Rotate right 45°",
+        "up": "Rotate up",
+        "upFine": "Rotate up 45°",
+        "down": "Rotate down",
+        "downFine": "Rotate down 45°"
+      }
+    }
+  },
+  "instructionsUi": {
+    "title": "Instruction PDF…",
+    "dialogTitle": "Export instructions PDF",
+    "paper": "Paper",
+    "steps": "Steps per page",
+    "stepsValue": "{{count}} steps",
+    "dpi": "Image resolution",
+    "root": "Root model",
+    "cover": "Include cover",
+    "bom": "Include parts list",
+    "highlight": "Outline parts added in this step",
+    "rendering": "Generating instructions. You can cancel at any time.",
+    "saving": "Saving instructions…",
+    "pages": "{{completedPages}} / {{totalPages}} pages completed",
+    "saved": "Instructions saved: {{path}}",
+    "canceled": "Canceled. No file was written.",
+    "failed": "Instructions could not be generated. Check fonts and part geometry.",
+    "issues": "{{count}} catalog entries are missing. Check the exported parts list.",
+    "papers": {
+      "A4-landscape": "A4 landscape",
+      "A4-portrait": "A4 portrait",
+      "A5": "A5 portrait",
+      "Letter": "Letter"
+    }
+  },
+  "aboutUi": {
+    "title": "About Brickloop",
+    "about": "About",
+    "product": "Brickloop",
+    "developer": "Developer: Vesperis (孤独翼梦)",
+    "copyright": "Copyright © 2026 Vesperis (孤独翼梦). All rights reserved.",
+    "usage": "Open source under the MIT License.",
+    "licenses": "Open-source licenses",
+    "version": "Version",
+    "commit": "Commit hash",
+    "date": "Build date",
+    "electron": "Electron version",
+    "chromium": "Chromium version",
+    "node": "Node version",
+    "search": "Search name or license",
+    "noResults": "No matching licenses",
+    "count": "{{count}} dependencies and resources",
+    "attribution": "View license and attribution",
+    "failed": "Cannot read the license list."
+  },
+  "packImpact": {
+    "title": "Data pack changes",
+    "hint": "These parts or colors in open projects will no longer be factory supplied. Project contents are preserved.",
+    "parts": "Non-factory parts",
+    "colors": "Non-factory colors",
+    "combinations": "Unavailable part/color combinations",
+    "continue": "Continue"
+  },
+  "performance": {
+    "retry": "Retry",
+    "edges_auto": "Automatic",
+    "missingShapes": "Missing part shapes",
+    "edges_always": "Always show",
+    "checking": "Checking…",
+    "edges": "Edges",
+    "loadingShapes": "Loading part shapes {{n}} / {{m}}"
+  },
+  "aiToolErrors": {
+    "referenceEmpty": "No subject was found in the reference. Try an image with a clear subject and a simple background.",
+    "emptyForeground": "No built parts are visible from this view yet. Place parts or check their positions, then compare again.",
+    "referenceMissing": "The reference image is no longer available. Add it again and retry.",
+    "viewMismatch": "The comparison view does not match the reference. Choose the matching view and retry.",
+    "invalidArguments": "Some required information is missing or unsuitable. Ask the assistant to complete it and retry.",
+    "cancelled": "The operation was stopped. Start again when ready.",
+    "budget": "This round has used all allowed operations. Adjust the limit and start again.",
+    "geometryMissing": "Some part shapes have not finished loading. Wait a moment and compare again.",
+    "failed": "The application could not finish this operation. Check that the project and parts have loaded, then retry.",
+    "outOfScope": "Target is outside this task’s selection; AI can adjust and continue",
+    "referenceNotComparable": "This image is for understanding only. Use a reference with a specified view or a sufficiently confident estimate.",
+    "workflowScript": "Run the current task’s main script once per round, replacing its previous output.",
+    "engineUnavailable": "The build engine could not start. The task has stopped. Reload the interface and try again.",
+    "script": "The build script has an error. The assistant can correct it using the reported location.",
+    "scriptDetails": "Line {{line}}, column {{column}} · {{message}}"
+  },
+  "reviewUi": {
+    "beforePlaceholder": "Cannot send while viewing the before state",
+    "title": "Changes this round",
+    "bar": "3D change review",
+    "keep": "Keep all",
+    "undo": "Undo round",
+    "details": "Details",
+    "compare": "Compare states",
+    "before": "Before",
+    "after": "After",
+    "annotations": "Annotations",
+    "beforeBanner": "Viewing the before state",
+    "returnAfter": "Return to after",
+    "grouping": "Group changes",
+    "groupBy": {
+      "type": "By type",
+      "model": "By submodel",
+      "step": "By step"
+    },
+    "kinds": {
+      "added": "Added",
+      "removed": "Removed",
+      "recolored": "Recolored",
+      "replaced": "Replaced",
+      "moved": "Moved",
+      "restepped": "Step changed",
+      "other": "Other"
+    },
+    "states": {
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "superseded": "Modified later"
+    },
+    "reject": "Reject",
+    "restore": "Restore",
+    "rejectGroup": "Reject group",
+    "restoreGroup": "Restore group",
+    "more": "Show 200 more",
+    "rejectLabel": "Reject AI changes ({{count}} items)",
+    "restoreLabel": "Restore AI changes ({{count}} items)",
+    "stepNumber": "Step {{number}}",
+    "structure": "Structure",
+    "readonly": "Read only",
+    "structureHint": "Structural changes can only be undone with the entire round.",
+    "dependency": "A required step, submodel or group is missing, or a structural dependency prevents this change. Undo the entire round.",
+    "supersededHint": "This item was modified later and cannot be individually rejected or restored.",
+    "undoUnavailable": "Other changes were made later. Please use undo history.",
+    "structureKinds": {
+      "model": {
+        "added": "Submodel added",
+        "removed": "Submodel removed",
+        "renamed": "Submodel renamed"
+      },
+      "step": {
+        "added": "Step added",
+        "removed": "Step removed"
+      },
+      "group": "Group changed",
+      "asset": "Asset changed",
+      "meta": "Project or structure information"
+    }
+  },
+  "parallelUi": {
+    "status": {
+      "queued": "Queued",
+      "running": "Running",
+      "pending_merge": "Ready to merge",
+      "merged": "Merged",
+      "discarded": "Discarded",
+      "stopped": "Stopped",
+      "failed": "Failed"
+    },
+    "preview": "Preview",
+    "merge": "Merge",
+    "discard": "Discard",
+    "queue": "Queue",
+    "concurrency": "Concurrent AI tasks",
+    "progress": "{{calls}} calls · {{seconds}} s",
+    "summary": "Added {{added}} · Changed {{modified}} · Conflicts {{conflicts}}",
+    "globalStatus": "AI tasks: {{running}} running · {{pending}} ready to merge",
+    "unread": "New AI task results",
+    "conflicts": "Conflicts",
+    "takeAi": "Use AI version",
+    "keepMine": "Keep mine",
+    "newIssues": "{{count}} new issues after merge",
+    "transaction": "AI: {{summary}}",
+    "resolveTransaction": "Use AI conflict version",
+    "invalidMerge": "This result cannot be applied. Check that the required models, steps and groups still exist.",
+    "checkFailed": "Merged; checks did not finish. Run checks again.",
+    "closeTitle": "Stop and discard AI tasks?",
+    "closeMessage": "This document has {{count}} running, queued or unmerged AI tasks. Closing will stop and discard them.",
+    "reasons": {
+      "both_changed": "Both changed this object",
+      "target_deleted": "Target was deleted",
+      "model_missing": "Model definition was deleted",
+      "step_missing": "Step was deleted"
+    },
+    "resolved": {
+      "ai": "AI version used",
+      "mine": "Your version kept"
+    },
+    "conflictOnly": "This result contains only conflicts. Choose a version for each item."
+  },
+  "askUi": {
+    "ask": "Ask AI",
+    "selected": "{{count}} selected",
+    "selection": "Selection",
+    "step": "Step {{n}}",
+    "message": "Ask AI about selection",
+    "placeholder": "Ask AI to edit {{count}} selected items…",
+    "scope": "Only edit selection",
+    "close": "Close selection prompt",
+    "noProvider": "Add a provider in AI settings first",
+    "settings": "Open AI settings",
+    "working": "AI is editing the selection…",
+    "queued": "Selection task queued…",
+    "references": "Reference suggestions",
+    "noReferences": "No matching references",
+    "removed": "Deleted references removed: {{names}}",
+    "types": {
+      "selection": "Selection",
+      "submodel": "Submodel",
+      "step": "Step",
+      "color": "Color",
+      "reference": "Reference image"
+    }
+  },
+  "buildScriptUi": {
+    "badge": "Script",
+    "view": "View script",
+    "rerun": "Rerun",
+    "detach": "Convert to ordinary parts",
+    "cancel": "Cancel",
+    "preserveRun": "Convert to ordinary parts and run",
+    "overwrite": "Overwrite anyway",
+    "copy": "Copy code",
+    "copied": "Copied",
+    "copyFailed": "Copy failed. Select and copy the code manually.",
+    "close": "Close",
+    "factory": "Factory parts",
+    "all": "All parts · Concept design",
+    "seed": "Seed {{seed}}",
+    "stats": "{{parts}} parts · {{colors}} colors · {{ms}} ms",
+    "code": "Build script code (read only)",
+    "hash": "Output hash",
+    "modifiedTitle": "These changes will be overwritten",
+    "modifiedMessage": "Script output was manually edited or deleted. Convert the existing output to ordinary parts before generating new output, or overwrite those changes.",
+    "rerunTitle": "Regenerate script output",
+    "rerunMessage": "Run the saved code with its seed and part scope. Only this script output will be replaced.",
+    "runError": "Build script failed ({{code}}, line {{line}}): {{message}}",
+    "failed": "Build script failed. The document was not changed.",
+    "changed": "The document changed during execution. Run the script again.",
+    "runTransaction": "Rerun script: {{name}}"
+  },
+  "animationUi": {
+    "title": "Build animation",
+    "menu": "Build animation…",
+    "playEntry": "Play build animation",
+    "preview": "Preview build animation",
+    "empty": "This model has no parts to animate",
+    "untitled": "Untitled project",
+    "fileSuffix": "build-animation",
+    "loading": "Preparing parts and scene…",
+    "failed": "Could not complete animation: {{reason}}",
+    "play": "Play",
+    "pause": "Pause",
+    "previous": "Previous layer / step",
+    "next": "Next layer / step",
+    "seek": "Animation progress",
+    "speed": "Playback speed",
+    "order": "Build order",
+    "layers": "By layer",
+    "steps": "Instruction steps",
+    "motion": "Part motion",
+    "drop": "Drop",
+    "fly": "Fly in",
+    "appear": "Appear",
+    "camera": "Camera",
+    "orbit": "Orbit",
+    "fixed": "Fixed",
+    "duration": "Duration",
+    "timing": "Timing",
+    "target": "Total duration",
+    "perGroup": "Fixed time per layer / step",
+    "seconds": "{{value}} seconds",
+    "dim": "Dim completed parts",
+    "overlay": "Show captions",
+    "coarse": "This model has coarse steps. Layer order is recommended.",
+    "layerCounter": "Layer {{current}} / {{total}}",
+    "stepCounter": "Step {{current}} / {{total}}",
+    "partCounter": "{{current}} / {{total}} parts",
+    "complete": "Build complete",
+    "hint": "Space Play / Pause · ← → Previous / Next layer",
+    "export": "Export video…",
+    "exportTitle": "Export build video",
+    "resolution": "Resolution",
+    "fps": "Frame rate",
+    "white": "White background",
+    "quality": "{{height}}p",
+    "fpsValue": "{{fps}} fps",
+    "startExport": "Export video",
+    "encoding": "Rendering and encoding",
+    "saving": "Saving video",
+    "remaining": "About {{seconds}} seconds remaining",
+    "frames": "{{completed}} / {{total}} frames",
+    "saved": "Video saved: {{path}}",
+    "cancelled": "Export canceled",
+    "fallback": "H.264 encoding is unavailable at the selected settings. Exporting WebM (VP9) instead.",
+    "noEncoder": "Neither H.264 nor VP9 encoding is available on this system",
+    "invalidSave": "This video save request has expired",
+    "checking": "Checking video encoder support…",
+    "format": "Video format",
+    "mp4": "MP4 · H.264",
+    "webm": "WebM · VP9",
+    "noAudio": "Video has no audio track",
+    "options": "Playback settings",
+    "close": "Close build animation",
+    "missingGeometry": "{{count}} parts have no geometry and are not shown in the animation"
+  },
+  "aiSetup": {
+    "empty": "Choose how to connect your first AI service.",
+    "modes": {
+      "account": "Sign in with an account",
+      "apiKey": "Use an API key"
+    },
+    "modeHints": {
+      "account": "Use your existing ChatGPT subscription allowance, without a key.",
+      "apiKey": "Pay for usage. Popular providers only need a pasted key."
+    },
+    "status": {
+      "available": "Available",
+      "untested": "Not tested",
+      "failed": "Connection failed",
+      "reauth": "Sign in again",
+      "reenter": "Re-enter key"
+    },
+    "chooseMode": "Choose a connection method",
+    "stepOne": "Step 1 · Choose a method",
+    "stepTwo": "Step 2 · Connect and choose a model",
+    "back": "Back",
+    "search": "Search providers or local models",
+    "connected": "Connected · {{ms}} ms · {{count}} models",
+    "cardConnected": "Connected · {{ms}} ms",
+    "currentDefault": "Current default service",
+    "details": "Details",
+    "httpStatus": "Status code: {{status}}",
+    "advanced": "Advanced settings",
+    "domestic": "China",
+    "overseas": "Overseas",
+    "documentation": "Official documentation ↗",
+    "getKey": "Get an API key ↗",
+    "keepKey": "Leave blank to keep the saved key",
+    "reenterKey": "The saved key cannot be read. Paste the key again.",
+    "keyUnreadable": "The saved key cannot be read. Re-enter it in Settings → AI Assistant.",
+    "accountUnreadable": "The ChatGPT sign-in cannot be read. Sign in again in Settings → AI Assistant.",
+    "saveUntested": "Save without testing",
+    "confirmUntested": "Save an untested service?",
+    "confirmUntestedHint": "This configuration has not passed a connection test. It will be marked Not tested; you can test it later from its service card.",
+    "manualRequired": "The provider did not supply a model list. Enter a model name in advanced settings and test again.",
+    "unsupportedSubscriptions": "Kimi membership, Claude, Gemini, GitHub Copilot and domestic coding plans do not offer account sign-in here.",
+    "kimiReason": "These subscriptions do not authorize this app to use their allowance through account sign-in. Kimi account authorization is for its official CLI, and membership keys are for coding tools. Brickloop integrations should use a pay-as-you-go Open Platform API key.",
+    "useApiKeyInstead": "Use an API key instead",
+    "enableAccount": "Enable ChatGPT account sign-in",
+    "accountDisabled": "ChatGPT sign-in is disabled. Enable it in advanced settings on this page.",
+    "localOnlyAccount": "Local models only is enabled. Turn it off before signing in to a cloud account.",
+    "noVisionModels": "No vision models",
+    "noToolModels": "No tool-capable models",
+    "checkTools": "Tools depend on model configuration",
+    "canSee": "Can understand images",
+    "cannotSee": "Cannot understand images",
+    "canUseTools": "Can call tools",
+    "cannotUseTools": "Cannot call tools",
+    "unknownCapabilities": "Vision capability unconfirmed",
+    "capabilityHint": "Building requires tool calls; image tasks require vision. You can choose different models for each purpose.",
+    "errors": {
+      "auth": "Invalid key or insufficient permission",
+      "balance": "Insufficient balance",
+      "address": "Incorrect service address or model",
+      "quota": "Too many requests or allowance exhausted",
+      "network": "Network unavailable; a proxy may be needed",
+      "capability": "This model cannot build or understand images",
+      "unknown": "Connection failed; check the service configuration"
+    },
+    "advice": {
+      "auth": "Copy the full key again and check model access. Account sign-in may need renewed authorization.",
+      "balance": "Check your provider balance and billing status, then top up and retry.",
+      "address": "Check the service address and model name in advanced settings.",
+      "quota": "Retry later or check your allowance. Billing methods will not switch automatically.",
+      "network": "Check your network, local server and proxy settings, then retry.",
+      "capability": "Choose a model that supports tool calls or image input.",
+      "unknown": "Expand details and check the provider documentation."
+    }
+  },
+  "aiContext": {
+    "new": "New chat",
+    "confirmTitle": "Start a new chat?",
+    "confirmBody": "Future AI requests will no longer include this project's previous conversations. The records will be kept in a collapsed group marked “Excluded from context”. The model, reviews, and undo history will stay unchanged. Save the project to keep this change when reopening it.",
+    "confirm": "Start new chat",
+    "cancel": "Cancel",
+    "busy": "Wait for this project's queued or running tasks to finish before starting a new chat",
+    "empty": "No turns are included in context",
+    "previous": "Previous conversations · {{count}} turns · Excluded from context",
+    "excluded": "Excluded from context",
+    "includedSummary": "Included as a summary",
+    "known": "Context ≈ {{tokens}} / {{window}} · {{percent}}% · {{count}} turns",
+    "unknown": "Context ≈ {{tokens}} · Limit unknown · {{count}} turns",
+    "progress": "Context window usage",
+    "calculating": "Estimating context…",
+    "base": "System prompt and tools ≈ {{tokens}}",
+    "history": "History ≈ {{tokens}}",
+    "reasoningReplay": "This provider requires reasoning content to be replayed. Previous turns are sent as summaries.",
+    "compressionHelp": "Older content is compressed automatically near the limit, reserving about 15%.",
+    "compressionUnknown": "Content is compressed automatically when the provider reports it is too long.",
+    "lastCompressed": "The latest included turn was compressed",
+    "lastNotCompressed": "The latest included turn was not compressed",
+    "counts": "{{included}} included · {{excluded}} excluded",
+    "compressed": "Compressed",
+    "willCompress": "Older content will be compressed on the next request",
+    "reasons": {
+      "cleared": "Turns before the new chat are excluded from future conversations",
+      "discarded": "Discarded turns are excluded from future conversations",
+      "failed": "Failed turns are excluded from future conversations",
+      "stopped": "Stopped turns are excluded from future conversations",
+      "truncated": "Turns with truncated output are excluded from future conversations",
+      "budget": "Turns exceeding time, input, or cost limits are excluded from future conversations",
+      "image_failed": "Failed or uncommitted image tasks are excluded from future conversations"
+    }
+  },
+  "aiPresets": {
+    "deepseek": {
+      "name": "DeepSeek",
+      "description": "Direct access in China for reasoning and everyday design.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "qwen": {
+      "name": "Qwen (Alibaba Cloud Model Studio)",
+      "description": "China and overseas endpoints, with vision models.",
+      "keyHint": "Use a pay-as-you-go Model Studio key for the selected region."
+    },
+    "doubao": {
+      "name": "Doubao (Volcano Ark)",
+      "description": "Access models enabled in your Volcano Ark account.",
+      "keyHint": "Paste an Ark API key; enter an enabled model or inference endpoint ID if no list is available."
+    },
+    "kimi": {
+      "name": "Kimi (Moonshot Open Platform)",
+      "description": "Pay-as-you-go platform access, separate from Kimi membership.",
+      "keyHint": "Use an Open Platform key, not a Kimi membership or coding-plan key."
+    },
+    "zhipu": {
+      "name": "Zhipu GLM",
+      "description": "Chat and vision models with direct access in China.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "siliconflow": {
+      "name": "SiliconFlow",
+      "description": "Access multiple open models with one key.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "minimax": {
+      "name": "MiniMax",
+      "description": "Pay-as-you-go platform models for extended tasks.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "hunyuan": {
+      "name": "Tencent Hunyuan",
+      "description": "Access Hunyuan models through Tencent TokenHub.",
+      "keyHint": "Paste a TokenHub API key, not a Tencent Cloud SecretKey. Legacy endpoints can be retained in advanced settings."
+    },
+    "qianfan": {
+      "name": "Baidu Qianfan",
+      "description": "Access Qianfan model services in China.",
+      "keyHint": "Paste the full API key (which may begin with bce-v3/), not an Access Key / Secret Key pair."
+    },
+    "openai": {
+      "name": "OpenAI",
+      "description": "Uses API billing, separate from your ChatGPT subscription.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "anthropic": {
+      "name": "Anthropic (Claude)",
+      "description": "Uses the Claude API, separate from Claude subscriptions.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "gemini": {
+      "name": "Google Gemini",
+      "description": "Connect using a Google AI Studio API key.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "openrouter": {
+      "name": "OpenRouter",
+      "description": "Choose models from multiple providers with one key.",
+      "keyHint": "Paste the full platform API key, without Bearer or quotation marks."
+    },
+    "ollama": {
+      "name": "Ollama",
+      "description": "Connect to a running local model server without a key.",
+      "keyHint": "Start the local server and load a model first."
+    },
+    "lmstudio": {
+      "name": "LM Studio",
+      "description": "Connect to a running local model server without a key.",
+      "keyHint": "Start the local server and load a model first."
+    },
+    "vllm": {
+      "name": "vLLM",
+      "description": "Connect to a running local model server without a key.",
+      "keyHint": "Start the local server and load a model first."
+    },
+    "custom": {
+      "name": "Custom (OpenAI compatible)",
+      "description": "Enter a service address and choose its protocol.",
+      "keyHint": "Enter a key if required; unauthenticated local servers can leave it blank."
+    }
+  }
+}

@@ -1,0 +1,2228 @@
+{
+  "total": 222,
+  "generated": 222,
+  "approximate": 16,
+  "manualInDemo": 2,
+  "records": [
+    {
+      "partId": "ld:3005",
+      "shapes": 14,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.38839999999982
+    },
+    {
+      "partId": "ld:3004",
+      "shapes": 27,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.427400000000034
+    },
+    {
+      "partId": "ld:3622",
+      "shapes": 40,
+      "cylinders": 5,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.547599999999875
+    },
+    {
+      "partId": "ld:3010",
+      "shapes": 53,
+      "cylinders": 7,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 25.95829999999978
+    },
+    {
+      "partId": "ld:3009",
+      "shapes": 79,
+      "cylinders": 11,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 26.221500000000106
+    },
+    {
+      "partId": "ld:3008",
+      "shapes": 105,
+      "cylinders": 15,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 36.68299999999999
+    },
+    {
+      "partId": "ld:6111",
+      "shapes": 131,
+      "cylinders": 19,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 40.39730000000009
+    },
+    {
+      "partId": "ld:6112",
+      "shapes": 157,
+      "cylinders": 23,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.04659999999967
+    },
+    {
+      "partId": "ld:2465",
+      "shapes": 209,
+      "cylinders": 31,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 44.697799999999916
+    },
+    {
+      "partId": "ld:3003",
+      "shapes": 85,
+      "cylinders": 48,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 16.601799999999912
+    },
+    {
+      "partId": "ld:3002",
+      "shapes": 151,
+      "cylinders": 94,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 15.434200000000146
+    },
+    {
+      "partId": "ld:3001",
+      "shapes": 217,
+      "cylinders": 140,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": true,
+      "elapsedMs": 22.166999999999916
+    },
+    {
+      "partId": "ld:2456",
+      "shapes": 349,
+      "cylinders": 232,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.94529999999986
+    },
+    {
+      "partId": "ld:3007",
+      "shapes": 481,
+      "cylinders": 324,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 59.016399999999976
+    },
+    {
+      "partId": "ld:3006",
+      "shapes": 613,
+      "cylinders": 416,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 47.0034999999998
+    },
+    {
+      "partId": "ld:2357",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 22.83730000000014
+    },
+    {
+      "partId": "ld:2453a",
+      "shapes": 48,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.79370000000017
+    },
+    {
+      "partId": "ld:2454a",
+      "shapes": 92,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 37.23100000000022
+    },
+    {
+      "partId": "ld:3755a",
+      "shapes": 127,
+      "cylinders": 96,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 25.829499999999825
+    },
+    {
+      "partId": "ld:30144",
+      "shapes": 217,
+      "cylinders": 140,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 54.67709999999988
+    },
+    {
+      "partId": "ld:3024",
+      "shapes": 14,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 9.477499999999964
+    },
+    {
+      "partId": "ld:3023b",
+      "shapes": 27,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 13.124499999999898
+    },
+    {
+      "partId": "ld:3623",
+      "shapes": 40,
+      "cylinders": 5,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 17.46259999999984
+    },
+    {
+      "partId": "ld:3710",
+      "shapes": 53,
+      "cylinders": 7,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 23.392499999999927
+    },
+    {
+      "partId": "ld:3666",
+      "shapes": 79,
+      "cylinders": 11,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.361499999999978
+    },
+    {
+      "partId": "ld:3460",
+      "shapes": 105,
+      "cylinders": 15,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.954699999999775
+    },
+    {
+      "partId": "ld:4477",
+      "shapes": 131,
+      "cylinders": 19,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 35.021999999999935
+    },
+    {
+      "partId": "ld:60479",
+      "shapes": 157,
+      "cylinders": 23,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 30.014700000000175
+    },
+    {
+      "partId": "ld:3022",
+      "shapes": 85,
+      "cylinders": 48,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.166600000000017
+    },
+    {
+      "partId": "ld:3021",
+      "shapes": 151,
+      "cylinders": 94,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 12.745499999999993
+    },
+    {
+      "partId": "ld:3020",
+      "shapes": 217,
+      "cylinders": 140,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": true,
+      "elapsedMs": 15.159300000000258
+    },
+    {
+      "partId": "ld:3795",
+      "shapes": 349,
+      "cylinders": 232,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.366300000000138
+    },
+    {
+      "partId": "ld:3034",
+      "shapes": 481,
+      "cylinders": 324,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.85500000000047
+    },
+    {
+      "partId": "ld:3832",
+      "shapes": 613,
+      "cylinders": 416,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 41.50910000000022
+    },
+    {
+      "partId": "ld:2445",
+      "shapes": 745,
+      "cylinders": 508,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 51.992700000000696
+    },
+    {
+      "partId": "ld:4282",
+      "shapes": 1009,
+      "cylinders": 692,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 87.26800000000003
+    },
+    {
+      "partId": "ld:3031",
+      "shapes": 577,
+      "cylinders": 412,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 37.90700000000015
+    },
+    {
+      "partId": "ld:3032",
+      "shapes": 941,
+      "cylinders": 684,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 66.2543999999998
+    },
+    {
+      "partId": "ld:3035",
+      "shapes": 1305,
+      "cylinders": 956,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 99.6797000000006
+    },
+    {
+      "partId": "ld:3030",
+      "shapes": 1669,
+      "cylinders": 1228,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 148.45040000000063
+    },
+    {
+      "partId": "ld:3029",
+      "shapes": 2033,
+      "cylinders": 1500,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 200.23439999999937
+    },
+    {
+      "partId": "ld:3036",
+      "shapes": 2129,
+      "cylinders": 1588,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 235.59400000000005
+    },
+    {
+      "partId": "ld:3033",
+      "shapes": 2725,
+      "cylinders": 2040,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 324.7620999999999
+    },
+    {
+      "partId": "ld:3028",
+      "shapes": 3321,
+      "cylinders": 2492,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 436.65120000000024
+    },
+    {
+      "partId": "ld:3958",
+      "shapes": 1533,
+      "cylinders": 1136,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 146.41370000000006
+    },
+    {
+      "partId": "ld:2420",
+      "shapes": 40,
+      "cylinders": 5,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 16.388600000000224
+    },
+    {
+      "partId": "ld:3069b",
+      "shapes": 9,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 5.88760000000002
+    },
+    {
+      "partId": "ld:3070b",
+      "shapes": 9,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 5.9692000000004555
+    },
+    {
+      "partId": "ld:63864",
+      "shapes": 17,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.810199999999895
+    },
+    {
+      "partId": "ld:2431",
+      "shapes": 21,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 12.575800000000527
+    },
+    {
+      "partId": "ld:6636",
+      "shapes": 29,
+      "cylinders": 5,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 13.39640000000054
+    },
+    {
+      "partId": "ld:4162",
+      "shapes": 37,
+      "cylinders": 7,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 15.194100000000617
+    },
+    {
+      "partId": "ld:3068b",
+      "shapes": 61,
+      "cylinders": 44,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.454900000000634
+    },
+    {
+      "partId": "ld:26603",
+      "shapes": 113,
+      "cylinders": 88,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.409999999999854
+    },
+    {
+      "partId": "ld:87079",
+      "shapes": 165,
+      "cylinders": 132,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 9.666400000000067
+    },
+    {
+      "partId": "ld:6179",
+      "shapes": 497,
+      "cylinders": 400,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.36449999999968
+    },
+    {
+      "partId": "ld:14719",
+      "shapes": 22,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 11.401099999999133
+    },
+    {
+      "partId": "ld:2412b",
+      "shapes": 10,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 8.47479999999996
+    },
+    {
+      "partId": "ld:15573",
+      "shapes": 53,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 12.255799999999908
+    },
+    {
+      "partId": "ld:87580",
+      "shapes": 97,
+      "cylinders": 76,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 14.332600000000639
+    },
+    {
+      "partId": "ld:98138",
+      "shapes": 20,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 13.661699999999655
+    },
+    {
+      "partId": "ld:14769",
+      "shapes": 70,
+      "cylinders": 44,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.463200000000143
+    },
+    {
+      "partId": "ld:18674",
+      "shapes": 114,
+      "cylinders": 76,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.15400000000045
+    },
+    {
+      "partId": "ld:25269",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 14.07799999999952
+    },
+    {
+      "partId": "ld:24246",
+      "shapes": 15,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 14.836500000000342
+    },
+    {
+      "partId": "ld:3039",
+      "shapes": 53,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.996499999999287
+    },
+    {
+      "partId": "ld:3040b",
+      "shapes": 40,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 16.743400000000292
+    },
+    {
+      "partId": "ld:3037",
+      "shapes": 76,
+      "cylinders": 4,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 31.413000000000466
+    },
+    {
+      "partId": "ld:3038",
+      "shapes": 62,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 25.115200000000186
+    },
+    {
+      "partId": "ld:3041",
+      "shapes": 77,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 23.252599999999802
+    },
+    {
+      "partId": "ld:3042",
+      "shapes": 63,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.142300000000432
+    },
+    {
+      "partId": "ld:3045",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 22.316399999999703
+    },
+    {
+      "partId": "ld:3046",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 18.94000000000051
+    },
+    {
+      "partId": "ld:3298",
+      "shapes": 68,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 28.734199999999873
+    },
+    {
+      "partId": "ld:3297",
+      "shapes": 132,
+      "cylinders": 4,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 45.91179999999986
+    },
+    {
+      "partId": "ld:3299",
+      "shapes": 37,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.9963000000007
+    },
+    {
+      "partId": "ld:3678a",
+      "shapes": 42,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 15.799399999999878
+    },
+    {
+      "partId": "ld:3660b",
+      "shapes": 127,
+      "cylinders": 66,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 39.38679999999931
+    },
+    {
+      "partId": "ld:3665a",
+      "shapes": 74,
+      "cylinders": 33,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.418399999999565
+    },
+    {
+      "partId": "ld:3747b",
+      "shapes": 201,
+      "cylinders": 130,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 44.32960000000003
+    },
+    {
+      "partId": "ld:4460b",
+      "shapes": 73,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 21.234300000000076
+    },
+    {
+      "partId": "ld:54200",
+      "shapes": 19,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 7.002700000000004
+    },
+    {
+      "partId": "ld:85984",
+      "shapes": 25,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 13.890900000000329
+    },
+    {
+      "partId": "ld:11477",
+      "shapes": 20,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 17.329099999999926
+    },
+    {
+      "partId": "ld:15068",
+      "shapes": 32,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 30.012700000000223
+    },
+    {
+      "partId": "ld:50950",
+      "shapes": 36,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 20.60239999999976
+    },
+    {
+      "partId": "ld:88930",
+      "shapes": 49,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.5006999999996
+    },
+    {
+      "partId": "ld:24309",
+      "shapes": 50,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 41.82729999999992
+    },
+    {
+      "partId": "ld:28192",
+      "shapes": 28,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.01430000000073
+    },
+    {
+      "partId": "ld:60477",
+      "shapes": 51,
+      "cylinders": 4,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 25.496799999999894
+    },
+    {
+      "partId": "ld:43722a",
+      "shapes": 54,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 37.51710000000003
+    },
+    {
+      "partId": "ld:43723a",
+      "shapes": 54,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 37.24290000000019
+    },
+    {
+      "partId": "ld:41769a",
+      "shapes": 113,
+      "cylinders": 48,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 45.6261999999997
+    },
+    {
+      "partId": "ld:41770a",
+      "shapes": 113,
+      "cylinders": 48,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 43.668400000000474
+    },
+    {
+      "partId": "ld:30363",
+      "shapes": 72,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.80580000000009
+    },
+    {
+      "partId": "ld:6141",
+      "shapes": 66,
+      "cylinders": 46,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.834800000000541
+    },
+    {
+      "partId": "ld:4032a",
+      "shapes": 49,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 29.57130000000052
+    },
+    {
+      "partId": "ld:60474",
+      "shapes": 369,
+      "cylinders": 188,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 100.60289999999986
+    },
+    {
+      "partId": "ld:11213",
+      "shapes": 903,
+      "cylinders": 552,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 178.14639999999963
+    },
+    {
+      "partId": "ld:3062b",
+      "shapes": 64,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 12.755099999999402
+    },
+    {
+      "partId": "ld:3941",
+      "shapes": 63,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 33.64710000000014
+    },
+    {
+      "partId": "ld:6143",
+      "shapes": 71,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 36.76760000000013
+    },
+    {
+      "partId": "ld:3942c",
+      "shapes": 251,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.90230000000065
+    },
+    {
+      "partId": "ld:4589",
+      "shapes": 70,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 22.558899999999994
+    },
+    {
+      "partId": "ld:59900",
+      "shapes": 68,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.90189999999984
+    },
+    {
+      "partId": "ld:4740",
+      "shapes": 87,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 17.51599999999962
+    },
+    {
+      "partId": "ld:2654a",
+      "shapes": 75,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 40.884399999999914
+    },
+    {
+      "partId": "ld:3960",
+      "shapes": 214,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 51.82009999999991
+    },
+    {
+      "partId": "ld:3961",
+      "shapes": 862,
+      "cylinders": 4,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 60.10309999999936
+    },
+    {
+      "partId": "ld:4070",
+      "shapes": 62,
+      "cylinders": 33,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.457400000000234
+    },
+    {
+      "partId": "ld:87087",
+      "shapes": 57,
+      "cylinders": 33,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.15689999999995
+    },
+    {
+      "partId": "ld:22885",
+      "shapes": 192,
+      "cylinders": 130,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.544299999999566
+    },
+    {
+      "partId": "ld:4733",
+      "shapes": 210,
+      "cylinders": 160,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 16.480999999999767
+    },
+    {
+      "partId": "ld:11211",
+      "shapes": 111,
+      "cylinders": 67,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 15.052700000000186
+    },
+    {
+      "partId": "ld:52107",
+      "shapes": 188,
+      "cylinders": 131,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.399099999999635
+    },
+    {
+      "partId": "ld:98283",
+      "shapes": 33,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 13.890800000000127
+    },
+    {
+      "partId": "ld:2877",
+      "shapes": 27,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 9.692999999999302
+    },
+    {
+      "partId": "ld:32000",
+      "shapes": 123,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 16.7496000000001
+    },
+    {
+      "partId": "ld:3700",
+      "shapes": 116,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 20.957000000000335
+    },
+    {
+      "partId": "ld:3701",
+      "shapes": 262,
+      "cylinders": 131,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 35.78319999999985
+    },
+    {
+      "partId": "ld:3702",
+      "shapes": 554,
+      "cylinders": 263,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 83.75680000000011
+    },
+    {
+      "partId": "ld:3894",
+      "shapes": 408,
+      "cylinders": 197,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 54.63920000000053
+    },
+    {
+      "partId": "ld:3895",
+      "shapes": 846,
+      "cylinders": 395,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 147.21849999999995
+    },
+    {
+      "partId": "ld:6541",
+      "shapes": 60,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 22.11290000000008
+    },
+    {
+      "partId": "ld:11458",
+      "shapes": 41,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 25.789199999999255
+    },
+    {
+      "partId": "ld:60470b",
+      "shapes": 37,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 28.989799999999377
+    },
+    {
+      "partId": "ld:4085c",
+      "shapes": 20,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 15.540499999999156
+    },
+    {
+      "partId": "ld:61252",
+      "shapes": 19,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 21.975899999999456
+    },
+    {
+      "partId": "ld:60478",
+      "shapes": 46,
+      "cylinders": 4,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.76759999999922
+    },
+    {
+      "partId": "ld:48336",
+      "shapes": 41,
+      "cylinders": 4,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 26.832000000000335
+    },
+    {
+      "partId": "ld:2540",
+      "shapes": 47,
+      "cylinders": 6,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 30.38260000000082
+    },
+    {
+      "partId": "ld:92280",
+      "shapes": 29,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 26.447299999999814
+    },
+    {
+      "partId": "ld:4081b",
+      "shapes": 96,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.648600000000442
+    },
+    {
+      "partId": "ld:99207",
+      "shapes": 197,
+      "cylinders": 131,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 26.012000000000626
+    },
+    {
+      "partId": "ld:99781",
+      "shapes": 115,
+      "cylinders": 67,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 21.91949999999997
+    },
+    {
+      "partId": "ld:99206",
+      "shapes": 131,
+      "cylinders": 68,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 28.702900000000227
+    },
+    {
+      "partId": "ld:99780",
+      "shapes": 117,
+      "cylinders": 67,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 22.243200000000797
+    },
+    {
+      "partId": "ld:3937",
+      "shapes": 19,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 23.75500000000102
+    },
+    {
+      "partId": "ld:3938",
+      "shapes": 90,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 26.688099999999395
+    },
+    {
+      "partId": "ld:4275b",
+      "shapes": 93,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 28.91400000000067
+    },
+    {
+      "partId": "ld:4276b",
+      "shapes": 100,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 26.062400000000707
+    },
+    {
+      "partId": "ld:44301a",
+      "shapes": 41,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 35.04140000000007
+    },
+    {
+      "partId": "ld:44302a",
+      "shapes": 37,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.54869999999937
+    },
+    {
+      "partId": "ld:44567a",
+      "shapes": 51,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 35.220900000000256
+    },
+    {
+      "partId": "ld:30383",
+      "shapes": 33,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 41.143299999999726
+    },
+    {
+      "partId": "ld:60471",
+      "shapes": 40,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 21.795599999999467
+    },
+    {
+      "partId": "ld:48729b",
+      "shapes": 16,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 11.680699999998978
+    },
+    {
+      "partId": "ld:11090",
+      "shapes": 7,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 21.448500000000422
+    },
+    {
+      "partId": "ld:63965a",
+      "shapes": 14,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 8.797199999999066
+    },
+    {
+      "partId": "ld:30374",
+      "shapes": 4,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 4.958800000000338
+    },
+    {
+      "partId": "ld:87994",
+      "shapes": 4,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 5.053799999999683
+    },
+    {
+      "partId": "ld:4095",
+      "shapes": 14,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 10.465100000001257
+    },
+    {
+      "partId": "ld:3957b",
+      "shapes": 24,
+      "cylinders": 2,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 11.895899999999529
+    },
+    {
+      "partId": "ld:2780",
+      "shapes": 17,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 40.06910000000062
+    },
+    {
+      "partId": "ld:3673",
+      "shapes": 17,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 20.64179999999942
+    },
+    {
+      "partId": "ld:4274",
+      "shapes": 49,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.86460000000079
+    },
+    {
+      "partId": "ld:6558",
+      "shapes": 19,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 60.98750000000109
+    },
+    {
+      "partId": "ld:32556a",
+      "shapes": 21,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 38.605099999998856
+    },
+    {
+      "partId": "ld:43093",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 39.77609999999913
+    },
+    {
+      "partId": "ld:3749",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 25.527200000000448
+    },
+    {
+      "partId": "ld:32062",
+      "shapes": 19,
+      "cylinders": 3,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 9.296000000000276
+    },
+    {
+      "partId": "ld:4519",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.078199999999924
+    },
+    {
+      "partId": "ld:3705",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 5.88760000000002
+    },
+    {
+      "partId": "ld:32073",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.394800000000032
+    },
+    {
+      "partId": "ld:3706",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.386599999999817
+    },
+    {
+      "partId": "ld:44294",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 5.733399999999165
+    },
+    {
+      "partId": "ld:3707",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.658400000000256
+    },
+    {
+      "partId": "ld:60485",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 5.546999999998661
+    },
+    {
+      "partId": "ld:3737",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.714799999999741
+    },
+    {
+      "partId": "ld:3708",
+      "shapes": 6,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.245100000000093
+    },
+    {
+      "partId": "ld:3713",
+      "shapes": 36,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.45849999999882
+    },
+    {
+      "partId": "ld:32123a",
+      "shapes": 20,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 14.459999999999127
+    },
+    {
+      "partId": "ld:32316",
+      "shapes": 88,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 61.597899999998845
+    },
+    {
+      "partId": "ld:32524",
+      "shapes": 128,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 85.08780000000115
+    },
+    {
+      "partId": "ld:40490",
+      "shapes": 168,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 115.23260000000118
+    },
+    {
+      "partId": "ld:32525",
+      "shapes": 208,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 148.80959999999868
+    },
+    {
+      "partId": "ld:32278",
+      "shapes": 288,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 247.91169999999875
+    },
+    {
+      "partId": "ld:3647",
+      "shapes": 18,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 45.50540000000001
+    },
+    {
+      "partId": "ld:3648b",
+      "shapes": 125,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 76.33159999999953
+    },
+    {
+      "partId": "ld:3650c",
+      "shapes": 168,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 124.43459999999868
+    },
+    {
+      "partId": "ld:32072",
+      "shapes": 62,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 55.25380000000041
+    },
+    {
+      "partId": "ld:14417",
+      "shapes": 98,
+      "cylinders": 67,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 18.274199999999837
+    },
+    {
+      "partId": "ld:14418",
+      "shapes": 113,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 39.22650000000067
+    },
+    {
+      "partId": "ld:14419",
+      "shapes": 118,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 42.41979999999967
+    },
+    {
+      "partId": "ld:22890",
+      "shapes": 90,
+      "cylinders": 65,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 17.78189999999995
+    },
+    {
+      "partId": "ld:92906",
+      "shapes": 44,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 32.39810000000034
+    },
+    {
+      "partId": "ld:30395",
+      "shapes": 101,
+      "cylinders": 66,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 33.795500000000175
+    },
+    {
+      "partId": "ld:56145",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 71.83839999999873
+    },
+    {
+      "partId": "ld:55982",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 50.01920000000064
+    },
+    {
+      "partId": "ld:4624",
+      "shapes": 54,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 30.081700000000637
+    },
+    {
+      "partId": "ld:30027b",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 33.53369999999995
+    },
+    {
+      "partId": "ld:60208",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 96.00749999999971
+    },
+    {
+      "partId": "ld:44309",
+      "shapes": 764,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 143.66879999999946
+    },
+    {
+      "partId": "ld:6014a",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 35.764100000000326
+    },
+    {
+      "partId": "ld:56898",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 49.90509999999995
+    },
+    {
+      "partId": "ld:30648",
+      "shapes": 104,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 39.170900000000984
+    },
+    {
+      "partId": "ld:24866",
+      "shapes": 104,
+      "cylinders": 76,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.868099999999686
+    },
+    {
+      "partId": "ld:3741a",
+      "shapes": 41,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 39.97049999999945
+    },
+    {
+      "partId": "ld:33291",
+      "shapes": 96,
+      "cylinders": 76,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.19759999999951
+    },
+    {
+      "partId": "ld:32607",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 20.698599999999715
+    },
+    {
+      "partId": "ld:2417",
+      "shapes": 682,
+      "cylinders": 492,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 83.63459999999941
+    },
+    {
+      "partId": "ld:2423",
+      "shapes": 316,
+      "cylinders": 236,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 47.932699999999386
+    },
+    {
+      "partId": "ld:30176",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 55.69679999999971
+    },
+    {
+      "partId": "ld:6064b",
+      "shapes": 322,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 88.3132000000005
+    },
+    {
+      "partId": "ld:60592",
+      "shapes": 97,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 31.772100000000137
+    },
+    {
+      "partId": "ld:60593",
+      "shapes": 97,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 34.01219999999921
+    },
+    {
+      "partId": "ld:60594",
+      "shapes": 122,
+      "cylinders": 67,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.500500000000102
+    },
+    {
+      "partId": "ld:60601",
+      "shapes": 2,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 7.181300000000192
+    },
+    {
+      "partId": "ld:60602",
+      "shapes": 2,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 6.708300000000236
+    },
+    {
+      "partId": "ld:86210",
+      "shapes": 11,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 20.047200000000885
+    },
+    {
+      "partId": "ld:60596",
+      "shapes": 123,
+      "cylinders": 67,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 36.73099999999977
+    },
+    {
+      "partId": "ld:60616a",
+      "shapes": 88,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 34.53110000000015
+    },
+    {
+      "partId": "ld:4035",
+      "shapes": 89,
+      "cylinders": 64,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.16020000000026
+    },
+    {
+      "partId": "ld:3854",
+      "shapes": 6,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 9.563200000000506
+    },
+    {
+      "partId": "ld:3626c",
+      "shapes": 77,
+      "cylinders": 32,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 19.036000000000058
+    },
+    {
+      "partId": "ld:973",
+      "shapes": 28,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 17.034299999999348
+    },
+    {
+      "partId": "ld:3818",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 23.965899999999237
+    },
+    {
+      "partId": "ld:3819",
+      "shapes": 1,
+      "cylinders": 0,
+      "approximate": true,
+      "source": "bbox",
+      "diagnostics": ["open-surface"],
+      "manual": false,
+      "elapsedMs": 27.590000000000146
+    },
+    {
+      "partId": "ld:3820",
+      "shapes": 9,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 13.740999999999985
+    },
+    {
+      "partId": "ld:3815b",
+      "shapes": 26,
+      "cylinders": 1,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 23.409300000001167
+    },
+    {
+      "partId": "ld:3816c",
+      "shapes": 29,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 27.888999999999214
+    },
+    {
+      "partId": "ld:3817c",
+      "shapes": 29,
+      "cylinders": 0,
+      "approximate": false,
+      "source": "generated",
+      "diagnostics": [],
+      "manual": false,
+      "elapsedMs": 24.741799999999785
+    }
+  ]
+}

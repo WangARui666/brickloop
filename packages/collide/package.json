@@ -1,0 +1,23 @@
+{
+  "name": "@brickloop/collide",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./node": "./src/node.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json && node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.worker.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/collide",
+    "measure": "node ../../scripts/devenv.mjs tsx --no-cache scripts/measure.ts"
+  },
+  "dependencies": {
+    "@brickloop/core": "workspace:*",
+    "@brickloop/ldraw": "workspace:*"
+  },
+  "devDependencies": {
+    "@brickloop/catalog": "workspace:*"
+  }
+}

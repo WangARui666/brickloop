@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "partId": "ld:970",
+  "status": "draft",
+  "source": "LDraw geometry + Brickloop manual: hip torso seat y=0 and two leg axle centers at x=+-10,y=12",
+  "connectors": [
+    {
+      "id": "hips",
+      "type": "fixed",
+      "tag": "minifig-hips",
+      "role": "a",
+      "rotation": "free",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "leg-right",
+      "type": "fixed",
+      "tag": "minifig-leg",
+      "role": "a",
+      "rotation": "free",
+      "frame": {
+        "origin": [10, 12, 0],
+        "axis": [1, 0, 0],
+        "ref": [0, 1, 0]
+      }
+    },
+    {
+      "id": "leg-left",
+      "type": "fixed",
+      "tag": "minifig-leg",
+      "role": "a",
+      "rotation": "free",
+      "frame": {
+        "origin": [-10, 12, 0],
+        "axis": [-1, 0, 0],
+        "ref": [0, 1, 0]
+      }
+    }
+  ]
+}

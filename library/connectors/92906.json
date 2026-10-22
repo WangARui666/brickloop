@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "partId": "ld:92906",
+  "status": "inferred",
+  "source": "LDraw primitives + underside cavity footprint; Brickloop inference v1",
+  "connectors": [
+    {
+      "id": "axle",
+      "frame": {
+        "origin": [0, 0, -20],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90,
+      "type": "axle",
+      "length": 27.5
+    }
+  ]
+}

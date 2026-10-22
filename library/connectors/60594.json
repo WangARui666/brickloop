@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "partId": "ld:60594",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：60594.dat 上沿两侧卡槽在x=±36，y=6..10,z=0..7；86210的铰轴中心取(0,8,3.5)。",
+  "connectors": [
+    {
+      "id": "bar.post",
+      "type": "bar.post",
+      "length": 4,
+      "diameter": 8,
+      "frame": {
+        "origin": [-20, 68, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-2",
+      "type": "bar.post",
+      "length": 4,
+      "diameter": 8,
+      "frame": {
+        "origin": [0, 68, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "bar.post-3",
+      "type": "bar.post",
+      "length": 4,
+      "diameter": 8,
+      "frame": {
+        "origin": [20, 68, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "top",
+      "type": "stud.hollow",
+      "diameter": 8,
+      "frame": {
+        "origin": [-10, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 1,
+        "cols": 2,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    },
+    {
+      "id": "pane",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 8, 3.5],
+        "axis": [-1, 0, 0],
+        "ref": [0, 1, 0]
+      },
+      "tag": "window-pane-86210",
+      "role": "b",
+      "rotation": "free"
+    }
+  ]
+}

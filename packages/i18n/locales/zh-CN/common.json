@@ -1,0 +1,2221 @@
+{
+  "macroUi": {
+    "title": "宏",
+    "libraryTabs": "资源类型",
+    "search": "搜索宏或图案",
+    "insertAs": "插入方式",
+    "group": "编组",
+    "submodel": "子模型",
+    "all": "全部宏",
+    "patterns": "图案",
+    "results": "{{count}} 个宏",
+    "parts": "{{count}} 件零件",
+    "name": "名称",
+    "category": "分类",
+    "newCategory": "选择或输入新分类",
+    "thumbnailStyle": "缩略图样式",
+    "original": "保留原色",
+    "neutral": "中性灰",
+    "preview": "宏预览",
+    "defaultName": "我的宏",
+    "save": "保存",
+    "rename": "重命名",
+    "delete": "删除宏",
+    "reveal": "在资源管理器中显示",
+    "confirmDelete": "删除“{{name}}”？已插入模型的零件会保留。",
+    "insertHistory": "插入宏“{{name}}”",
+    "availability": "包含当前数据包外的零件 {{parts}} 种、颜色 {{colors}} 种，不可生产的配色 {{combinations}} 种。插入后可在检查面板查看。",
+    "invalid": "宏文件损坏或内容不完整。",
+    "protected": "内置宏无法修改。",
+    "missing": "找不到这个宏。",
+    "loadFailed": "宏未能加载，请重试。",
+    "saveFailed": "宏未能保存，请检查零件是否已加载。",
+    "deleteFailed": "宏未能删除，请重试。",
+    "previewFailed": "预览未能生成，请检查零件是否可用。"
+  },
+  "stepsUi": {
+    "title": "搭建步骤",
+    "view": "结构视图",
+    "drag": "拖动排序",
+    "empty": "本步尚无零件",
+    "assign": "把所选移到此步骤",
+    "actions": "第 {{number}} 步操作",
+    "removed": "已删除步骤，{{count}} 件零件并入第 {{number}} 步。",
+    "navigation": "逐步查看导航",
+    "previous": "上一步",
+    "next": "下一步",
+    "progress": "当前步骤",
+    "position": "第 {{number}} 步，共 {{total}} 步",
+    "exit": "退出逐步查看"
+  },
+  "macro": {
+    "insert": "插入宏",
+    "categories": {
+      "furniture": "家具",
+      "doors-windows": "门窗",
+      "plants": "植物",
+      "transport": "交通",
+      "other": "其他"
+    },
+    "errors": {
+      "INVALID_METADATA": "宏信息无效或与内容不一致。",
+      "INVALID_MODEL": "宏中的模型无效。",
+      "EMPTY_SELECTION": "请至少选择一个零件后再保存为宏。",
+      "BOUNDS_MISSING": "零件尺寸尚不可用，请先加载几何数据后再保存为宏。",
+      "INVALID_MANIFEST": "宏文件的清单无效。",
+      "UNSUPPORTED_VERSION": "暂不支持此宏文件版本。",
+      "MEMBER_MISSING": "宏文件缺少必要内容。",
+      "HASH_MISMATCH": "宏中的文件未通过完整性校验。",
+      "UNLISTED_MEMBER": "宏中存在未登记在清单中的文件。",
+      "INVALID_JSON": "宏中包含无法读取的数据。",
+      "INVALID_PLACEMENT": "宏的放置位置或变换无效。"
+    }
+  },
+  "catalog": {
+    "patterns": {
+      "invalidRules": "图案分组规则无效或版本不受支持。",
+      "groups": {
+        "faces": "人仔表情",
+        "torsos": "衣服（躯干）",
+        "legs": "衣服（腿）",
+        "screens": "屏幕与显示",
+        "texts": "报纸与文字",
+        "controls": "键盘与按钮",
+        "symbols": "标志与其他"
+      }
+    }
+  },
+  "imageModel": {
+    "transaction": "按参考生成模型",
+    "stop": {
+      "completed": "已完成",
+      "user_stopped": "已停止",
+      "tool_budget": "已用完操作次数",
+      "time_budget": "已到时间上限",
+      "input_budget": "内容超过模型容量",
+      "error": "未能完成",
+      "daily_cost_limit": "已到今日费用上限",
+      "round_budget": "已达到迭代轮数上限",
+      "engine_unavailable": "搭建引擎无法启动"
+    },
+    "views": {
+      "front": "前视图",
+      "back": "后视图",
+      "left": "左视图",
+      "right": "右视图",
+      "top": "顶视图",
+      "isometric": "斜 45°",
+      "unknown": "AI 判断",
+      "auto": "AI 判断",
+      "exclude": "不参与对比",
+      "none": "非标准视角"
+    },
+    "report": {
+      "unknown": "尚未统计",
+      "result": "搭建结果：{{reason}}。",
+      "counts": "零件数：{{parts}}；颜色数：{{colors}}。",
+      "validation": "模型检查：{{result}}。",
+      "unchecked": "尚未完成整体检查",
+      "issues": "还有 {{count}} 项问题",
+      "valid": "已通过，无穿模、悬空或工厂限制问题",
+      "budget": "已用操作次数：{{calls}}；耗时：{{seconds}} 秒。",
+      "view": "{{view}}第 {{round}} 轮轮廓重合率：{{iou}}%。",
+      "unfinished": "未完成项：{{items}}。",
+      "noComparableViews": "没有可对比视角，未计算轮廓重合率",
+      "notCalculated": "未计算轮廓重合率",
+      "reference": "{{name}} · {{view}} · {{source}} · 最终轮廓重合率：{{iou}}",
+      "rounds": "共 {{count}} 轮",
+      "round": "第 {{round}} 轮：{{parts}} 件，{{issues}} 项检查提示",
+      "failure": "失败详情"
+    },
+    "unfinished": {
+      "host_result": "编辑器未返回有效结果",
+      "model_failed": "模型未完成本轮搭建",
+      "invalid_plan": "结构计划仍不完整",
+      "missing_submodel": "未建立部件子模型",
+      "commit_failed": "修改保存失败，请通过编辑器恢复",
+      "component": "部件搭建或检查",
+      "validation": "整体检查",
+      "issues": "修复检查问题",
+      "assembly": "整体迭代与复查尚未完成",
+      "counts": "零件和颜色统计",
+      "buildability": "可搭建性问题尚未修复",
+      "engine_unavailable": "搭建引擎无法启动，请重新加载界面后重试",
+      "provider_error": "服务商请求失败",
+      "output_truncated": "模型输出过长",
+      "model_refused": "模型拒绝了本次请求"
+    },
+    "viewSource": {
+      "designer": "设计师指定",
+      "ai": "AI 推测视角 · {{confidence}}",
+      "excluded": "未参与对比"
+    }
+  },
+  "aiFailure": {
+    "category": {
+      "auth": "认证失败",
+      "rate_limit": "请求被限流",
+      "quota_exceeded": "余额或额度不足",
+      "refusal": "模型拒答",
+      "network": "网络连接中断",
+      "invalid_request": "请求被服务商拒绝",
+      "server": "服务商错误"
+    },
+    "advice": {
+      "auth": "请检查 Key，或重新登录服务商账号。",
+      "rate_limit": "请稍后重试，或减少并行任务。",
+      "quota_exceeded": "请检查服务商的余额与可用额度。",
+      "refusal": "请调整设计说明或参考图后重试。",
+      "network": "请检查网络、代理和服务地址后重试。",
+      "invalid_request": "请核对模型能力与服务商说明，必要时更换模型。",
+      "server": "请稍后重试，或更换模型。",
+      "stalled": "稍后再试，或换一个模型"
+    },
+    "resource": "服务商资源不足",
+    "aborted": "服务商中断了输出",
+    "truncated": "模型输出达到长度上限",
+    "maxTokens": "模型输出达到长度上限（{{count}} tokens）",
+    "code": "错误代码：{{value}}",
+    "finishReason": "结束原因：{{value}}",
+    "requestId": "请求 ID：{{value}}",
+    "providerMessage": "服务商说明：{{value}}",
+    "stage": {
+      "planning": "结构计划阶段",
+      "preparing": "准备阶段",
+      "round": "第 {{round}} 轮"
+    },
+    "attempts": "已尝试 {{count}} 次",
+    "retryCount": "临时错误，已重试 {{count}} 次",
+    "retryWaiting": "{{seconds}} 秒后第 {{attempt}} 次重试（最多 10 次）",
+    "warnings": {
+      "output_truncated_retried": "输出被截断，已重试",
+      "transient_retry": "临时错误，已重试"
+    },
+    "send": {
+      "PROVIDER_REQUIRED": "请先配置并选择 AI 服务商。",
+      "DAILY_LIMIT": "已达到今日费用上限，请调整上限或明天再试。",
+      "AI_BUSY": "AI 正在运行任务，请等待任务结束后重试。",
+      "DOCUMENT_BUSY": "文档正在审阅或被占用，请完成当前操作后重试。",
+      "FEATURE_DISABLED": "此 AI 接入功能尚未启用，请在设置中启用。",
+      "SECRET_UNREADABLE": "无法读取凭据，请重新填写 Key 或重新登录。",
+      "SECURE_STORAGE_UNAVAILABLE": "安全凭据存储不可用，请检查系统凭据服务。",
+      "SECURE_STORAGE_FAILED": "无法读取凭据，请重新填写 Key 或重新登录。"
+    },
+    "stoppedByError": "本轮因错误停止",
+    "stalled": "服务商长时间没有响应"
+  },
+  "io": {
+    "OUTPUT_COLOR_UNMAPPED": "颜色未映射，已使用灰色",
+    "OUTPUT_GEOMETRY_MISSING": "零件几何缺失，已跳过几何输出",
+    "OUTPUT_GEOMETRY_INCOMPLETE": "零件几何存在缺失或解析警告",
+    "OUTPUT_CONDITIONAL_EDGES_OMITTED": "条件边线依赖视角，未导出",
+    "BOM_PART_UNMAPPED": "零件未映射",
+    "BOM_COLOR_UNMAPPED": "颜色未映射",
+    "BOM_THUMBNAIL_MISSING": "缩略图未提供",
+    "BOM_THUMBNAIL_FAILED": "缩略图生成失败",
+    "bom": {
+      "sheet": "零件清单",
+      "index": "序号",
+      "image": "图片",
+      "legoNo": "乐高编号",
+      "factoryNo": "工厂编号",
+      "partName": "零件名称",
+      "legoColor": "颜色",
+      "factoryColor": "工厂色号",
+      "colorName": "颜色中文名",
+      "quantity": "数量",
+      "factoryPart": "工厂件",
+      "producible": "工厂可产",
+      "category": "分类",
+      "yes": "是",
+      "no": "否",
+      "summary": "汇总",
+      "partTypes": "零件种类数",
+      "colorCount": "颜色数",
+      "unmappedParts": "未映射零件种类数",
+      "unmappedColors": "未映射颜色数",
+      "unmappedRows": "未映射组合数",
+      "unmappedQuantity": "未映射件数"
+    },
+    "ZIP_INVALID": "ZIP 文件损坏或格式不受支持",
+    "ZIP_MEMBER_INVALID": "ZIP 成员损坏",
+    "IO_ENCRYPTED_UNSUPPORTED": "不支持的加密格式",
+    "PROJECT_MANIFEST_INVALID": "工程清单无效",
+    "PROJECT_MEMBER_MISSING": "工程成员缺失",
+    "PROJECT_HASH_MISMATCH": "工程成员大小或 SHA-256 不匹配",
+    "PROJECT_UNLISTED_MEMBER": "工程中存在未登记的成员，已保留",
+    "PROJECT_JSON_INVALID": "JSON 成员无效",
+    "PROJECT_DOCUMENT_INVALID": "工程文档无效",
+    "PROJECT_WORKSPACE_RESET": "工作区无效，已使用默认值",
+    "PROJECT_MIGRATED": "工程格式已迁移",
+    "PROJECT_VERSION_UNSUPPORTED": "没有适用于此工程版本的迁移",
+    "PROJECT_NEWER_VERSION": "工程由更新版本创建，只读打开",
+    "IO_MODEL_MISSING": "没有可读取的模型",
+    "IO_MODEL_INVALID": "模型无效",
+    "IO_MODEL_FALLBACK": "主模型读取失败，已尝试兼容模型",
+    "IO_PARSE_WARNING": "模型行无法完整解析",
+    "IO_PART_UNMAPPED": "零件未在当前目录中匹配，已建立动态定义",
+    "IO_COLOR_UNMAPPED": "颜色无乐高映射，已保留 LDraw 色号",
+    "IO_COLOR_FALLBACK": "颜色已降级为最接近的 LDraw 颜色",
+    "IO_PART_GEOMETRY_MISSING": "自制件几何缺失",
+    "IO_GROUPS_AS_COMMENTS": "编组已保存为注释，Studio 中不保留编组操作",
+    "IO_PRIVATE_DATA_OMITTED": "本软件专有信息不写入交换格式，请用工程文件完整保存",
+    "IO_STUDIO_DATA_OMITTED": "Studio 专有数据未导入",
+    "IO_REFERENCE_IMAGE": "参考图已导入，位置配置作为扩展数据保留",
+    "IO_HIDDEN_DOWNGRADE": "共享子模型中不同出现的隐藏状态无法独立表达",
+    "IO_UID_REASSIGNED": "重复或无效的 Studio UID 已重新分配",
+    "RECOVERY_INVALID_SESSION": "恢复会话信息损坏",
+    "RECOVERY_NO_SNAPSHOT": "没有有效恢复快照",
+    "RECOVERY_INVALID_SNAPSHOT": "恢复快照损坏，已尝试较早快照",
+    "RECOVERY_JOURNAL_INVALID": "事务日志损坏，已停止重放",
+    "RECOVERY_REVISION_GAP": "事务日志不连续，已停止重放",
+    "RECOVERY_ASSET_MISSING": "事务资源缺失或损坏，已停止重放",
+    "SAVE_PERMISSION": "没有写入权限",
+    "SAVE_NO_SPACE": "磁盘空间不足",
+    "SAVE_BUSY": "文件被占用",
+    "SAVE_VALIDATION": "写入后的工程校验失败",
+    "SAVE_IO": "文件写入失败",
+    "SAVE_DURABILITY": "文件已替换，但后续刷盘失败"
+  },
+  "app": {
+    "name": "Brickloop（积环）"
+  },
+  "menu": {
+    "file": "文件",
+    "edit": "编辑",
+    "view": "视图",
+    "model": "模型",
+    "tools": "工具",
+    "help": "帮助"
+  },
+  "language": {
+    "zh-CN": "简体中文",
+    "en": "English"
+  },
+  "status": {
+    "partCount": "零件数",
+    "dimensions": "尺寸",
+    "grid": "网格",
+    "lastRecoveryPoint": "最后恢复点"
+  },
+  "partCountValue": "零件数：{{count}}",
+  "desktop": {
+    "language": "语言",
+    "menuBar": "主菜单",
+    "toolbarLabel": "编辑工具栏",
+    "toolHint": "{{tool}} · 暂未开放",
+    "retry": "重试",
+    "toolbar": {
+      "select": "选择",
+      "move": "移动",
+      "rotate": "旋转",
+      "clone": "复制",
+      "hide": "隐藏",
+      "connect": "连接",
+      "collision": "碰撞",
+      "snap": "吸附",
+      "grid": "网格",
+      "check": "检查",
+      "ai": "AI"
+    },
+    "library": {
+      "title": "零件库",
+      "search": "搜索零件名称或编号",
+      "categories": "分类",
+      "all": "全部零件",
+      "bricks": "砖",
+      "plates": "板",
+      "other": "其他零件",
+      "grid": "零件网格",
+      "empty": "暂无零件"
+    },
+    "panels": {
+      "expandLibrary": "展开零件库",
+      "collapseLibrary": "折叠零件库",
+      "expandInspector": "展开右侧面板",
+      "collapseInspector": "折叠右侧面板",
+      "resizeLibrary": "调整零件库宽度",
+      "resizeInspector": "调整右侧面板宽度"
+    },
+    "inspector": {
+      "title": "工作区面板",
+      "palette": {
+        "title": "色板",
+        "description": "工厂色表 / 项目用色 / 收藏色",
+        "empty": "色板暂未开放"
+      },
+      "structure": {
+        "title": "结构",
+        "description": "模型树、编组、子模型与搭建步骤",
+        "empty": "暂无模型结构与步骤"
+      },
+      "ai": {
+        "title": "AI 助手",
+        "description": "使用自然语言辅助搭建与检查",
+        "empty": "AI 助手暂未开放"
+      },
+      "checks": {
+        "title": "检查"
+      }
+    },
+    "viewport": {
+      "title": "视口",
+      "description": "暂无模型",
+      "error": "无法启动三维视图，请重试。",
+      "projection": "投影方式",
+      "perspective": "透视",
+      "ortho": "正交",
+      "presets": {
+        "front": "前视图",
+        "back": "后视图",
+        "left": "左视图",
+        "right": "右视图",
+        "top": "顶视图",
+        "bottom": "底视图",
+        "iso": "等轴测"
+      },
+      "gridSteps": {
+        "5": "¼ 格",
+        "10": "½ 格",
+        "20": "1 格"
+      }
+    },
+    "status": {
+      "parts": "零件数 {{count}}",
+      "dimensions": "尺寸 {{width}} × {{depth}} × {{height}} 格",
+      "grid": "网格 {{value}} 格",
+      "recovery": "最后恢复点 —",
+      "separator": "·"
+    },
+    "errors": {
+      "load": "无法读取设置，请重试。",
+      "save": "语言设置保存失败，请重新选择。"
+    },
+    "commands": {
+      "file": {
+        "new": {
+          "label": "新建"
+        },
+        "open": {
+          "label": "打开"
+        },
+        "save": {
+          "label": "保存"
+        },
+        "saveAs": {
+          "label": "另存为"
+        },
+        "close": {
+          "label": "关闭"
+        },
+        "import": {
+          "label": "导入"
+        },
+        "export": {
+          "label": "导出"
+        }
+      },
+      "edit": {
+        "undo": {
+          "label": "撤销"
+        },
+        "redo": {
+          "label": "重做"
+        },
+        "copy": {
+          "label": "复制"
+        },
+        "cut": {
+          "label": "剪切"
+        },
+        "paste": {
+          "label": "粘贴"
+        },
+        "delete": {
+          "label": "删除"
+        },
+        "clone": {
+          "label": "复制并附在鼠标上"
+        }
+      },
+      "select": {
+        "all": {
+          "label": "全选"
+        },
+        "clear": {
+          "label": "取消选择"
+        },
+        "sameColor": {
+          "label": "选择同色零件"
+        },
+        "sameType": {
+          "label": "选择同类型零件"
+        },
+        "sameColorAndType": {
+          "label": "选择同色同类型零件"
+        },
+        "connected": {
+          "label": "选择已连接零件"
+        },
+        "invert": {
+          "label": "反选"
+        }
+      },
+      "view": {
+        "steps": {
+          "label": "逐步查看"
+        },
+        "hide": {
+          "label": "隐藏所选"
+        },
+        "showOnly": {
+          "label": "只显示所选"
+        },
+        "showAll": {
+          "label": "显示全部"
+        },
+        "fitAll": {
+          "label": "适配全部"
+        },
+        "fitSelection": {
+          "label": "适配所选"
+        },
+        "preset": {
+          "label": "预设视角"
+        }
+      },
+      "part": {
+        "add": {
+          "label": "添加零件"
+        }
+      },
+      "transform": {
+        "translate": {
+          "label": "移动"
+        },
+        "rotate": {
+          "label": "旋转"
+        },
+        "set": {
+          "label": "设置变换"
+        },
+        "snapToGrid": {
+          "label": "对齐网格"
+        }
+      },
+      "color": {
+        "set": {
+          "label": "设置颜色"
+        },
+        "replace": {
+          "label": "替换颜色"
+        }
+      },
+      "group": {
+        "create": {
+          "label": "建组"
+        },
+        "dissolve": {
+          "label": "解散组"
+        },
+        "rename": {
+          "label": "重命名组"
+        },
+        "enter": {
+          "label": "进入组编辑"
+        },
+        "exit": {
+          "label": "退出组编辑"
+        }
+      },
+      "submodel": {
+        "create": {
+          "label": "建子模型"
+        },
+        "instantiate": {
+          "label": "再放一个"
+        },
+        "makeUnique": {
+          "label": "解除共享"
+        },
+        "explode": {
+          "label": "展开子模型"
+        },
+        "rename": {
+          "label": "重命名子模型"
+        },
+        "enter": {
+          "label": "进入子模型"
+        },
+        "exit": {
+          "label": "退出子模型"
+        },
+        "independent": {
+          "label": "复制为独立副本"
+        }
+      },
+      "step": {
+        "add": {
+          "label": "添加步骤"
+        },
+        "remove": {
+          "label": "删除步骤"
+        },
+        "move": {
+          "label": "移动步骤"
+        },
+        "assign": {
+          "label": "分配步骤"
+        }
+      },
+      "macro": {
+        "insert": {
+          "label": "插入宏"
+        },
+        "saveSelection": {
+          "label": "将所选保存为宏"
+        }
+      },
+      "tool": {
+        "collision": {
+          "toggle": {
+            "label": "碰撞检测"
+          }
+        },
+        "snap": {
+          "toggle": {
+            "label": "吸附"
+          }
+        },
+        "grid": {
+          "set": {
+            "label": "设置网格"
+          }
+        }
+      },
+      "check": {
+        "run": {
+          "label": "运行检查"
+        }
+      },
+      "ai": {
+        "open": {
+          "label": "选中即提问 / 打开 AI 助手"
+        }
+      }
+    },
+    "gridValue": "1 格",
+    "rendererError": "界面遇到了错误",
+    "rendererRecovery": "重新加载界面后，可以通过文档恢复继续编辑。",
+    "reloadRenderer": "重新加载界面"
+  },
+  "libraryUi": {
+    "pack": "数据包",
+    "manage": "数据包管理",
+    "unavailable": "零件库暂不可用",
+    "expired": "请重新选择数据包",
+    "invalidPack": "请先完成数据包校验",
+    "protectedPack": "示例包和正在使用的数据包不能删除",
+    "partMissing": "找不到该零件",
+    "colorMissing": "找不到该颜色",
+    "loading": "正在加载零件库…",
+    "geometryMissing": "暂无零件图形",
+    "missingLibrary": "未找到零件库。请在项目目录运行以下命令，然后重新打开应用。",
+    "loadFailed": "零件库加载失败，请重试",
+    "saveFailed": "收藏色保存失败，请重试",
+    "operationFailed": "操作未完成，请检查文件是否可用后重试",
+    "showAll": "显示全部 LDraw 零件",
+    "searching": "正在搜索…",
+    "results": "{{count}} 个零件",
+    "noResults": "没有找到匹配的零件",
+    "none": "无",
+    "nonFactory": "非工厂件 / 色",
+    "partHint": "{{name}} / 乐高编号 {{lego}} / 工厂编号 {{factory}}",
+    "factoryColors": "工厂色表",
+    "projectColors": "项目用色",
+    "projectEmpty": "项目中还没有使用的颜色",
+    "favorites": "收藏色",
+    "favoritesEmpty": "选中颜色后点击星标收藏",
+    "sortColors": "颜色排序",
+    "byCode": "按工厂色号",
+    "byHue": "按色系",
+    "colorHint": "{{name}} · {{lego}} · {{factory}}",
+    "customColor": "自定义颜色",
+    "favorite": "收藏当前颜色",
+    "unfavorite": "取消收藏当前颜色",
+    "factoryCode": "工厂色号",
+    "material": "材质",
+    "finishes": {
+      "solid": "实色",
+      "transparent": "透明",
+      "chrome": "镀铬",
+      "metallic": "金属",
+      "pearl": "珠光",
+      "glitter": "闪粉",
+      "speckle": "斑点",
+      "rubber": "橡胶",
+      "glow": "夜光"
+    },
+    "preview": "零件预览",
+    "previewHint": "选择左侧零件进行预览",
+    "previewLoading": "正在准备零件…",
+    "previewFailed": "无法显示该零件，请重新选择或重试",
+    "previewIncomplete": "该零件的部分图形缺失",
+    "importPack": "导入数据包",
+    "importDirectory": "选择目录",
+    "packFiles": "零件数据包",
+    "exportBlank": "导出空白模板",
+    "exportTemplate": "导出模板",
+    "validation": "校验报告",
+    "accepted": "有效零件 {{parts}} 件 · 有效颜色 {{colors}} 色 · 忽略 {{skipped}} 行",
+    "row": "第 {{row}} 行",
+    "fileIssue": "文件错误",
+    "diffTitle": "与当前包的差异：{{name}}",
+    "items": "项目",
+    "added": "新增",
+    "removed": "删除",
+    "changed": "变更",
+    "parts": "零件",
+    "colors": "颜色",
+    "activateAfter": "导入后立即启用",
+    "cancel": "取消",
+    "confirmImport": "确认导入",
+    "skipErrors": "忽略错误行导入",
+    "imported": "数据包已导入",
+    "processing": "正在处理，请稍候…",
+    "packHelp": "切换数据包会更新零件库与工厂色表，已有数据包保留供随时切回。",
+    "active": "已启用",
+    "packCounts": "{{parts}} 件零件 · {{colors}} 种颜色",
+    "source": "来源：{{source}}",
+    "activate": "启用",
+    "remove": "删除",
+    "deleteConfirm": "删除「{{name}}」？",
+    "exported": "模板已保存至 {{path}}",
+    "xlsxHelp": "可选择数据包目录或 .brklpack 文件；选择 XLSX 时，将读取同目录下的整套模板文件。",
+    "settings": "设置",
+    "categories": {
+      "animal": "动物",
+      "antenna": "天线",
+      "belville": "贝尔维尔",
+      "boat": "船体",
+      "car": "汽车",
+      "clikits": "饰品积木",
+      "cockpit": "驾驶舱",
+      "constraction": "可动人偶",
+      "constraction-accessory": "人偶配件",
+      "container": "容器",
+      "conveyor": "传送带",
+      "crane": "起重机",
+      "duplo": "得宝",
+      "electric": "电气",
+      "exhaust": "排气管",
+      "fence": "围栏",
+      "figure": "人偶",
+      "figure-accessory": "人偶配件",
+      "flag": "旗帜",
+      "garage": "车库",
+      "glass": "玻璃",
+      "homemaker": "家居",
+      "hose": "软管",
+      "ladder": "梯子",
+      "magnet": "磁铁",
+      "minifig-accessory": "人仔配件",
+      "minifig-footwear": "人仔鞋饰",
+      "minifig-headwear": "人仔头饰",
+      "minifig-hipwear": "人仔腰饰",
+      "minifig-leg": "人仔腿",
+      "minifig-lower": "人仔下身",
+      "minifig-neckwear": "人仔颈饰",
+      "minifig-upper": "人仔上身",
+      "modulex": "模度积木",
+      "monorail": "单轨列车",
+      "plane": "飞机",
+      "platform": "平台",
+      "propeller": "螺旋桨",
+      "rack": "齿条",
+      "roadsign": "路标",
+      "rock": "岩石",
+      "scala": "斯卡拉",
+      "sheet-cardboard": "纸板",
+      "sheet-fabric": "织物",
+      "sheet-plastic": "塑料片",
+      "sphere": "球体",
+      "staircase": "楼梯",
+      "sticker-shortcut": "带贴纸组件",
+      "string": "绳索",
+      "support": "支撑",
+      "tail": "尾翼",
+      "tap": "水龙头",
+      "tipper": "翻斗",
+      "tractor": "拖拉机",
+      "trailer": "拖车",
+      "train": "火车",
+      "turntable": "转盘",
+      "vehicle": "车辆",
+      "winch": "绞盘",
+      "windscreen": "挡风玻璃",
+      "wing": "机翼",
+      "znap": "拼接积木",
+      "sheet": "片材"
+    },
+    "previewOnly": "预览不计入项目",
+    "reservedDemo": "示例包标识不可用于导入，请在资料中填写新的包标识"
+  },
+  "editor": {
+    "untitled": "未命名",
+    "selectionMode": "选择模式",
+    "modes": {
+      "default": "默认",
+      "color": "同色",
+      "type": "同类型",
+      "both": "同色同类型",
+      "connected": "已连接"
+    },
+    "unavailable": "暂未开放",
+    "vertical": "竖直步长",
+    "verticalSteps": {
+      "1": "细",
+      "8": "板",
+      "24": "砖"
+    },
+    "angle": "旋转步长",
+    "free": "自由",
+    "space": "参照系",
+    "spaces": {
+      "world": "世界",
+      "primaryLocal": "主选件局部"
+    },
+    "pivot": "旋转中心",
+    "pivots": {
+      "center": "选择中心",
+      "primary": "主选件原点",
+      "connector": "连接点"
+    },
+    "eyedropper": "吸管",
+    "operationFailed": "操作未完成，请重新选择零件后重试",
+    "history": {
+      "move": "移动 {{count}} 个零件",
+      "rotate": "旋转 {{count}} 个零件",
+      "transform": "变换 {{count}} 个零件",
+      "color": "更换 {{count}} 个零件的颜色",
+      "delete": "删除 {{count}} 个零件",
+      "add": "放置零件"
+    },
+    "properties": "属性",
+    "selected": "已选 {{count}} 件",
+    "submodel": "子模型",
+    "position": "位置",
+    "rotation": "旋转",
+    "unit": "位置单位",
+    "units": {
+      "ldu": "LDU",
+      "stud": "格",
+      "plate": "板高",
+      "mm": "毫米",
+      "cm": "厘米"
+    },
+    "step": "步骤 {{number}}",
+    "showPart": "显示零件",
+    "hidePart": "隐藏零件",
+    "preview": "预览：{{name}}",
+    "empty": "双击零件或拖入视口，开始搭建",
+    "pickColor": "点击零件吸取颜色",
+    "mainModel": "主模型",
+    "shared": "此子模型被引用 {{count}} 次，修改会同步到所有位置",
+    "makeUnique": "解除共享",
+    "count": "零件数 {{current}} / 展开 {{expanded}}",
+    "dimensions": "尺寸 {{x}} × {{z}} 格 × {{y}} 砖",
+    "factoryParts": "工厂件",
+    "allParts": "全部",
+    "resizeCategories": "调整分类区高度"
+  },
+  "files": {
+    "flexibleCount": "{{count}} 项柔性参数",
+    "open": "打开",
+    "saveAs": "另存为",
+    "save": "保存",
+    "export": "导出",
+    "supported": "积木模型文件",
+    "unsupported": "不支持此文件格式",
+    "saveReport": "另存报告",
+    "report": "文件报告",
+    "failed": "操作未完成",
+    "notFound": "找不到文件，请检查路径",
+    "screenshotFailed": "无法获取视口截图",
+    "recoveryFailed": "恢复点写入失败，请保存工程以保留修改",
+    "missingGeometry": "部分零件缺少可用的形状资料",
+    "unusedTitle": "保留未使用的子模型？",
+    "unusedMessage": "工程中有 {{count}} 个未使用的子模型。可保留供再次使用，也可清理后保存。",
+    "cancel": "取消",
+    "confirm": "确定",
+    "keep": "保留并保存",
+    "clean": "清理并保存",
+    "discard": "不保存",
+    "closeTitle": "保存更改？",
+    "closeMessage": "“{{name}}”有未保存的更改。",
+    "tabs": "文档标签",
+    "closeTab": "关闭 {{name}}",
+    "recent": "最近打开",
+    "lastRecovery": "最后恢复点 {{time}}",
+    "working": "正在处理…",
+    "recoveryTitle": "恢复未保存的文档",
+    "recoveryDescription": "上次关闭时有文档未保存。请选择要继续编辑的文档。",
+    "unsavedPath": "尚未保存到文件",
+    "unknownTime": "时间未知",
+    "recoveryTime": "最后恢复时间 {{time}} · 可恢复 {{count}} 次操作",
+    "discardRecovery": "丢弃",
+    "recover": "恢复",
+    "importReport": "导入报告",
+    "exportReport": "导出报告",
+    "importSummary": "展开 {{parts}} 件 · {{submodels}} 个子模型 · {{steps}} 个步骤",
+    "mappingSummary": "未匹配的零件 {{parts}} 种 · 颜色 {{colors}} 种",
+    "omitted": "未导入或未保留的内容",
+    "noIssues": "已完成，没有需要处理的问题。"
+  },
+  "structure": {
+    "rename": "重命名",
+    "name": "名称",
+    "newGroup": "新编组",
+    "newSubmodel": "新子模型",
+    "cycle": "无法将子模型放入自身或其后代",
+    "selection": "所选内容",
+    "collapse": "折叠",
+    "expand": "展开",
+    "stepUp": "步骤上移",
+    "stepDown": "步骤下移",
+    "stepActions": "步骤操作",
+    "modelTree": "模型树",
+    "definitions": "子模型",
+    "unused": "未使用",
+    "noDefinitions": "选中零件后，可建立共享子模型",
+    "steps": "步骤",
+    "resizeProperties": "调整属性区高度",
+    "selectToInspect": "选择零件以查看属性",
+    "horizontalGrid": "水平网格步长",
+    "placeHint": "单击放置 · Esc 取消"
+  },
+  "output": {
+    "bom": "导出 BOM",
+    "modelInfo": "模型信息",
+    "screenshot": "导出截图",
+    "format": "格式",
+    "unit": "单位",
+    "grouping": "分组方式",
+    "scope": "范围",
+    "includeHidden": "包含隐藏件",
+    "includeEdges": "包含边线",
+    "resolution": "分辨率倍数",
+    "transparent": "透明背景",
+    "hideGrid": "隐藏网格",
+    "exchangeHint": "保留零件、共享子模型与步骤；格式不支持的内容会列在导出报告中。",
+    "thumbnailProgress": "生成零件图片 {{current}} / {{total}}",
+    "writing": "正在写入文件…",
+    "fileSize": "文件大小 {{size}} KB",
+    "triangles": "三角形 {{count}} 个",
+    "bomSummary": "共 {{totalParts}} 件 · {{partTypes}} 种零件 · {{colorCount}} 种颜色 · {{images}} 张图片",
+    "widthDepthHeight": "宽 × 深 × 高",
+    "bricks": "砖",
+    "plates": "高度（板）",
+    "centimeters": "尺寸（厘米）",
+    "inches": "尺寸（英寸）",
+    "directReferences": "当前层引用数",
+    "totalParts": "展开总件数",
+    "partTypes": "零件种类",
+    "colorCount": "颜色数",
+    "modelDefinitions": "子模型定义数",
+    "modelInstances": "子模型实例数",
+    "lastCheck": "最近检查",
+    "notChecked": "尚未检查",
+    "includesStuds": "尺寸包含凸点，按宽 X、深 Z、高 Y 排列。",
+    "copyInfo": "复制为文本",
+    "formats": {
+      "io": "Studio .io",
+      "ldr": "LDraw .ldr",
+      "mpd": "LDraw .mpd",
+      "obj": "OBJ + MTL",
+      "dae": "DAE（COLLADA）",
+      "glb": "GLB（glTF）",
+      "csv": "BOM（CSV）",
+      "xlsx": "BOM（Excel）"
+    },
+    "units": {
+      "mm": "毫米",
+      "cm": "厘米",
+      "ldu": "LDU"
+    },
+    "groups": {
+      "instance": "按零件实例",
+      "color": "按颜色合并"
+    },
+    "scopes": {
+      "project": "整个工程",
+      "model": "当前子模型",
+      "selection": "所选内容"
+    }
+  },
+  "connectUi": {
+    "untitledNumber": "未命名 {{number}}",
+    "unnamedPart": "零件",
+    "snap": "吸附",
+    "snapLegend": "白环：预览连接点 · 橙环：目标连接点",
+    "snapHint": "连接点吸附 · Alt 临时关闭 · Shift 连续滑动",
+    "collision": "碰撞检测",
+    "policy": "碰撞策略",
+    "policies": {
+      "warn": "仅提示",
+      "block": "阻止放置"
+    },
+    "connectors": "连接点",
+    "connectorScope": "连接点显示范围",
+    "connectorScopes": {
+      "selection": "所选零件",
+      "visible": "全部可见零件"
+    },
+    "checks": "检查",
+    "refresh": "重新检查",
+    "scope": "检查范围",
+    "scopes": {
+      "project": "整个工程",
+      "currentModel": "当前子模型",
+      "selection": "所选零件"
+    },
+    "visibleOnly": "仅可见件",
+    "groundFixed": "接触地面视为固定",
+    "levels": {
+      "error": "错误",
+      "warning": "警告",
+      "info": "提示",
+      "unknown": "无法判断"
+    },
+    "relatedParts": "{{count}} 件 · 点击定位",
+    "noIssues": "当前范围未发现问题",
+    "alignGrid": "对齐网格",
+    "hitCount": "穿模 {{count}}",
+    "connectedTo": "已连接到 {{part}}",
+    "unconnected": "未连接",
+    "previewPart": "预览零件",
+    "failed": "连接与检查数据加载失败，请重试",
+    "blocked": "零件发生穿模，已阻止放置",
+    "collisionStates": {
+      "none": "无穿模",
+      "hit": "发生穿模",
+      "unknown": "无法判断"
+    }
+  },
+  "connectorTypes": {
+    "stud": "凸点",
+    "stud_hollow": "空心凸点",
+    "antistud": "底部凹位",
+    "antistud_tube": "底管",
+    "bar": "杆",
+    "bar_post": "短杆",
+    "bar_hole": "杆孔",
+    "clip": "夹子",
+    "axle": "十字轴",
+    "axle_hole": "十字孔",
+    "pin": "销",
+    "pin_hole": "销孔",
+    "ball": "球头",
+    "ball_socket": "球窝",
+    "hinge_click": "齿轮铰链",
+    "bar_thin": "细杆",
+    "bar_thin_hole": "细杆孔",
+    "wheel_pin": "轮轴",
+    "wheel_hole": "轮轴孔",
+    "fixed": "专用配对",
+    "hinge_plain": "普通铰链",
+    "slider": "滑块",
+    "rail": "滑轨"
+  },
+  "annotation": {
+    "title": "连接点标注",
+    "edit": "编辑连接点",
+    "maintenance": "零件库维护模式",
+    "status": "审核状态",
+    "save": "保存",
+    "close": "关闭标注编辑器",
+    "infer": "从图元推断",
+    "reference": "参考零件",
+    "tryFit": "试配",
+    "showProxy": "显示碰撞代理",
+    "layer": "编辑对象",
+    "connectors": "连接点",
+    "colliders": "碰撞代理",
+    "properties": "属性",
+    "add": "添加",
+    "copy": "复制",
+    "delete": "删除",
+    "box": "盒",
+    "cylinder": "圆柱",
+    "sideA": "配对侧 A",
+    "sideB": "配对侧 B",
+    "start": "起端",
+    "end": "末端",
+    "open": "开放",
+    "closed": "封闭",
+    "approximate": "近似代理",
+    "diff": "推断差异",
+    "diffSummary": "当前 {{before}} 个 · 推断 {{after}} 个 · 新增或变化 {{changed}} 个",
+    "applyInference": "采用推断结果",
+    "dismiss": "保留当前",
+    "hint": "选择连接点，用手柄或右侧属性调整；保存前检查方向与限位。",
+    "saved": "已保存为{{status}}",
+    "loadFailed": "无法加载零件标注",
+    "inferFailed": "推断失败，请检查零件几何",
+    "invalid": "标注字段不合法：{{fields}}",
+    "invalidValue": "参数格式不正确，请检查数值与括号",
+    "saveFailed": "保存失败，请检查连接点及碰撞代理参数",
+    "noMatch": "未找到兼容的连接位置",
+    "fitFailed": "试配失败，请检查连接参数",
+    "fitResult": "{{count}} 个候选 · 偏差 {{residual}} LDU · {{collision}}",
+    "fields": {
+      "id": "名称",
+      "type": "类型",
+      "origin": "位置（LDU）",
+      "axis": "连接方向",
+      "ref": "参考方向",
+      "length": "有效长度",
+      "diameter": "直径",
+      "studDepth": "凸点插入深度",
+      "rotation": "旋转步长",
+      "rotationValue": "自定角度步长",
+      "size": "尺寸标签",
+      "tag": "配对标签",
+      "role": "配对侧",
+      "ends": "两端状态",
+      "grid": "网格（行、列、间距、掩码）",
+      "cells": "单元子类",
+      "stops": "限位位置",
+      "limits": "角度范围（度）",
+      "halfSize": "半尺寸",
+      "orientation": "方向矩阵",
+      "radius": "半径",
+      "halfLength": "半长"
+    },
+    "statuses": {
+      "inferred": "推断",
+      "draft": "草稿",
+      "reviewed": "已审核"
+    },
+    "references": {
+      "brick": "砖 2×4 · 3001",
+      "plate": "板 2×4 · 3020",
+      "bar": "杆 1L 带凸点 · 92690"
+    }
+  },
+  "check": {
+    "collision": "零件发生穿模。",
+    "collisionUnknown": "无法判断碰撞：缺少代理、代理近似或计算未完成。",
+    "floating": "零件悬空或未与主体连接。",
+    "nonFactoryPart": "当前工厂数据包不包含此零件，或此零件已停产。",
+    "nonFactoryColor": "当前工厂数据包不包含此颜色。",
+    "unavailableColor": "当前工厂无法生产此零件与颜色的组合。",
+    "duplicate": "相同零件、颜色和位置存在重叠重复实例。",
+    "missingGeometry": "零件几何文件缺失。",
+    "unreviewedConnectors": "零件使用了尚未审核的连接数据。",
+    "offGrid": "零件位置偏离当前网格。"
+  },
+  "checkTitles": {
+    "collision": "穿模",
+    "collisionUnknown": "碰撞无法判断",
+    "floating": "悬空或未连接",
+    "nonFactoryPart": "非工厂零件",
+    "nonFactoryColor": "非工厂颜色",
+    "unavailableColor": "不可生产的配色",
+    "duplicate": "重叠重复件",
+    "missingGeometry": "缺少几何",
+    "unreviewedConnectors": "未审核连接数据",
+    "offGrid": "偏离网格"
+  },
+  "aiUi": {
+    "title": "AI 助手",
+    "settings": "AI 设置",
+    "settingsTitle": "设置",
+    "provider": "服务商",
+    "chooseProvider": "选择服务商",
+    "model": "模型",
+    "depth": "深度",
+    "fast": "快速",
+    "balanced": "均衡",
+    "deep": "深入",
+    "welcome": "描述想修改的内容，一起完成模型。",
+    "addProvider": "添加服务商",
+    "providers": "服务商",
+    "add": "添加",
+    "default": "默认",
+    "noKey": "未保存密钥",
+    "noModel": "尚未选择模型",
+    "test": "测试 {{name}} 的连接",
+    "testConnection": "测试连接",
+    "setDefault": "将 {{name}} 设为默认",
+    "edit": "编辑 {{name}}",
+    "delete": "删除 {{name}}",
+    "connected": "连接成功：{{models}}",
+    "noProviders": "添加服务商后即可开始对话。",
+    "purpose": {
+      "chat": "对话与搭建",
+      "vision": "视觉理解",
+      "quick": "快速任务"
+    },
+    "chatgpt": "ChatGPT 登录",
+    "enabled": "启用",
+    "chatgptHint": "用 ChatGPT 账号登录",
+    "chatgptContinue": "Continue with ChatGPT",
+    "signout": "退出登录",
+    "quotaPolicy": "套餐额度用尽时暂停；不会自动改用其他计费方式。",
+    "budgets": "用量与限制",
+    "advanced": "高级",
+    "spent": "今日约 US${{amount}}",
+    "dailyLimit": "每日费用上限（美元）",
+    "unlimited": "不限",
+    "toolLimit": "每轮操作上限",
+    "duration": "每轮时长（分钟）",
+    "history": "将对话记录保存在工程中",
+    "localOnly": "仅使用本机模型",
+    "debug": "保存本机调试日志（脱敏，保留 7 天）",
+    "external": "外部智能体",
+    "mcpEnabled": "允许外部智能体连接",
+    "mcpHint": "每次连接都需在本窗口确认；连接后可读取和修改当前工程。",
+    "httpEnabled": "启用本机网络连接",
+    "port": "本机端口",
+    "generateToken": "生成或更新访问令牌",
+    "token": "访问令牌",
+    "copyToken": "复制访问令牌",
+    "configuration": "客户端配置",
+    "configHint": "将配置加入相应客户端，并保持 Brickloop 正在运行。首次调用工具时回到本窗口确认。",
+    "providerDialog": "服务商设置",
+    "save": "保存",
+    "cancel": "取消",
+    "type": "类型",
+    "types": {
+      "chatgpt": "ChatGPT 登录",
+      "openai": "OpenAI",
+      "anthropic": "Anthropic",
+      "gemini": "Gemini",
+      "compatible": "OpenAI 兼容服务"
+    },
+    "preset": "预设",
+    "custom": "自定义",
+    "name": "显示名称",
+    "endpoint": "服务地址",
+    "key": "API 密钥",
+    "keyHint": "本机加密保存，仅显示后四位",
+    "account": "账号",
+    "proxy": "代理",
+    "proxyOptions": {
+      "system": "使用系统代理",
+      "custom": "自定义 HTTP / SOCKS"
+    },
+    "proxyAddress": "代理地址",
+    "customPrices": "自定义模型价格（每百万字元，美元）",
+    "prices": {
+      "input": "输入",
+      "output": "输出",
+      "cacheRead": "缓存读取"
+    },
+    "close": "关闭",
+    "allowClient": "允许“{{name}}”连接？",
+    "allowClientHint": "此客户端可查看工程并调用编辑工具。每次修改均可撤销，连接期间可随时断开。",
+    "imageConsentTitle": "发送图片前确认",
+    "imageConsentHint": "图片将发送给 {{name}} 进行理解，包括参考图和模型渲染图。数据去向：",
+    "allow": "允许",
+    "deny": "拒绝",
+    "modifying": "AI 正在修改…",
+    "connectedAgents": "外部智能体 · {{count}}",
+    "disconnect": "断开",
+    "working": "正在处理…",
+    "toolCheck": "新增问题：穿模 {{collisions}} · 悬空 {{floating}}",
+    "toolFailed": "操作未完成",
+    "rendered": "模型渲染图，点击放大",
+    "reference": "参考图",
+    "usage": "输入 {{input}} · 输出 {{output}}",
+    "plan": "使用套餐额度",
+    "unpriced": "未配置模型价格",
+    "cost": "约 US${{amount}}",
+    "quota": "当前套餐额度已用尽，请稍后再试或自行选择其他服务商。",
+    "review": "本轮修改审阅",
+    "keep": "保留",
+    "undo": "撤销本轮",
+    "continue": "继续修改",
+    "unavailable": "暂未开放",
+    "selected": "已选 {{count}} 件",
+    "context": "当前：{{name}}",
+    "removeImage": "移除图片",
+    "message": "给 AI 助手的消息",
+    "placeholder": "描述你想修改的内容…",
+    "attach": "添加图片",
+    "enterHint": "Enter 发送 · Shift+Enter 换行",
+    "stop": "停止",
+    "send": "发送",
+    "imageSize": "请选择不超过 10 MB 的图片，最多 8 张。",
+    "failed": "操作未完成，请检查服务商、凭据与文档状态。",
+    "loginTimeout": "登录已超时，请重新登录。",
+    "codexApprovalHint": "用 codex exec 无人值守运行时，取消下一行注释，才能执行修改模型的工具",
+    "saveFailed": "本轮已结束，但对话记录保存失败。",
+    "invalidProvider": "请检查服务地址、代理与必填信息。",
+    "connectionFailed": "连接未成功，请检查地址、凭据与代理。",
+    "noModels": "连接未返回可用模型。",
+    "checkObjects": "{{count}} 件 · {{issues}} 处问题",
+    "shortcuts": {
+      "repair": "检查并修复",
+      "factory": "换成工厂件",
+      "palette": "统一配色",
+      "explain": "解释模型",
+      "reference": "按参考图生成"
+    },
+    "deepseekEffort": {
+      "fast": "关闭思考，回复最快",
+      "balanced": "服务商默认",
+      "deep": "开启最大强度思考"
+    },
+    "localCheck": {
+      "palette": "检查范围：{{scope}}。\n颜色数：{{count}}。\n无需统一，未调用模型。",
+      "selection": "选中 {{count}} 件（含子结构）",
+      "document": "整个文档",
+      "repair": "检查范围：{{scope}}。\n碰撞：0；碰撞不确定：0；悬空／未连通：0；非工厂件：0；非工厂色：0；零件与颜色组合不可用：0；重复实例：0；缺失几何：0；循环及文档结构问题：0。\n本地检查，未调用模型。",
+      "factory": "检查范围：{{scope}}。\n非工厂件：0；非工厂色：0；零件与颜色组合不可用：0。\n本地检查，未调用模型。",
+      "recheck": "让 AI 再检查一次"
+    },
+    "localStatistics": {
+      "explainHint": "以下件数与颜色数按所述范围统计。整个文档的尺寸请使用系统提示中 Host-provided model summary 的 bounds（如有）；该包围盒并非仅针对选区。",
+      "paletteHint": "distribution 按直接所属的模型路径计数（[] 为根模型）；replace_color(fromColorId, toColorId, modelPath) 一次替换该路径及其全部子模型内匹配的颜色，共享定义的其他实例也会受影响。",
+      "selectionHint": "选区中仅当所有匹配实例及其共享实例都在选区内时可用 replace_color，否则会被范围锁拒绝；请用 batch 包装 set_color，仅指定选中实例，必要时先 make_unique。",
+      "intro": "以下是本地统计，已与当前文档一致；除非需要更多细节，不必再调用工具取同样的数据",
+      "attached": "已附本地统计",
+      "omitted": "已按数量或 4,000 token 上限截断；omitted 列出各项省略数。"
+    },
+    "prompts": {
+      "repair": "检查模型并修复问题，完成后再次校验并说明未解决项。",
+      "factory": "检查非工厂件和非工厂色，查询可用的工厂替代件与工厂色，在原位置、原朝向替换。只处理非工厂件和非工厂色；发现的其他问题只在回复中列出，不要修改。最后校验。",
+      "palette": "检查当前配色，把相近或零散的颜色合并为少数几种协调的工厂色，尽量减少颜色种类。只修改颜色，不要增加、删除、移动或替换零件；发现的其他问题只在回复中列出，不要修改。最后说明合并方案。",
+      "explain": "请解释当前模型的结构、尺寸和零件用量。只读取模型，不要修改。",
+      "reference": "按参考图生成"
+    },
+    "stopReasons": {
+      "completed": "本轮已完成",
+      "cancelled": "已停止，已完成的修改可整体撤销。",
+      "tool_budget": "已达到本轮操作上限。",
+      "time_budget": "已达到本轮时长上限。",
+      "input_budget": "本轮内容已达到模型上下文上限。",
+      "daily_cost_limit": "已达到每日费用上限。",
+      "max_tokens": "回复达到长度上限。",
+      "error": "本轮未完成，请检查连接、凭据和价格设置。"
+    },
+    "manageUsage": "管理套餐用量",
+    "planWelcome": "正在使用 ChatGPT 套餐",
+    "planWelcomeHint": "符合条件的 AI 请求会使用你的 ChatGPT 套餐额度。可以在 ChatGPT 设置中查看和管理用量。",
+    "gotIt": "知道了",
+    "affected": "{{count}} 件",
+    "completed": "已完成",
+    "validationCheck": "检查：穿模 {{collisions}} · 悬空 {{floating}}",
+    "noNewIssues": "无新增问题",
+    "checkPassed": "检查通过",
+    "reviewCount": "本轮修改 {{count}} 件",
+    "choosePurpose": "按用途选择模型",
+    "followDefault": "跟随默认（{{provider}} · {{model}}）",
+    "clientVersion": "客户端版本 {{version}}",
+    "checkInstance": "第 {{n}} 件 · 位置 ({{x}}, {{z}}, {{level}})",
+    "dailyLimitReached": "已达到每日费用上限，或尚未配置此模型价格。",
+    "signedOut": "未登录",
+    "signInAgain": "重新登录",
+    "switchAccount": "切换账号",
+    "addAccount": "添加账号",
+    "modelsFailed": "暂时无法获取模型列表。",
+    "retryModels": "重试",
+    "modelsEmpty": "测试连接后可选择模型",
+    "customModel": "自定义模型名…",
+    "customModelName": "自定义模型名",
+    "liveness": {
+      "thinking": "模型正在思考",
+      "waiting": "正在等待服务商响应 · 已 {{seconds}} 秒",
+      "keepAlive": "服务商正在排队或处理，连接正常",
+      "script": "模型正在生成脚本",
+      "warningAnnouncement": "长时间没有收到数据，仍在等待服务商响应，可以点击停止",
+      "silent": "已 {{seconds}} 秒没有收到数据，仍在等待服务商响应，可以点击停止",
+      "active": "{{phase}} · 已生成约 {{chars}} 字 · {{seconds}} 秒前有数据",
+      "replying": "模型正在生成回复"
+    }
+  },
+  "aiTools": {
+    "get_model_summary": "查看模型摘要",
+    "list_instances": "查找零件实例",
+    "get_instance": "查看零件",
+    "get_selection": "查看选择",
+    "search_parts": "搜索零件",
+    "get_part_info": "查询零件资料",
+    "list_colors": "查看色表",
+    "find_connection_candidates": "查找连接位置",
+    "place_part": "放置零件",
+    "move": "移动零件",
+    "rotate": "旋转零件",
+    "set_transform": "调整姿态",
+    "set_color": "修改颜色",
+    "replace_color": "替换颜色",
+    "delete": "删除零件",
+    "create_group": "创建编组",
+    "ungroup": "解散编组",
+    "create_submodel": "创建子模型",
+    "instantiate_submodel": "插入子模型",
+    "make_unique": "独立子模型",
+    "batch": "批量编辑",
+    "validate": "检查模型",
+    "render_views": "渲染视图",
+    "compare_to_reference": "对比参考图",
+    "get_bom": "统计用量",
+    "suggest_factory_substitutes": "查找工厂替代件",
+    "add_reference_image": "添加参考图",
+    "make_mosaic": "创建马赛克",
+    "export_io": "导出模型",
+    "job_status": "查看任务",
+    "job_cancel": "取消任务",
+    "run_build_script": "运行搭建脚本",
+    "get_build_script": "读取搭建脚本",
+    "list_build_scripts": "查看工程脚本",
+    "list_build_examples": "查看脚本范例",
+    "get_build_example": "读取脚本范例",
+    "get_design_guide": "读取设计指南",
+    "view_layers": "查看文字层图"
+  },
+  "aiIssues": {
+    "collision": "穿模",
+    "floating": "悬空",
+    "non_factory_part": "非工厂件",
+    "non_factory_color": "非工厂色",
+    "unavailable_color": "无法生产的配色",
+    "collisionUnknown": "碰撞状态未知",
+    "duplicate": "重复零件",
+    "missingGeometry": "缺少零件形状",
+    "unreviewedConnectors": "连接数据待审核",
+    "cycle": "模型循环引用"
+  },
+  "imageUi": {
+    "inputTitle": "按参考图生成",
+    "menu": "按参考图生成…",
+    "makePlan": "生成计划",
+    "description": "描述",
+    "descriptionHint": "例如：红色屋顶的 6×6 小房子；也可以只用文字描述。",
+    "style": "风格提示",
+    "addImages": "选择参考图",
+    "imageHint": "拖入、粘贴或选择 1–8 张图片；每张可标注视角。",
+    "viewNumber": "第 {{n}} 张图片视角",
+    "targetSize": "目标尺寸",
+    "sizes": {
+      "small": "小",
+      "medium": "中",
+      "large": "大",
+      "custom": "自定尺寸（格）"
+    },
+    "width": "宽（格）",
+    "depth": "深（格）",
+    "height": "高（格）",
+    "palette": "色板",
+    "palettes": {
+      "factory": "工厂色表",
+      "project": "当前项目用色",
+      "custom": "自选颜色"
+    },
+    "parts": "零件范围",
+    "partSources": {
+      "factory": "工厂件",
+      "categories": "指定分类",
+      "all": "全部零件（概念设计）"
+    },
+    "categories": "选择分类",
+    "direct": "跳过计划确认，直接开始",
+    "planTitle": "确认搭建计划",
+    "planName": "模型名称",
+    "planHint": "编辑部件、类别、策略、包围盒与配色；拖动顺序列或使用箭头调整搭建顺序。",
+    "start": "开始搭建",
+    "order": "顺序",
+    "component": "部件名称",
+    "dimensions": "宽×深×高（格）",
+    "colors": "颜色",
+    "partTypes": "主要零件",
+    "connections": "连接到",
+    "connectHint": "通过连接点相接",
+    "newComponent": "新部件",
+    "bricks": "砖",
+    "addRow": "添加部件",
+    "deleteRow": "删除部件",
+    "dragOrder": "拖动排序",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "invalidPlan": "请补齐部件名称、正数尺寸、一致的包围盒、有效颜色与零件类型。",
+    "colorRepairs": "已把 {{n}} 处颜色换成色板中的颜色（含删除与补充），展开查看明细",
+    "colorRepairDetails": {
+      "replaced": "{{component}}：{{from}} → {{to}}",
+      "removed": "{{component}}：无法识别 {{from}}，已删除",
+      "duplicate": "{{component}}：{{from}} 与已有颜色重复，已删除",
+      "description": "{{component}}：原配色无可用颜色，按说明中的“{{from}}”补充 {{to}}",
+      "palette-first": "{{component}}：原配色和说明均无可用颜色，已使用色板第一个颜色 {{to}}"
+    },
+    "planComponentError": "第 {{n}} 个部件：{{reason}}（点击定位）",
+    "planError": "{{reason}}（点击定位）",
+    "planErrors": {
+      "name": "计划名称不能为空，且不能超过 120 个字符",
+      "components": "至少保留一个部件，且部件 ID 不能重复",
+      "component": "部件名称和 ID 不能为空，且不能超过 120 个字符",
+      "width": "宽度必须大于 0",
+      "depth": "深度必须大于 0",
+      "height": "高度必须大于 0",
+      "boundingBox": "包围盒必须具有正数尺寸，且与宽、深、高一致",
+      "colors": "至少选择一个当前色板中的颜色",
+      "partTypes": "至少填写一种零件类型，每项不能超过 120 个字符",
+      "connections": "连接必须指向其他现有部件，并填写连接说明",
+      "order": "搭建顺序必须包含每个部件，且每个部件只能出现一次",
+      "views": "参考图视角设置无效"
+    },
+    "task": "看图搭建任务",
+    "phase": {
+      "understanding": "理解参考",
+      "preparing": "准备参考图",
+      "building": "搭建第 {{n}} 个部件，共 {{m}} 个",
+      "checking": "自检第 {{round}} 轮",
+      "assembling": "组装",
+      "finishing": "整理报告",
+      "finished": "已结束",
+      "drafting": "起稿",
+      "iterating": "迭代",
+      "detailing": "细节",
+      "buildability": "可搭建性"
+    },
+    "calls": "调用 {{used}} / {{total}} 次",
+    "time": "用时 {{used}} 秒 / {{total}} 分钟",
+    "pause": "暂停",
+    "resume": "继续",
+    "paused": "已暂停",
+    "interject": "插话",
+    "interjectHint": "在下方输入补充要求",
+    "interjectPlaceholder": "补充修改意见，例如：车身再长两格…",
+    "interjected": "已收到补充要求，将在下一次操作前采纳。",
+    "iou": "轮廓重合率 {{value}}%",
+    "report": "搭建报告",
+    "partCount": "零件 {{count}} 件",
+    "partCountUnknown": "零件数尚未统计",
+    "colorCount": "颜色 {{count}} 种",
+    "colorCountUnknown": "颜色数尚未统计",
+    "passed": "通过",
+    "otherIssues": "另有 {{count}} 项检查问题",
+    "unfinished": "未完成项",
+    "none": "无",
+    "export": "导出 .io…",
+    "renderLabel": "渲染图",
+    "componentRound": "部件「{{name}}」第 {{round}} 轮",
+    "wholeRound": "整体第 {{round}} 轮",
+    "wholePreview": "当前整体",
+    "comparisonHistory": "各轮对比（{{count}} 次）",
+    "inferredView": "AI 推测视角",
+    "viewMode": "视角模式",
+    "viewModes": {
+      "auto": "不固定视角",
+      "fixed": "固定视角"
+    },
+    "viewModeHint": {
+      "auto": "由 AI 判断每张图的视角；置信度达到 0.6 才参与对比，也可逐张指定。",
+      "fixed": "为每张图指定标准视角，所有图片都参与对比。"
+    },
+    "chooseView": "请选择视角",
+    "fixedViewsRequired": "请为每张图片选择一个标准视角后再生成计划。",
+    "referenceViews": "参考图视角",
+    "referenceViewsHint": "检查推测结果，可逐张指定视角或排除对比。悬停查看判断理由。",
+    "planViewNumber": "第 {{n}} 张参考图对比视角",
+    "viewEstimate": "推测：{{view}} · {{confidence}}",
+    "viewEstimateWarning": "部分视角估计缺失或无效，已设为不参与对比；你仍可手动指定视角。",
+    "fixedReferenceViewsHint": "核对每张图的指定视角，所有图片都参与对比。",
+    "roundLimit": "迭代轮数",
+    "autoFinish": "对比指标连续两轮不再提升且部件完整时会自动结束。",
+    "priority": "搭建优先级",
+    "priorities": {
+      "buildable": "可搭建优先",
+      "appearance": "外观优先"
+    },
+    "toolLimit": "总操作安全上限",
+    "duration": "任务时长（分钟）",
+    "boundingBox": "包围盒（格）",
+    "origin": "起点 X / Y / Z",
+    "originAxis": {
+      "x": "包围盒起点 X",
+      "y": "包围盒起点 Y",
+      "z": "包围盒起点 Z"
+    },
+    "designCategory": "设计类别",
+    "strategy": "搭建策略",
+    "strategies": {
+      "shapes": "形状函数",
+      "parts": "显式零件"
+    },
+    "designCategories": {
+      "buildings": "建筑",
+      "vehicles": "车辆",
+      "plants": "植物",
+      "terrain": "地形",
+      "figures-and-props": "人物与小物件"
+    },
+    "roundProgress": "第 {{round}} / {{total}} 轮",
+    "roundCount": "已完成 {{count}} 轮",
+    "roundIssues": "{{count}} 项检查提示",
+    "timeline": "轮次时间轴",
+    "viewScript": "查看主脚本",
+    "buildabilitySkipped": "外观优先：已跳过可搭建性修复，检查问题列在下方。",
+    "roundWarnings": {
+      "round_tool_limit": "本轮已达到 12 次操作上限，下一轮继续。"
+    },
+    "planRepairs": {
+      "boxDetail": "第 {{n}} 个部件“{{component}}”：包围盒终点由 ({{from}}) 改为 ({{to}})，按宽、深、高重算。",
+      "colors": "已调整 {{n}} 处颜色",
+      "boxes": "已调整 {{n}} 处包围盒",
+      "both": "已调整 {{n}} 处（颜色 {{colors}} 处、包围盒 {{boxes}} 处）"
+    }
+  },
+  "mosaicUi": {
+    "title": "马赛克",
+    "menu": "马赛克…",
+    "generate": "生成",
+    "modelName": "马赛克",
+    "transaction": "生成马赛克",
+    "choose": "选择图片",
+    "imageHint": "支持拖入或粘贴图片",
+    "lockRatio": "锁定图片比例",
+    "style": "零件样式",
+    "square": "平滑板",
+    "round": "圆板",
+    "dither": "抖动",
+    "merge": "合并同色相邻格",
+    "paletteHint": "仅使用当前数据包中可生产的零件与配色。",
+    "preview": "像素网格预览",
+    "empty": "选择图片以预览",
+    "counts": "{{parts}} 件 · {{colors}} 种颜色",
+    "noTiles": "当前数据包缺少所选样式的 1×1 零件或可用配色。",
+    "failed": "无法生成预览，请检查图片和数据包。"
+  },
+  "settingsUi": {
+    "title": "设置"
+  },
+  "instructions": {
+    "title": "搭建说明书",
+    "untitled": "未命名模型",
+    "step": "步骤 {{number}}",
+    "submodel": "子模型：{{name}}",
+    "submodelItem": "子模型",
+    "quantity": "×{{count}}",
+    "bom": "零件清单",
+    "page": "第 {{current}} 页 / 共 {{total}} 页",
+    "author": "作者：{{name}}",
+    "partNumber": "零件编号：{{number}}",
+    "factoryNumber": "工厂编号：{{number}}",
+    "pliContinuation": "步骤 {{number}} · 本步零件（续）",
+    "noNewParts": "本步没有新增零件",
+    "empty": "没有零件"
+  },
+  "preferences": {
+    "general": "常规",
+    "editing": "编辑",
+    "shortcuts": "快捷键",
+    "library": "零件库",
+    "advanced": "高级",
+    "unit": "长度单位",
+    "snapshot": "快照间隔",
+    "minutes": "分钟",
+    "reopenLast": "启动时打开上次工程",
+    "instant": "更改即时生效并自动保存。",
+    "grid": "默认网格步长",
+    "angle": "默认旋转步长",
+    "snap": "默认开启吸附",
+    "mergeKeyboard": "合并连续的键盘移动与旋转",
+    "libraryPath": "零件库路径",
+    "chooseLibrary": "选择零件库文件夹…",
+    "enabledPacks": "启用的数据包",
+    "cache": "缓存位置",
+    "cacheSize": "占用 {{size}} MB",
+    "clearCache": "清理缓存",
+    "migrationFallback": "数据迁移未完成，正在使用旧位置。下次启动将重试。",
+    "logging": "记录运行日志",
+    "developerMode": "开发者模式",
+    "maintenanceHint": "开启后，在零件库中右键点击零件，选择“编辑连接点”。",
+    "searchKeys": "搜索命令或快捷键",
+    "noCommands": "没有匹配的命令",
+    "resetKeys": "恢复默认",
+    "importKeys": "导入 JSON…",
+    "exportKeys": "导出 JSON…",
+    "invalidKeys": "无法读取快捷键文件，请检查格式和键位。",
+    "recordKey": "修改“{{command}}”快捷键",
+    "unassigned": "未分配",
+    "recordTitle": "录入快捷键",
+    "pressKeys": "请按下新的组合键",
+    "conflictTitle": "快捷键冲突",
+    "keyConflict": "{{key}} 已分配给“{{commands}}”。覆盖后将用于“{{target}}”。",
+    "overwrite": "覆盖",
+    "overwriteHint": "覆盖会移除原命令的冲突键位。导入文件中的重复键位保留最后一项。",
+    "dimensions": "尺寸 {{values}} {{unit}}",
+    "lastCheck": "{{time}} · {{scope}} · {{count}} 项问题",
+    "groups": {
+      "file": "文件",
+      "edit": "编辑",
+      "structure": "结构",
+      "select": "选择",
+      "editor": "编辑上下文",
+      "view": "视图",
+      "tool": "工具",
+      "check": "检查",
+      "ai": "AI 助手",
+      "move": "移动",
+      "rotate": "旋转",
+      "transform": "变换",
+      "group": "编组",
+      "submodel": "子模型",
+      "step": "步骤",
+      "macro": "宏",
+      "model": "模型",
+      "settings": "设置"
+    },
+    "commands": {
+      "file": {
+        "next": "切换到下一个工程",
+        "pdf": "导出说明书 PDF"
+      },
+      "structure": {
+        "rename": "重命名"
+      },
+      "editor": {
+        "escape": "取消操作或退出当前上下文"
+      },
+      "tool": {
+        "select": "选择工具",
+        "move": "移动工具",
+        "rotate": "旋转工具",
+        "eyedropper": "吸取颜色",
+        "grid1": "网格：1 格",
+        "grid2": "网格：½ 格",
+        "grid3": "网格：¼ 格"
+      },
+      "model": {
+        "info": "模型信息"
+      },
+      "view": {
+        "screenshot": "导出截图",
+        "front": "前视图",
+        "back": "后视图",
+        "left": "左视图",
+        "right": "右视图",
+        "top": "顶视图",
+        "bottom": "底视图",
+        "iso": "等轴测视图"
+      },
+      "settings": {
+        "open": "打开设置"
+      },
+      "move": {
+        "forward": "向前移动",
+        "back": "向后移动",
+        "left": "向左移动",
+        "right": "向右移动",
+        "up": "向上移动",
+        "down": "向下移动"
+      },
+      "rotate": {
+        "left": "向左旋转",
+        "leftFine": "向左旋转 45°",
+        "right": "向右旋转",
+        "rightFine": "向右旋转 45°",
+        "up": "向上旋转",
+        "upFine": "向上旋转 45°",
+        "down": "向下旋转",
+        "downFine": "向下旋转 45°"
+      }
+    }
+  },
+  "instructionsUi": {
+    "title": "说明书 PDF…",
+    "dialogTitle": "导出说明书 PDF",
+    "paper": "纸张",
+    "steps": "每页步骤数",
+    "stepsValue": "{{count}} 步",
+    "dpi": "图像清晰度",
+    "root": "根模型",
+    "cover": "包含封面",
+    "bom": "包含零件清单页",
+    "highlight": "用细描边标出本步新增零件",
+    "rendering": "正在生成说明书，可随时取消。",
+    "saving": "正在保存说明书…",
+    "pages": "已完成 {{completedPages}} / {{totalPages}} 页",
+    "saved": "说明书已保存：{{path}}",
+    "canceled": "已取消，未写入文件。",
+    "failed": "说明书生成失败，请检查字体和零件几何是否可用。",
+    "issues": "零件清单有 {{count}} 项目录信息缺失，请核对导出的清单。",
+    "papers": {
+      "A4-landscape": "A4 横版",
+      "A4-portrait": "A4 竖版",
+      "A5": "A5 竖版",
+      "Letter": "Letter 信纸"
+    }
+  },
+  "aboutUi": {
+    "title": "关于 Brickloop",
+    "about": "关于",
+    "product": "Brickloop（积环）",
+    "developer": "开发者：孤独翼梦（Vesperis）",
+    "copyright": "Copyright © 2026 孤独翼梦（Vesperis）。保留所有权利。",
+    "usage": "以 MIT 许可证开源。",
+    "licenses": "开源许可",
+    "version": "版本",
+    "commit": "提交哈希",
+    "date": "构建日期",
+    "electron": "Electron 版本",
+    "chromium": "Chromium 版本",
+    "node": "Node 版本",
+    "search": "搜索名称或许可",
+    "noResults": "没有匹配的许可",
+    "count": "共 {{count}} 项依赖与资源",
+    "attribution": "查看许可与署名",
+    "failed": "无法读取许可清单。"
+  },
+  "packImpact": {
+    "title": "切换数据包的影响",
+    "hint": "以下已打开工程中的零件或颜色将不再由工厂供应。工程内容会保留。",
+    "parts": "非工厂件",
+    "colors": "非工厂色",
+    "combinations": "不可供货的零件配色",
+    "continue": "继续"
+  },
+  "performance": {
+    "retry": "重试",
+    "edges_auto": "自动",
+    "missingShapes": "缺少零件形状",
+    "edges_always": "始终显示",
+    "checking": "正在检查…",
+    "edges": "边线",
+    "loadingShapes": "正在加载零件形状 {{n}} / {{m}}"
+  },
+  "aiToolErrors": {
+    "referenceEmpty": "参考图中没有识别到主体。请换一张主体清晰、背景简单的图片后重试。",
+    "emptyForeground": "当前视角还看不到已搭好的零件。请先放置零件，或检查零件位置后重新对比。",
+    "referenceMissing": "参考图已不存在。请重新添加图片后重试。",
+    "viewMismatch": "对比视角与参考图不一致。请选择参考图对应的视角后重试。",
+    "invalidArguments": "操作所需的信息不完整或不合适。请让助手补充后重试。",
+    "cancelled": "操作已停止。需要时可重新开始。",
+    "budget": "本轮操作次数已用完。请调整上限后重新开始。",
+    "geometryMissing": "部分零件的形状尚未加载完成。请稍后重新对比。",
+    "failed": "应用未能完成这次操作。请检查当前工程和零件是否已加载，再重试。",
+    "outOfScope": "目标超出本轮选中范围，AI 可调整后继续",
+    "referenceNotComparable": "这张图仅供理解，不参与对比。请改用已指定视角或置信度足够的参考图。",
+    "workflowScript": "每轮只能运行一次主脚本，并替换原输出。请使用当前任务的脚本编号。",
+    "engineUnavailable": "搭建引擎无法启动。本次任务已停止，请重新加载界面后重试。",
+    "script": "搭建脚本有错误，助手可根据错误位置修改后重试。",
+    "scriptDetails": "第 {{line}} 行，第 {{column}} 列 · {{message}}"
+  },
+  "reviewUi": {
+    "beforePlaceholder": "查看改前状态时不能发送",
+    "title": "本轮修改",
+    "bar": "三维对比审阅",
+    "keep": "全部保留",
+    "undo": "撤销整轮",
+    "details": "明细",
+    "compare": "对比状态",
+    "before": "改前",
+    "after": "改后",
+    "annotations": "显示标注",
+    "beforeBanner": "正在查看改前状态",
+    "returnAfter": "返回改后",
+    "grouping": "审阅分组方式",
+    "groupBy": {
+      "type": "按类型",
+      "model": "按子模型",
+      "step": "按步骤"
+    },
+    "kinds": {
+      "added": "新增",
+      "removed": "删除",
+      "recolored": "改色",
+      "replaced": "换零件",
+      "moved": "移动",
+      "restepped": "换步骤",
+      "other": "其他"
+    },
+    "states": {
+      "accepted": "已接受",
+      "rejected": "已拒绝",
+      "superseded": "已被后续修改"
+    },
+    "reject": "拒绝",
+    "restore": "恢复",
+    "rejectGroup": "拒绝本组",
+    "restoreGroup": "恢复本组",
+    "more": "再显示 200 项",
+    "rejectLabel": "拒绝 AI 修改（{{count}} 项）",
+    "restoreLabel": "恢复 AI 修改（{{count}} 项）",
+    "stepNumber": "步骤 {{number}}",
+    "structure": "结构",
+    "readonly": "只读",
+    "structureHint": "结构变化只随整轮撤销，不能单独拒绝。",
+    "dependency": "所需步骤、子模型或编组已不存在，或存在结构依赖，请撤销整轮。",
+    "supersededHint": "此项已被后续修改，不能单独拒绝或恢复。",
+    "undoUnavailable": "之后已有其他修改，请使用撤销历史",
+    "structureKinds": {
+      "model": {
+        "added": "新增子模型",
+        "removed": "删除子模型",
+        "renamed": "子模型改名"
+      },
+      "step": {
+        "added": "新增步骤",
+        "removed": "删除步骤"
+      },
+      "group": "编组变化",
+      "asset": "资源变化",
+      "meta": "工程或结构信息"
+    }
+  },
+  "parallelUi": {
+    "status": {
+      "queued": "排队",
+      "running": "运行中",
+      "pending_merge": "待合并",
+      "merged": "已合并",
+      "discarded": "已丢弃",
+      "stopped": "已停止",
+      "failed": "失败"
+    },
+    "preview": "预览",
+    "merge": "合并",
+    "discard": "丢弃",
+    "queue": "排队",
+    "concurrency": "同时运行的 AI 任务",
+    "progress": "{{calls}} 次调用 · {{seconds}} 秒",
+    "summary": "新增 {{added}} · 修改 {{modified}} · 冲突 {{conflicts}}",
+    "globalStatus": "AI 任务：运行 {{running}} · 待合并 {{pending}}",
+    "unread": "AI 任务有新结果",
+    "conflicts": "冲突",
+    "takeAi": "用 AI 版本",
+    "keepMine": "保留我的",
+    "newIssues": "合并后新增问题 {{count}} 处",
+    "transaction": "AI：{{summary}}",
+    "resolveTransaction": "使用 AI 冲突版本",
+    "invalidMerge": "当前文档无法应用此结果，请检查所需模型、步骤和编组是否仍然存在。",
+    "checkFailed": "合并已完成，检查未完成，请重新运行检查。",
+    "closeTitle": "停止并丢弃 AI 任务？",
+    "closeMessage": "此文档还有 {{count}} 个运行中、排队或待合并的 AI 任务。关闭文档会停止并丢弃这些任务。",
+    "reasons": {
+      "both_changed": "双方修改了同一对象",
+      "target_deleted": "目标已被删除",
+      "model_missing": "模型定义已被删除",
+      "step_missing": "所在步骤已被删除"
+    },
+    "resolved": {
+      "ai": "已用 AI 版本",
+      "mine": "已保留我的"
+    },
+    "conflictOnly": "本轮仅有冲突，请逐项选择版本。"
+  },
+  "askUi": {
+    "ask": "问 AI",
+    "selected": "选中 {{count}} 件",
+    "selection": "选中",
+    "step": "步骤 {{n}}",
+    "message": "让 AI 修改选中部分",
+    "placeholder": "让 AI 修改选中的 {{count}} 件…",
+    "scope": "只改选中部分",
+    "close": "关闭提问",
+    "noProvider": "请先在 AI 设置中添加服务商",
+    "settings": "打开 AI 设置",
+    "working": "AI 正在修改选中部分…",
+    "queued": "选中部分的任务正在排队…",
+    "references": "引用候选",
+    "noReferences": "没有匹配的引用",
+    "removed": "引用对象已删除，已移除：{{names}}",
+    "types": {
+      "selection": "选择",
+      "submodel": "子模型",
+      "step": "步骤",
+      "color": "颜色",
+      "reference": "参考图"
+    }
+  },
+  "buildScriptUi": {
+    "badge": "脚本",
+    "view": "查看脚本",
+    "rerun": "重新运行",
+    "detach": "转为普通零件",
+    "cancel": "取消",
+    "preserveRun": "转为普通零件后运行",
+    "overwrite": "仍然覆盖",
+    "copy": "复制代码",
+    "copied": "已复制",
+    "copyFailed": "复制失败，请选中代码后复制。",
+    "close": "关闭",
+    "factory": "工厂件",
+    "all": "全部零件 · 概念设计",
+    "seed": "种子 {{seed}}",
+    "stats": "{{parts}} 件 · {{colors}} 色 · {{ms}} ms",
+    "code": "搭建脚本代码（只读）",
+    "hash": "输出哈希",
+    "modifiedTitle": "这些修改会被覆盖",
+    "modifiedMessage": "检测到脚本输出被手工修改或删除。可以先把已有输出转为普通零件，再生成新输出；也可以覆盖这些修改。",
+    "rerunTitle": "重新生成脚本输出",
+    "rerunMessage": "使用保存的代码、种子和零件范围运行，只替换这个脚本的输出。",
+    "runError": "脚本运行失败（{{code}}，第 {{line}} 行）：{{message}}",
+    "failed": "脚本运行失败，文档未修改。",
+    "changed": "运行期间文档已变化，请重新运行。",
+    "runTransaction": "重新运行脚本：{{name}}"
+  },
+  "animationUi": {
+    "title": "搭建动画",
+    "menu": "搭建动画…",
+    "playEntry": "播放搭建动画",
+    "preview": "预览搭建动画",
+    "empty": "模型没有零件，无法播放搭建动画",
+    "untitled": "未命名工程",
+    "fileSuffix": "搭建动画",
+    "loading": "正在准备零件与画面…",
+    "failed": "动画无法完成：{{reason}}",
+    "play": "播放",
+    "pause": "暂停",
+    "previous": "上一层 / 步",
+    "next": "下一层 / 步",
+    "seek": "动画进度",
+    "speed": "播放速度",
+    "order": "拼装顺序",
+    "layers": "按层",
+    "steps": "按说明书步骤",
+    "motion": "零件运动",
+    "drop": "落下",
+    "fly": "飞入",
+    "appear": "直接出现",
+    "camera": "相机",
+    "orbit": "环绕",
+    "fixed": "固定",
+    "duration": "时长",
+    "timing": "时长方式",
+    "target": "目标总时长",
+    "perGroup": "每层 / 步固定时长",
+    "seconds": "{{value}} 秒",
+    "dim": "压暗已完成部分",
+    "overlay": "显示文字",
+    "coarse": "该模型的步骤较粗，建议使用按层顺序",
+    "layerCounter": "第 {{current}} / {{total}} 层",
+    "stepCounter": "第 {{current}} / {{total}} 步",
+    "partCounter": "{{current}} / {{total}} 件",
+    "complete": "搭建完成",
+    "hint": "空格 播放 / 暂停 · ← → 上一层 / 下一层",
+    "export": "导出视频…",
+    "exportTitle": "导出搭建视频",
+    "resolution": "分辨率",
+    "fps": "帧率",
+    "white": "白色背景",
+    "quality": "{{height}}p",
+    "fpsValue": "{{fps}} 帧 / 秒",
+    "startExport": "导出视频",
+    "encoding": "正在渲染与编码",
+    "saving": "正在保存视频",
+    "remaining": "预计剩余 {{seconds}} 秒",
+    "frames": "{{completed}} / {{total}} 帧",
+    "saved": "视频已保存：{{path}}",
+    "cancelled": "已取消导出",
+    "fallback": "本机不支持所选规格的 H.264 编码，将导出 WebM（VP9）。",
+    "noEncoder": "本机不支持 H.264 或 VP9 视频编码",
+    "invalidSave": "视频保存请求已失效",
+    "checking": "正在检查视频编码支持…",
+    "format": "视频格式",
+    "mp4": "MP4 · H.264",
+    "webm": "WebM · VP9",
+    "noAudio": "视频不包含音轨",
+    "options": "播放设置",
+    "close": "关闭搭建动画",
+    "missingGeometry": "{{count}} 个零件缺少几何，未在动画中显示"
+  },
+  "aiSetup": {
+    "empty": "选择一种方式，连接你的第一个 AI 服务。",
+    "modes": {
+      "account": "用账号登录",
+      "apiKey": "使用 API Key"
+    },
+    "modeHints": {
+      "account": "使用已有 ChatGPT 订阅的额度，不需要 Key。",
+      "apiKey": "按用量付费，常见服务商只需粘贴 Key。"
+    },
+    "status": {
+      "available": "可用",
+      "untested": "未测试",
+      "failed": "连接失败",
+      "reauth": "需要重新登录",
+      "reenter": "需要重新填写"
+    },
+    "chooseMode": "选择接入方式",
+    "stepOne": "第 1 步 · 选择方式",
+    "stepTwo": "第 2 步 · 连接并选择模型",
+    "back": "返回上一步",
+    "search": "搜索服务商或本机模型",
+    "connected": "连接成功 · 用时 {{ms}} ms · {{count}} 个模型",
+    "cardConnected": "连接成功 · 用时 {{ms}} ms",
+    "currentDefault": "当前默认服务",
+    "details": "详细信息",
+    "httpStatus": "状态码：{{status}}",
+    "advanced": "高级设置",
+    "domestic": "国内",
+    "overseas": "海外",
+    "documentation": "查看官方文档 ↗",
+    "getKey": "去获取 API Key ↗",
+    "keepKey": "留空沿用已保存的 Key",
+    "reenterKey": "已保存的 Key 无法读取，请重新粘贴 Key",
+    "keyUnreadable": "已保存的 Key 无法读取，请在\"设置 → AI 助手\"中重新填写",
+    "accountUnreadable": "ChatGPT 登录状态无法读取，请在\"设置 → AI 助手\"中重新登录",
+    "saveUntested": "不测试直接保存",
+    "confirmUntested": "保存为未测试的服务？",
+    "confirmUntestedHint": "这个配置还未通过连接测试。保存后会显示“未测试”，你可以稍后在服务卡片上测试。",
+    "manualRequired": "服务商未提供模型列表，请在高级设置中手动输入模型名，再测试连接。",
+    "unsupportedSubscriptions": "Kimi 会员、Claude、Gemini、GitHub Copilot 和国内编程套餐目前不提供账号登录。",
+    "kimiReason": "这些订阅未授权本软件通过账号登录使用额度。Kimi 账号授权仅用于其官方 CLI，会员 Key 面向编程工具；积环的产品集成请使用按量付费的开放平台 API Key。",
+    "useApiKeyInstead": "改用 API Key",
+    "enableAccount": "启用 ChatGPT 账号登录",
+    "accountDisabled": "ChatGPT 登录已关闭，请在本页高级设置中启用。",
+    "localOnlyAccount": "仅使用本机模型已开启，请先关闭此选项再登录云端账号。",
+    "noVisionModels": "不含看图模型",
+    "noToolModels": "不含工具调用模型",
+    "checkTools": "工具能力以模型配置为准",
+    "canSee": "可以看图",
+    "cannotSee": "不能看图",
+    "canUseTools": "可以调用工具",
+    "cannotUseTools": "不能调用工具",
+    "unknownCapabilities": "看图能力待确认",
+    "capabilityHint": "搭建需要工具调用，看图需要图片输入；可按用途选择不同模型。",
+    "errors": {
+      "auth": "Key 无效或没有权限",
+      "balance": "余额不足",
+      "address": "服务地址或模型不对",
+      "quota": "请求太频繁或额度用尽",
+      "network": "网络不通，可能需要设置代理",
+      "capability": "该模型不能用于搭建或看图",
+      "unknown": "连接失败，请检查服务配置"
+    },
+    "advice": {
+      "auth": "请重新复制完整 Key，并确认已开通这个模型；账号登录可尝试重新授权。",
+      "balance": "请前往服务商控制台检查余额和计费状态，充值后重试。",
+      "address": "请在高级设置中核对服务地址和模型名称。",
+      "quota": "请稍后重试，或检查服务商的额度。不会自动改用其他计费方式。",
+      "network": "请检查网络、本机服务和代理设置，然后重试。",
+      "capability": "请选择支持工具调用或图片输入的模型。",
+      "unknown": "可展开详细信息，并按服务商的官方文档检查配置。"
+    }
+  },
+  "aiContext": {
+    "new": "新对话",
+    "confirmTitle": "开始新对话？",
+    "confirmBody": "之后发给 AI 的请求不再包含本工程之前的对话。之前的记录仍会保留，折叠显示为“未计入上下文”。模型、审阅和撤销记录都不会改变。保存工程后，重新打开仍然有效。",
+    "confirm": "开始新对话",
+    "cancel": "取消",
+    "busy": "本工程有排队或运行中的任务，结束后才能开始新对话",
+    "empty": "没有计入上下文的回合",
+    "previous": "之前的对话 · {{count}} 轮 · 未计入上下文",
+    "excluded": "未计入上下文",
+    "includedSummary": "已以摘要计入",
+    "known": "上下文 约 {{tokens}} / {{window}} · {{percent}}% · {{count}} 轮",
+    "unknown": "上下文 约 {{tokens}} · 上限未知 · {{count}} 轮",
+    "progress": "上下文窗口用量",
+    "calculating": "上下文 估算中…",
+    "base": "系统提示与工具约 {{tokens}}",
+    "history": "历史约 {{tokens}}",
+    "reasoningReplay": "该服务商要求回传思考内容，之前的回合以摘要形式发送。",
+    "compressionHelp": "接近上限（约预留 15%）时会自动压缩较早内容",
+    "compressionUnknown": "服务商提示过长时会自动压缩",
+    "lastCompressed": "最近一个计入的回合已压缩",
+    "lastNotCompressed": "最近一个计入的回合未压缩",
+    "counts": "计入 {{included}} 轮 · 未计入 {{excluded}} 轮",
+    "compressed": "已压缩",
+    "willCompress": "下次请求会压缩较早内容",
+    "reasons": {
+      "cleared": "开始新对话前的回合不计入之后的对话",
+      "discarded": "已放弃的回合不计入之后的对话",
+      "failed": "失败的回合不计入之后的对话",
+      "stopped": "已停止的回合不计入之后的对话",
+      "truncated": "输出被截断的回合不计入之后的对话",
+      "budget": "超出时长、输入或费用上限的回合不计入之后的对话",
+      "image_failed": "失败或未提交的看图任务不计入之后的对话"
+    }
+  },
+  "aiPresets": {
+    "deepseek": {
+      "name": "DeepSeek",
+      "description": "国内直连，适合推理与日常设计。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "qwen": {
+      "name": "通义千问（阿里云百炼）",
+      "description": "国内与海外可选，含看图模型。",
+      "keyHint": "粘贴百炼按量付费 Key；国内与海外 Key 不通用。"
+    },
+    "doubao": {
+      "name": "豆包（火山方舟）",
+      "description": "国内直连，可使用已开通的模型。",
+      "keyHint": "粘贴方舟 API Key；如无模型列表，请填写已开通的模型名或推理接入点。"
+    },
+    "kimi": {
+      "name": "Kimi（月之暗面开放平台）",
+      "description": "开放平台按量付费，不使用 Kimi 会员。",
+      "keyHint": "粘贴开放平台 API Key；Kimi 会员 Key 和编程套餐不能用于此处。"
+    },
+    "zhipu": {
+      "name": "智谱 GLM",
+      "description": "国内直连，提供对话与看图模型。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "siliconflow": {
+      "name": "硅基流动",
+      "description": "一个 Key 使用多种开放模型。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "minimax": {
+      "name": "MiniMax",
+      "description": "开放平台按量付费，适合长任务。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "hunyuan": {
+      "name": "腾讯混元",
+      "description": "通过腾讯 TokenHub 接入混元模型。",
+      "keyHint": "粘贴 TokenHub 的 API Key，不使用腾讯云 SecretKey。旧混元地址可在高级设置中保留。"
+    },
+    "qianfan": {
+      "name": "百度千帆",
+      "description": "国内直连，使用千帆模型服务。",
+      "keyHint": "粘贴完整 API Key（可能以 bce-v3/ 开头），不要填 Access Key / Secret Key。"
+    },
+    "openai": {
+      "name": "OpenAI",
+      "description": "使用 OpenAI API 余额，与 ChatGPT 订阅分开。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "anthropic": {
+      "name": "Anthropic（Claude）",
+      "description": "使用 Claude API，不使用 Claude 订阅。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "gemini": {
+      "name": "Google Gemini",
+      "description": "使用 Google AI Studio 的 API Key。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "openrouter": {
+      "name": "OpenRouter",
+      "description": "一个 Key 选择多个服务商的模型。",
+      "keyHint": "粘贴开放平台的完整 API Key，不要添加 Bearer 或引号。"
+    },
+    "ollama": {
+      "name": "Ollama",
+      "description": "连接本机已启动的模型服务，无需 Key。",
+      "keyHint": "请先启动本机服务并加载模型。"
+    },
+    "lmstudio": {
+      "name": "LM Studio",
+      "description": "连接本机已启动的模型服务，无需 Key。",
+      "keyHint": "请先启动本机服务并加载模型。"
+    },
+    "vllm": {
+      "name": "vLLM",
+      "description": "连接本机已启动的模型服务，无需 Key。",
+      "keyHint": "请先启动本机服务并加载模型。"
+    },
+    "custom": {
+      "name": "自定义（OpenAI 兼容）",
+      "description": "填写服务地址，可选择其他协议。",
+      "keyHint": "按服务商要求填写；无密钥的本机服务可留空。"
+    }
+  }
+}

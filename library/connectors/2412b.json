@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "partId": "ld:2412b",
+  "status": "draft",
+  "source": "LDraw geometry + Brickloop manual: grille underside uses explicit faces; two receiving cells at y=8",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud",
+      "frame": {
+        "origin": [-10, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "grid": {
+        "rows": 1,
+        "cols": 2,
+        "pitch": 20,
+        "mask": null
+      },
+      "rotation": 90
+    }
+  ]
+}

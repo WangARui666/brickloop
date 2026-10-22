@@ -1,0 +1,29 @@
+{
+  "name": "@brickloop/viewport",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/viewport",
+    "e2e": "node ../../scripts/devenv.mjs --profile e2e playwright test"
+  },
+  "dependencies": {
+    "@brickloop/animation": "workspace:*",
+    "@brickloop/connect": "workspace:*",
+    "@brickloop/collide": "workspace:*",
+    "@brickloop/catalog": "workspace:*",
+    "@brickloop/core": "workspace:*",
+    "@brickloop/ldraw": "workspace:*",
+    "three": "0.186.1",
+    "three-mesh-bvh": "0.9.16"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/three": "0.186.0"
+  }
+}

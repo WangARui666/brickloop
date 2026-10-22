@@ -1,0 +1,466 @@
+{
+  "schema": 1,
+  "primitives": {
+    "stud.dat": [
+      {
+        "type": "stud",
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud2.dat": [
+      {
+        "type": "stud.hollow",
+        "diameter": 8,
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud2a.dat": [
+      {
+        "type": "stud.hollow",
+        "diameter": 8,
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud3.dat": [
+      {
+        "type": "bar.post",
+        "length": 4,
+        "diameter": 8,
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud3a.dat": [
+      {
+        "type": "bar.post",
+        "length": 4,
+        "diameter": 8,
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud4.dat": [
+      {
+        "type": "antistud.tube",
+        "diameter": 12,
+        "frame": {
+          "origin": [0, -4, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud4a.dat": [
+      {
+        "type": "antistud.tube",
+        "diameter": 12,
+        "frame": {
+          "origin": [0, -4, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud4od.dat": [
+      {
+        "type": "antistud.tube",
+        "diameter": 12,
+        "frame": {
+          "origin": [0, -4, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "axle.dat": [
+      {
+        "type": "axle",
+        "length": 1,
+        "rotation": 90,
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, 1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "axleend20.dat": [
+      {
+        "type": "axle",
+        "length": 20,
+        "rotation": 90,
+        "ends": {
+          "start": "closed",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "axlehole.dat": [
+      {
+        "type": "axle.hole",
+        "length": 1,
+        "rotation": 90,
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "bush.dat": [
+      {
+        "type": "axle.hole",
+        "length": 20,
+        "rotation": 90,
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, -10],
+          "axis": [0, 0, -1],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "peghole.dat": [
+      {
+        "type": "pin.hole",
+        "length": 20,
+        "studDepth": 4,
+        "rotation": "free",
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "connect.dat": [
+      {
+        "type": "pin",
+        "length": 20,
+        "rotation": "free",
+        "ends": {
+          "start": "closed",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "connect8.dat": [
+      {
+        "type": "pin",
+        "length": 20,
+        "rotation": "free",
+        "ends": {
+          "start": "closed",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "confric5.dat": [
+      {
+        "type": "pin",
+        "length": 20,
+        "rotation": "free",
+        "ends": {
+          "start": "closed",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "confric6.dat": [
+      {
+        "type": "pin",
+        "length": 20,
+        "rotation": "free",
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "confric8.dat": [
+      {
+        "type": "pin",
+        "length": 20,
+        "rotation": "free",
+        "ends": {
+          "start": "closed",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "clip2.dat": [
+      {
+        "type": "clip",
+        "length": 8,
+        "diameter": 8,
+        "rotation": "free",
+        "frame": {
+          "origin": [0, -4, -10],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "clip6.dat": [
+      {
+        "type": "clip",
+        "length": 8,
+        "diameter": 8,
+        "rotation": "free",
+        "frame": {
+          "origin": [-4, 2, 0],
+          "axis": [-1, 0, 0],
+          "ref": [0, 1, 0]
+        }
+      }
+    ],
+    "joint8ball.dat": [
+      {
+        "type": "ball",
+        "size": "joint-8",
+        "rotation": "free",
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, 0, -1],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "joint8socket1.dat": [
+      {
+        "type": "ball.socket",
+        "size": "joint-8",
+        "rotation": "free",
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, 0, 1],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "joint8socket3.dat": [
+      {
+        "type": "ball.socket",
+        "size": "joint-8",
+        "rotation": "free",
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, 0, 1],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "axlehol8.dat": [
+      {
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, 1, 0],
+          "ref": [1, 0, 0]
+        },
+        "rotation": 90,
+        "type": "axle",
+        "length": 1
+      }
+    ],
+    "axlehol5.dat": [
+      {
+        "type": "axle.hole",
+        "length": 1,
+        "rotation": 90,
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "axl2hole.dat": [
+      {
+        "type": "axle.hole",
+        "length": 1,
+        "rotation": 90,
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "axl3hole.dat": [
+      {
+        "type": "axle.hole",
+        "length": 1,
+        "rotation": 90,
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "clip5.dat": [
+      {
+        "type": "clip",
+        "diameter": 8,
+        "length": 8,
+        "rotation": "free",
+        "frame": {
+          "origin": [0, -4, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud6a.dat": [
+      {
+        "type": "stud.hollow",
+        "diameter": 8,
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "stud4o.dat": [
+      {
+        "type": "antistud.tube",
+        "diameter": 12,
+        "length": 4,
+        "ends": {
+          "start": "open",
+          "end": "closed"
+        },
+        "frame": {
+          "origin": [0, -4, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "connect2.dat": [
+      {
+        "type": "pin",
+        "length": 20,
+        "rotation": "free",
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "wpinhol2.dat": [
+      {
+        "type": "wheel.hole",
+        "size": "wheel-pin-8",
+        "diameter": 8,
+        "length": 1,
+        "rotation": "free",
+        "ends": {
+          "start": "open",
+          "end": "open"
+        },
+        "frame": {
+          "origin": [0, -1, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ],
+    "wpin.dat": [
+      {
+        "type": "wheel.pin",
+        "size": "wheel-pin-8",
+        "diameter": 8,
+        "length": 12,
+        "stops": [0, 11],
+        "ends": {
+          "start": "closed",
+          "end": "open"
+        },
+        "rotation": "free",
+        "frame": {
+          "origin": [0, 0, 0],
+          "axis": [0, -1, 0],
+          "ref": [1, 0, 0]
+        }
+      }
+    ]
+  }
+}

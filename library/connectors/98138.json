@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "partId": "ld:98138",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：stud4o.dat 展开为倒置 r=6 盲腔，y=4..8，圆片底面 (0,8,0)；孔顶封闭，深4。",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud.tube",
+      "frame": {
+        "origin": [0, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "length": 4,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "closed"
+      }
+    }
+  ]
+}

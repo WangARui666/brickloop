@@ -1,0 +1,342 @@
+[
+  {
+    "id": "text-01",
+    "prompt": "搭建一个红屋顶小房屋，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-02",
+    "prompt": "搭建一个带车库的房屋，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-03",
+    "prompt": "搭建一个方形塔楼，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-04",
+    "prompt": "搭建一个红白灯塔，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-05",
+    "prompt": "搭建一个蓝色小汽车，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-06",
+    "prompt": "搭建一个绿色货车，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-07",
+    "prompt": "搭建一个黄色公交车，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-08",
+    "prompt": "搭建一个蓝白小船，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-09",
+    "prompt": "搭建一个橙色小猫，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-10",
+    "prompt": "搭建一个棕色小狗，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-11",
+    "prompt": "搭建一个蓝色小鸟，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-12",
+    "prompt": "搭建一个灰色大象，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-13",
+    "prompt": "搭建一个红色靠背椅，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-14",
+    "prompt": "搭建一个棕色餐桌，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-15",
+    "prompt": "搭建一个三层书架，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-16",
+    "prompt": "搭建一个蓝白床铺，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-17",
+    "prompt": "搭建一个红花绿叶盆栽，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-18",
+    "prompt": "搭建一个绿色小树，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-19",
+    "prompt": "搭建一个蓝灰机器人，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "text-20",
+    "prompt": "搭建一个红衣小人，宽度不超过 16 格。只使用工厂件和工厂色，保证单一连通分量，完成后校验并给出零件数。",
+    "references": []
+  },
+  {
+    "id": "image-01",
+    "prompt": "根据参考图搭建红屋顶小房屋，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/01-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-02",
+    "prompt": "根据参考图搭建带车库的房屋，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/02-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-03",
+    "prompt": "根据参考图搭建方形塔楼，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/03-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-04",
+    "prompt": "根据参考图搭建红白灯塔，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/04-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-05",
+    "prompt": "根据参考图搭建蓝色小汽车，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/05-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-06",
+    "prompt": "根据参考图搭建绿色货车，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/06-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-07",
+    "prompt": "根据参考图搭建黄色公交车，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/07-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-08",
+    "prompt": "根据参考图搭建蓝白小船，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/08-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-09",
+    "prompt": "根据参考图搭建橙色小猫，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/09-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-10",
+    "prompt": "根据参考图搭建棕色小狗，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/10-front.png",
+        "view": "front"
+      }
+    ]
+  },
+  {
+    "id": "image-11",
+    "prompt": "根据参考图搭建蓝色小鸟，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/11-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/11-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-12",
+    "prompt": "根据参考图搭建灰色大象，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/12-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/12-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-13",
+    "prompt": "根据参考图搭建红色靠背椅，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/13-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/13-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-14",
+    "prompt": "根据参考图搭建棕色餐桌，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/14-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/14-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-15",
+    "prompt": "根据参考图搭建三层书架，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/15-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/15-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-16",
+    "prompt": "根据参考图搭建蓝白床铺，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/16-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/16-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-17",
+    "prompt": "根据参考图搭建红花绿叶盆栽，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/17-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/17-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-18",
+    "prompt": "根据参考图搭建绿色小树，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/18-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/18-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-19",
+    "prompt": "根据参考图搭建蓝灰机器人，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/19-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/19-right.png",
+        "view": "right"
+      }
+    ]
+  },
+  {
+    "id": "image-20",
+    "prompt": "根据参考图搭建红衣小人，宽度不超过 16 格。保持轮廓与主要配色，使用真实工厂件、工厂色，校验并渲染对应视角。",
+    "references": [
+      {
+        "asset": "references/20-front.png",
+        "view": "front"
+      },
+      {
+        "asset": "references/20-right.png",
+        "view": "right"
+      }
+    ]
+  }
+]

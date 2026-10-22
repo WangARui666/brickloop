@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security issue / 报告安全问题
+    url: https://github.com/WangARui666/brickloop/security/advisories/new
+    about: Please report security issues privately. / 安全问题请私下报告。

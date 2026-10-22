@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "partId": "ld:3648b",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：八份 s/3648s02.dat 的矩形与斜面组成中心十字孔，z=±9.625，轴向长度 19.25；四个 (±10,±10) r=6 圆孔 z=±7.8，可接销。",
+  "connectors": [
+    {
+      "id": "axle",
+      "type": "axle.hole",
+      "frame": {
+        "origin": [0, 0, -9.625],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 19.25,
+      "rotation": 90,
+      "ends": {
+        "start": "open",
+        "end": "open"
+      }
+    },
+    {
+      "id": "pin--10--10",
+      "type": "pin.hole",
+      "frame": {
+        "origin": [-10, -10, -7.8],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 15.6,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "studDepth": 4
+    },
+    {
+      "id": "pin--10-10",
+      "type": "pin.hole",
+      "frame": {
+        "origin": [-10, 10, -7.8],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 15.6,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "studDepth": 4
+    },
+    {
+      "id": "pin-10--10",
+      "type": "pin.hole",
+      "frame": {
+        "origin": [10, -10, -7.8],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 15.6,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "studDepth": 4
+    },
+    {
+      "id": "pin-10-10",
+      "type": "pin.hole",
+      "frame": {
+        "origin": [10, 10, -7.8],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      },
+      "length": 15.6,
+      "diameter": 12,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "studDepth": 4
+    }
+  ]
+}

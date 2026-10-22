@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "partId": "ld:25269",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/25269s01.dat 的底腔 y=4..8；直边 x=-6、z=6 与圆弧接触点 (-2.297,-5.543)/(5.543,2.297) 围成中心 (0,8,0) 的单凸点凹位。",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 8, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    }
+  ]
+}

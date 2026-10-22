@@ -1,0 +1,56 @@
+{
+  "name": "brickloop",
+  "version": "0.12.6",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "ai:eval": "node scripts/devenv.mjs pnpm -F @brickloop/desktop ai:eval",
+    "dev": "node scripts/devenv.mjs pnpm -F @brickloop/desktop dev",
+    "mcp:shim": "node scripts/devenv.mjs node packages/mcp/bin/brickloop-mcp.mjs",
+    "package": "node scripts/devenv.mjs node scripts/package-windows.mjs",
+    "e2e": "node scripts/devenv.mjs pnpm -F @brickloop/desktop e2e",
+    "docs:screenshots": "node scripts/devenv.mjs pnpm -F @brickloop/desktop docs:screenshots",
+    "perf": "node scripts/devenv.mjs --profile e2e pnpm -F @brickloop/desktop exec electron-vite build --mode test && node scripts/devenv.mjs --profile e2e pnpm -F @brickloop/desktop exec playwright test --config playwright.perf.config.ts",
+    "setup": "node scripts/devenv.mjs pnpm install && node scripts/devenv.mjs node scripts/fetch-fonts.mjs",
+    "fonts:fetch": "node scripts/devenv.mjs node scripts/fetch-fonts.mjs",
+    "postinstall": "node scripts/devenv.mjs node apps/desktop/node_modules/electron/install.js",
+    "typecheck": "node scripts/devenv.mjs tsc --noEmit -p tsconfig.json && pnpm -r typecheck",
+    "lint": "node scripts/devenv.mjs eslint . --max-warnings 0",
+    "test": "node scripts/devenv.mjs vitest run",
+    "format": "node scripts/devenv.mjs prettier --write .",
+    "format:check": "node scripts/devenv.mjs prettier --check .",
+    "i18n:check": "node scripts/devenv.mjs tsx --no-cache packages/i18n/scripts/check-locales.ts",
+    "verify": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm i18n:check && pnpm test",
+    "ldraw:fetch": "node scripts/devenv.mjs tsx --no-cache tools/ldraw-fetch/index.ts",
+    "catalog:index": "node scripts/devenv.mjs tsx --no-cache packages/catalog/scripts/index.ts",
+    "catalog:demo-pack": "node scripts/devenv.mjs tsx --no-cache packages/catalog/scripts/demo-pack.ts",
+    "connect:infer": "node scripts/devenv.mjs tsx --no-cache packages/connect/scripts/infer.ts",
+    "macros:build": "node scripts/devenv.mjs tsx --no-cache scripts/build-macros.mjs",
+    "patterns:stats": "node scripts/devenv.mjs tsx --no-cache packages/catalog/scripts/patterns.ts"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "esbuild"
+    ],
+    "patchedDependencies": {
+      "app-builder-lib@26.15.3": "patches/app-builder-lib@26.15.3.patch"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "26.6.5",
+    "eslint": "10.12.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

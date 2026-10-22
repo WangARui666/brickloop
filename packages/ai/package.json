@@ -1,0 +1,26 @@
+{
+  "name": "@brickloop/ai",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./node": "./src/node/index.ts",
+    "./schemas": "./src/schemas.ts",
+    "./prices": "./prices.json"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/ai"
+  },
+  "dependencies": {
+    "@brickloop/mosaic": "workspace:*",
+    "@brickloop/i18n": "workspace:*",
+    "@anthropic-ai/sdk": "0.134.0",
+    "@google/genai": "2.30.0",
+    "jose": "6.2.12",
+    "openai": "7.34.0",
+    "zod": "4.6.7"
+  }
+}

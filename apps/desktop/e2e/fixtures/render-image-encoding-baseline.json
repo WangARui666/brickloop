@@ -1,0 +1,638 @@
+{
+  "scenes": [
+    {
+      "name": "house",
+      "metrics": {
+        "iou": 0.6407588560760022,
+        "colorDifference": 40.38223386255142,
+        "boundsRatioDifference": 0.0161776600662213,
+        "referencePixels": 205000,
+        "renderedPixels": 132468,
+        "emptyModel": false
+      },
+      "images": [
+        {
+          "name": "front",
+          "mime": "image/png",
+          "bytes": 36940,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "isometric",
+          "mime": "image/png",
+          "bytes": 108024,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "left",
+          "mime": "image/png",
+          "bytes": 32704,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "top",
+          "mime": "image/png",
+          "bytes": 78352,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "transparent",
+          "mime": "image/png",
+          "bytes": 108516,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "reference",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "comparison-render",
+          "mime": "image/png",
+          "bytes": 108516,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "composite",
+          "mime": "image/png",
+          "bytes": 530160,
+          "width": 1544,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "name": "1500-parts",
+      "metrics": {
+        "iou": 0.2765108593012276,
+        "colorDifference": 34.44252042334039,
+        "boundsRatioDifference": 0.7075050828414469,
+        "referencePixels": 205000,
+        "renderedPixels": 65365,
+        "emptyModel": false
+      },
+      "images": [
+        {
+          "name": "front",
+          "mime": "image/png",
+          "bytes": 21932,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "isometric",
+          "mime": "image/png",
+          "bytes": 164536,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "left",
+          "mime": "image/png",
+          "bytes": 25912,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "top",
+          "mime": "image/png",
+          "bytes": 198156,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "transparent",
+          "mime": "image/png",
+          "bytes": 175244,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "reference",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "comparison-render",
+          "mime": "image/png",
+          "bytes": 175244,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "composite",
+          "mime": "image/png",
+          "bytes": 601472,
+          "width": 1544,
+          "height": 768
+        }
+      ]
+    }
+  ],
+  "workflow": {
+    "requestBytes": [
+      126148, 135402, 136564, 139538, 532777, 533939, 536909, 526909, 528071, 531329, 530179, 531341, 534339, 529111,
+      530273, 533255, 529275, 530437, 533420
+    ],
+    "images": [
+      [
+        {
+          "name": "0",
+          "mime": "image/jpeg",
+          "bytes": 118128,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/jpeg",
+          "bytes": 118128,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/jpeg",
+          "bytes": 118128,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/jpeg",
+          "bytes": 118128,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 12868,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 56800,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 33024,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 12868,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 56800,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 33024,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 12868,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 56800,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 33024,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 14636,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46432,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 35584,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 14636,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46432,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 35584,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 14636,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46432,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 35584,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15784,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46472,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37152,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15784,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46472,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37152,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15784,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46472,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37152,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15644,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46276,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37000,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15644,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46276,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37000,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15644,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46276,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37000,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15644,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46276,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37000,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15644,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46276,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37000,
+          "width": 768,
+          "height": 768
+        }
+      ],
+      [
+        {
+          "name": "0",
+          "mime": "image/png",
+          "bytes": 15644,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "1",
+          "mime": "image/png",
+          "bytes": 46276,
+          "width": 384,
+          "height": 384
+        },
+        {
+          "name": "2",
+          "mime": "image/png",
+          "bytes": 409208,
+          "width": 768,
+          "height": 768
+        },
+        {
+          "name": "3",
+          "mime": "image/png",
+          "bytes": 37000,
+          "width": 768,
+          "height": 768
+        }
+      ]
+    ],
+    "totalBytes": 8509216,
+    "roundCount": 6
+  }
+}

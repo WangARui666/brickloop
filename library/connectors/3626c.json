@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "partId": "ld:3626c",
+  "status": "draft",
+  "source": "LDraw geometry + Brickloop manual: head neck seat at y=24; exclusive minifig neck pairing",
+  "connectors": [
+    {
+      "id": "top",
+      "type": "stud.hollow",
+      "diameter": 8,
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, -1, 0],
+        "ref": [0, 0, -1]
+      }
+    },
+    {
+      "id": "neck",
+      "type": "fixed",
+      "tag": "minifig-neck",
+      "role": "b",
+      "rotation": "free",
+      "frame": {
+        "origin": [0, 24, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      }
+    }
+  ]
+}

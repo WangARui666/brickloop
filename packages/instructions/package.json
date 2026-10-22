@@ -1,0 +1,26 @@
+{
+  "name": "@brickloop/instructions",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/instructions",
+    "examples": "node ../../scripts/devenv.mjs tsx --no-cache scripts/generate-examples.ts"
+  },
+  "dependencies": {
+    "@brickloop/catalog": "workspace:*",
+    "@brickloop/core": "workspace:*",
+    "@brickloop/i18n": "workspace:*",
+    "@brickloop/io": "workspace:*",
+    "@pdf-lib/fontkit": "1.1.1",
+    "pdf-lib": "1.17.1"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "6.4.299"
+  }
+}

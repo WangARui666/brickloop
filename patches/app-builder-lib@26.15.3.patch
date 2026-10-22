@@ -1,0 +1,13 @@
+diff --git a/templates/nsis/multiUserUi.nsh b/templates/nsis/multiUserUi.nsh
+index 52a83df6f654d3634be226db36010545bab9467f..a235ad9f6da60c3b0390e5bec360ec3b8d0cc21d 100644
+--- a/templates/nsis/multiUserUi.nsh
++++ b/templates/nsis/multiUserUi.nsh
+@@ -111,7 +111,7 @@ Var isForceCurrentInstall
+ 				StrCpy $HasTwoAvailableOptions 1
+ 			!else
+ 			  # since radio button is disabled, we add that comment to the disabled control itself
+-				SendMessage $MultiUser.InstallModePage.AllUsers ${WM_SETTEXT} 0 "STR:$8 (must run as admin)"
++				SendMessage $MultiUser.InstallModePage.AllUsers ${WM_SETTEXT} 0 "STR:$8（需要管理员权限）"
+ 				EnableWindow $MultiUser.InstallModePage.AllUsers 0 # start out disabled
+ 				StrCpy $HasTwoAvailableOptions 0
+ 			!endif

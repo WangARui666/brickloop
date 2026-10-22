@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "partId": "ld:63965a",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：63965a.dat 的两段 4-4cylc 半径4，轴为Y；r=6 限位环在 y=-8..0；长杆 y=-104..-8、短杆 y=0..16，分别以环面为起点。",
+  "connectors": [
+    {
+      "id": "long",
+      "type": "bar",
+      "frame": {
+        "origin": [0, -8, 0],
+        "axis": [0, -1, 0],
+        "ref": [1, 0, 0]
+      },
+      "length": 96,
+      "diameter": 8,
+      "rotation": "free",
+      "ends": {
+        "start": "closed",
+        "end": "open"
+      },
+      "stops": [0]
+    },
+    {
+      "id": "short",
+      "type": "bar",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "length": 16,
+      "diameter": 8,
+      "rotation": "free",
+      "ends": {
+        "start": "closed",
+        "end": "open"
+      },
+      "stops": [0]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "schema": 1,
+  "partId": "ld:60208",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：60208.dat 的胎圈r=38,z=-28..-9，槽根r=34,z=-9..-5；56898定位唇中心落在z=-7；保留销孔。",
+  "connectors": [
+    {
+      "id": "pin.hole",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -20, -10],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-2",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, -20, 10],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-3",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [-17.321, -10, -10],
+        "axis": [0, 0, -1],
+        "ref": [0.5000001748438417, -0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-4",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [17.321, -10, -10],
+        "axis": [0, 0, -1],
+        "ref": [-0.5000001748438417, -0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-5",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [-17.321, -10, 10],
+        "axis": [0, 0, 1],
+        "ref": [0.5000001748438417, -0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-6",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [17.321, -10, 10],
+        "axis": [0, 0, 1],
+        "ref": [-0.5000001748438417, -0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-7",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 0, -10],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-8",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 0, 10],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-9",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [-17.321, 10, -10],
+        "axis": [0, 0, -1],
+        "ref": [0.5000001748438417, 0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-10",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [17.321, 10, -10],
+        "axis": [0, 0, -1],
+        "ref": [-0.5000001748438417, 0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-11",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [-17.321, 10, 10],
+        "axis": [0, 0, 1],
+        "ref": [0.5000001748438417, 0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-12",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [17.321, 10, 10],
+        "axis": [0, 0, 1],
+        "ref": [-0.5000001748438417, 0.8660253028382762, 0]
+      }
+    },
+    {
+      "id": "pin.hole-13",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 20, -10],
+        "axis": [0, 0, -1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "pin.hole-14",
+      "type": "pin.hole",
+      "length": 20,
+      "studDepth": 4,
+      "rotation": "free",
+      "ends": {
+        "start": "open",
+        "end": "open"
+      },
+      "frame": {
+        "origin": [0, 20, 10],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      }
+    },
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, -7],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-30mm-narrow",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

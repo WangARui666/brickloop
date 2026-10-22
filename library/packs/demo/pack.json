@@ -1,0 +1,9 @@
+{
+  "id": "demo",
+  "name": "示例包",
+  "version": "1.0.0",
+  "source": "LDraw.org 官方零件库与 LDConfig（2026-05-29）；用于开发演示，非真实工厂产能。许可：CC BY 4.0。",
+  "createdAt": "2026-05-29T00:00:00.000Z",
+  "templateVersion": 1,
+  "contentHash": "cf1269163d4b2cc41d63be57af9a6e97a57d30a5b7b6c44042ee54372369ad29"
+}

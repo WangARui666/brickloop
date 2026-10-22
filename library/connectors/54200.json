@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "partId": "ld:54200",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：s/54200s01.dat 底口 x/z=±6、y=0；内侧圆弧在 y=-4 附近给出一个标准 stud 凹位。",
+  "connectors": [
+    {
+      "id": "bottom",
+      "type": "antistud",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 1, 0],
+        "ref": [1, 0, 0]
+      },
+      "rotation": 90
+    }
+  ]
+}

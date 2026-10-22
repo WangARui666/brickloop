@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "partId": "ld:56145",
+  "status": "draft",
+  "source": "LDraw 几何人工标注（M3-1b）：axl3hole 在 (0,0,0) 沿 -Z 长20；s/54087s00.dat 的两侧轮缘 r=38,z=±21..±25，槽根 r=34/31，匹配44309；不按同直径接受窄胎56898。",
+  "connectors": [
+    {
+      "id": "axle",
+      "type": "axle.hole",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "length": 20,
+      "rotation": 90,
+      "ends": {
+        "start": "open",
+        "end": "open"
+      }
+    },
+    {
+      "id": "tyre",
+      "type": "fixed",
+      "frame": {
+        "origin": [0, 0, 0],
+        "axis": [0, 0, 1],
+        "ref": [1, 0, 0]
+      },
+      "tag": "tyre-seat-30mm-wide",
+      "role": "a",
+      "rotation": "free"
+    }
+  ]
+}

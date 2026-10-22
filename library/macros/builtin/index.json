@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "macros": [
+    {
+      "id": "builtin.table",
+      "file": "table.brklmacro",
+      "nameZh": "桌子",
+      "nameEn": "Table",
+      "category": "furniture",
+      "partCount": 15,
+      "dimensionsLdu": [120, 64, 80]
+    },
+    {
+      "id": "builtin.chair",
+      "file": "chair.brklmacro",
+      "nameZh": "椅子",
+      "nameEn": "Chair",
+      "category": "furniture",
+      "partCount": 7,
+      "dimensionsLdu": [60, 96, 40]
+    },
+    {
+      "id": "builtin.bed",
+      "file": "bed.brklmacro",
+      "nameZh": "床",
+      "nameEn": "Bed",
+      "category": "furniture",
+      "partCount": 16,
+      "dimensionsLdu": [160, 88, 80]
+    },
+    {
+      "id": "builtin.bookshelf",
+      "file": "bookshelf.brklmacro",
+      "nameZh": "书架",
+      "nameEn": "Bookshelf",
+      "category": "furniture",
+      "partCount": 20,
+      "dimensionsLdu": [120, 128, 40]
+    },
+    {
+      "id": "builtin.door",
+      "file": "door.brklmacro",
+      "nameZh": "门",
+      "nameEn": "Door",
+      "category": "doors-windows",
+      "partCount": 23,
+      "dimensionsLdu": [120, 184, 40]
+    },
+    {
+      "id": "builtin.streetlight",
+      "file": "streetlight.brklmacro",
+      "nameZh": "路灯",
+      "nameEn": "Streetlight",
+      "category": "other",
+      "partCount": 13,
+      "dimensionsLdu": [80, 192, 80]
+    }
+  ]
+}

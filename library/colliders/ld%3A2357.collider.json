@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "version": 1,
+  "partId": "ld:2357",
+  "approximate": false,
+  "shapes": [
+    {
+      "kind": "box",
+      "center": [10, 2, 0],
+      "halfSize": [19.5, 1.5, 9.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [0, 2, 20],
+      "halfSize": [9.5, 1.5, 9.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [10, 14, -8],
+      "halfSize": [19.5, 9.5, 1.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [-8, 14, 12],
+      "halfSize": [1.5, 9.5, 17.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [28, 14, 2],
+      "halfSize": [1.5, 9.5, 7.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [8, 14, 20],
+      "halfSize": [1.5, 9.5, 9.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [2, 14, 28],
+      "halfSize": [7.5, 9.5, 1.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "box",
+      "center": [18, 14, 8],
+      "halfSize": [11.5, 9.5, 1.5],
+      "rotation": [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    },
+    {
+      "kind": "cylinder",
+      "center": [0, -2, 0],
+      "axis": [0, 1, 0],
+      "radius": 5.5,
+      "halfLength": 1.5
+    },
+    {
+      "kind": "cylinder",
+      "center": [20, -2, 0],
+      "axis": [0, 1, 0],
+      "radius": 5.5,
+      "halfLength": 1.5
+    },
+    {
+      "kind": "cylinder",
+      "center": [0, -2, 20],
+      "axis": [0, 1, 0],
+      "radius": 5.5,
+      "halfLength": 1.5
+    },
+    {
+      "kind": "cylinder",
+      "center": [10, 14, 0],
+      "axis": [0, 1, 0],
+      "radius": 3.5,
+      "halfLength": 9.5
+    },
+    {
+      "kind": "cylinder",
+      "center": [0, 14, 10],
+      "axis": [0, 1, 0],
+      "radius": 3.5,
+      "halfLength": 9.5
+    }
+  ],
+  "notes": "LDraw 几何人工分解（M3-1b）；2357.dat：L形外边(-10,-10)..(30,30)，缺x>10且z>10格；顶板y=0..4，内腔边±6/26，墙厚4；3凸点和2底柱。盒与圆柱均已作0.5 LDU接触内缩；曲面用内接环段/分层盒近似其形状，approximate=false指人工基本体确定检测，不是包围盒回退。"
+}

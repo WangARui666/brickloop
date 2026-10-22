@@ -1,0 +1,65 @@
+name: Bug report / 问题报告
+description: Something doesn't work as described. / 软件的表现与说明不符。
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. English or Chinese are both fine. 中英文都可以。
+        Do not paste API keys, tokens or files from your settings folder. 请勿粘贴 API Key、令牌或设置目录中的文件。
+  - type: input
+    id: version
+    attributes:
+      label: Brickloop version / 版本
+      description: Help → About / 帮助 → 关于
+      placeholder: 0.12.5
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version / Windows 版本
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened / 发生了什么
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected / 预期结果
+    validations:
+      required: true
+  - type: input
+    id: ai
+    attributes:
+      label: AI provider and model, if relevant / 相关的 AI 服务商与模型（如有）
+      placeholder: DeepSeek / deepseek-flash
+  - type: textarea
+    id: files
+    attributes:
+      label: Screenshots, project files or logs / 截图、工程文件或日志
+      description: Drag files here. Remove anything private first. / 可直接拖入文件，请先去掉隐私内容。
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks / 确认
+      options:
+        - label: I searched the existing issues. / 我已搜索过现有问题。
+          required: true
+        - label: This is not a security issue (those go to the Security tab). / 这不是安全问题（安全问题请走 Security 页）。
+          required: true

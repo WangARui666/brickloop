@@ -1,0 +1,33 @@
+{
+  "name": "@brickloop/io",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./node": "./src/node/index.ts"
+  },
+  "scripts": {
+    "typecheck": "node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.json && node ../../scripts/devenv.mjs tsc --noEmit -p tsconfig.worker.json",
+    "test": "node ../../scripts/devenv.mjs vitest run --root ../.. packages/io",
+    "fixtures": "node ../../scripts/devenv.mjs tsx --no-cache scripts/generate-fixtures.ts",
+    "schema:fetch": "node ../../scripts/devenv.mjs tsx --no-cache scripts/fetch-collada-schema.ts",
+    "output:fixtures": "node ../../scripts/devenv.mjs tsx --no-cache scripts/generate-output-fixtures.ts"
+  },
+  "dependencies": {
+    "@brickloop/catalog": "workspace:*",
+    "@brickloop/core": "workspace:*",
+    "@brickloop/ldraw": "workspace:*",
+    "@noble/hashes": "2.0.1",
+    "@xmldom/xmldom": "0.9.12",
+    "exceljs": "4.4.0",
+    "fflate": "0.8.2"
+  },
+  "devDependencies": {
+    "@brickloop/connect": "workspace:*",
+    "@brickloop/collide": "workspace:*",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "libxml2-wasm": "0.7.2"
+  }
+}
